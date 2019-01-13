@@ -1,0 +1,25 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Zelly Snyder
+tagline:          'programming'
+description:      'programming, software reviews, finance, health'
+url:              https://blog.zellysnyder.com
+baseurl:          /
+
+author:
+  name:           'Zelly Snyder'
+  #url:            https://twitter.com/mdo
+
+paginate:         10
+
+plugins:
+  - jekyll-paginate
+  - jekyll_org_to_html
+
+version: 0.0.1
