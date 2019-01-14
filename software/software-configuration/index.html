@@ -31,7 +31,7 @@
 </head>
 
 
-  <body>
+  <body class="theme-base-08">
 
     <div class="sidebar">
   <div class="container sidebar-sticky">
@@ -64,6 +64,8 @@
         
       
         
+      
+        
           
         
       
@@ -71,13 +73,18 @@
       
         
           
+        
+      
         
       
         
       
 
-            <a class="sidebar-nav-item" href="//2019/01/08/software-configuration/">
-              Software Configs
+            <a class="sidebar-nav-item" href="/categories">
+              Posts by topic
+            </a>
+            <a class="sidebar-nav-item" href="/software">
+              Software Guides
             </a>
             <a class="sidebar-nav-item"
                href="/tutorials/">
@@ -96,15 +103,16 @@
 
 
     <div class="content container">
-      <div class="post">
-  <h1 class="post-title">Software Configuration</h1>
-  <span class="post-date">08 Jan 2019</span>
+      <div class="page">
+  <h1 class="page-title">Software Configuration</h1>
+  <h2 class="lead">How I configure various software I run; all the useful settings I use; good reference for starting over with a new machine</h2>
+  
   <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-01-13 Sun 17:28 -->
+<!-- 2019-01-13 Sun 18:59 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -329,34 +337,122 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<div id="outline-container-orgb41ee9d" class="outline-2">
-<h2 id="orgb41ee9d"><span class="section-number-2">1</span> GNU/Linux</h2>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgfafe83e">1. GNU/Linux</a>
+<ul>
+<li><a href="#org70eb161">1.1. Emacs keybindings everywhere</a>
+<ul>
+<li><a href="#orgffa6466">1.1.1. GTK</a></li>
+<li><a href="#orgd6c8829">1.1.2. Chromium/Google Chrome</a></li>
+</ul>
+</li>
+<li><a href="#org61c95bd">1.2. Desktop environment</a>
+<ul>
+<li><a href="#orgf2a8628">1.2.1. KDE</a></li>
+<li><a href="#orgf25c3d6">1.2.2. Xfce</a></li>
+</ul>
+</li>
+<li><a href="#orgda0d372">1.3. Emacs</a>
+<ul>
+<li><a href="#org250d723">1.3.1. Compile it yourself</a></li>
+<li><a href="#org58b4770">1.3.2. daemon and client</a></li>
+</ul>
+</li>
+<li><a href="#orgc1c5686">1.4. Terminal emulator</a></li>
+<li><a href="#org315bb78">1.5. Shell</a>
+<ul>
+<li><a href="#org5083202">1.5.1. bash</a></li>
+<li><a href="#org25b388e">1.5.2. zsh</a></li>
+</ul>
+</li>
+<li><a href="#orgd4babb7">1.6. input devices</a>
+<ul>
+<li><a href="#org284f0b9">1.6.1. keyboard</a></li>
+<li><a href="#orgdd7d774">1.6.2. mouse</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgebab16b">2. macOS</a>
+<ul>
+<li><a href="#org5b33363">2.1. input devices</a>
+<ul>
+<li><a href="#org6677a6f">2.1.1. keyboard</a></li>
+</ul>
+</li>
+<li><a href="#orgc16766f">2.2. Emacs</a>
+<ul>
+<li><a href="#org6428a5b">2.2.1. Emacs Daemon</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org20dfb7d">3. Windows</a>
+<ul>
+<li><a href="#orge8c785f">3.1. keyboard repeat speed</a>
+<ul>
+<li><a href="#org58b3bec">3.1.1. <span class="todo TODO">TODO</span> find and publish the source of that Windows.h-calling code that changes keyboard repeat speed on Windows</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org8818407">4. Chromium / Google Chrome</a>
+<ul>
+<li><a href="#org5916c13">4.1. Recommended chrome://flags</a></li>
+<li><a href="#org777f014">4.2. How to use the KDE file picker instead of the default GTK file picker</a></li>
+</ul>
+</li>
+<li><a href="#org090b43e">5. Emacs</a></li>
+<li><a href="#org5576a10">6. Hardware/Firmware</a>
+<ul>
+<li><a href="#org3a347e6">6.1. Reduce blue light from monitors</a></li>
+</ul>
+</li>
+<li><a href="#org3ea3823">7. Jekyll</a>
+<ul>
+<li><a href="#org20a5d79">7.1. Use org-mode without any fuss</a></li>
+<li><a href="#orgdd12d75">7.2. Theme</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfafe83e" class="outline-2">
+<h2 id="orgfafe83e"><span class="section-number-2">1</span> GNU/Linux</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org5fc5e86" class="outline-3">
-<h3 id="org5fc5e86"><span class="section-number-3">1.1</span> Emacs keybindings everywhere</h3>
+<div id="outline-container-org70eb161" class="outline-3">
+<h3 id="org70eb161"><span class="section-number-3">1.1</span> Emacs keybindings everywhere</h3>
 <div class="outline-text-3" id="text-1-1">
 </div>
-<div id="outline-container-org14377fb" class="outline-4">
-<h4 id="org14377fb"><span class="section-number-4">1.1.1</span> GTK</h4>
+<div id="outline-container-orgffa6466" class="outline-4">
+<h4 id="orgffa6466"><span class="section-number-4">1.1.1</span> GTK</h4>
 <div class="outline-text-4" id="text-1-1-1">
 <p>
 <a href="https://wiki.archlinux.org/index.php/GTK+#Emacs_key_bindings">https://wiki.archlinux.org/index.php/GTK+#Emacs_key_bindings</a>
 </p>
 </div>
 <ol class="org-ol">
-<li><a id="orgdfee7ce"></a>Gtk3<br />
+<li><a id="org799ec90"></a>Gtk3<br />
 <div class="outline-text-5" id="text-1-1-1-1">
 <p>
-$ gsettings set org.gnome.desktop.interface gtk-key-theme &ldquo;Emacs&rdquo;
+How to set Emacs-like keybindings in GTK v3:
 </p>
+
+<div class="org-src-container">
+<pre class="src src-bash" id="org6b8cf83">$ gsettings set org.gnome.desktop.interface gtk-key-theme <span style="font-style: italic;">"Emacs"</span>
+</pre>
+</div>
 
 <p>
 If you have Anaconda installed, make sure your path points to your system gsettings not Anaconda’s gsettings.
 </p>
 </div>
 </li>
-<li><a id="org449cb5b"></a>Gtk2<br />
+<li><a id="org15cc99e"></a>Gtk2<br />
 <div class="outline-text-5" id="text-1-1-1-2">
 <div class="org-src-container">
 <pre class="src src-bash">gconftool-2 --type=string --set /desktop/gnome/interface/gtk_key_theme Emacs
@@ -364,174 +460,214 @@ If you have Anaconda installed, make sure your path points to your system gsetti
 </div>
 
 <p>
-~/.gtkrc-2.0
-gtk-key-theme-name = &ldquo;Emacs&rdquo;
+In <code>~/.gtkrc-2.0</code>, add this line:
 </p>
+<pre class="example">
+gtk-key-theme-name = "Emacs"
+</pre>
 </div>
 </li>
-<li><a id="org1d8e102"></a>XFCE<br />
+<li><a id="org95c1c2c"></a>XFCE<br />
 <div class="outline-text-5" id="text-1-1-1-3">
+<div class="org-src-container">
+<pre class="src src-bash">$ xfconf-query -c xsettings -p /Gtk/KeyThemeName -s Emacs
+</pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgd6c8829" class="outline-4">
+<h4 id="orgd6c8829"><span class="section-number-4">1.1.2</span> Chromium/Google Chrome</h4>
+<div class="outline-text-4" id="text-1-1-2">
 <p>
-$ xfconf-query -c xsettings -p /Gtk/KeyThemeName -s Emacs
+in <code>$HOME/.config/gtk-3.0/settings.ini</code> add this line:
+</p>
+<pre class="example">
+gtk-key-theme-name=Emacs
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org61c95bd" class="outline-3">
+<h3 id="org61c95bd"><span class="section-number-3">1.2</span> Desktop environment</h3>
+<div class="outline-text-3" id="text-1-2">
+</div>
+<div id="outline-container-orgf2a8628" class="outline-4">
+<h4 id="orgf2a8628"><span class="section-number-4">1.2.1</span> KDE</h4>
+</div>
+<div id="outline-container-orgf25c3d6" class="outline-4">
+<h4 id="orgf25c3d6"><span class="section-number-4">1.2.2</span> Xfce</h4>
+</div>
+</div>
+<div id="outline-container-orgda0d372" class="outline-3">
+<h3 id="orgda0d372"><span class="section-number-3">1.3</span> Emacs</h3>
+<div class="outline-text-3" id="text-1-3">
+</div>
+<div id="outline-container-org250d723" class="outline-4">
+<h4 id="org250d723"><span class="section-number-4">1.3.1</span> Compile it yourself</h4>
+<div class="outline-text-4" id="text-1-3-1">
+</div>
+<ol class="org-ol">
+<li><a id="org45945de"></a>Why?<br />
+<div class="outline-text-5" id="text-1-3-1-1">
+<ul class="org-ul">
+<li>Optimize to your hardware</li>
+<li>Use the <code>lucid</code> GUI toolkit for better looking text</li>
+</ul>
+</div>
+</li>
+<li><a id="org60bd305"></a>recommended compilation flags<br />
+<div class="outline-text-5" id="text-1-3-1-2">
+<p>
+&#x2013;with-imagemagick &#x2013;with-x-toolkit=lucid &rsquo;CFLAGS=-O3 -march=native&rsquo;
 </p>
 </div>
 </li>
 </ol>
 </div>
-<div id="outline-container-org05250f7" class="outline-4">
-<h4 id="org05250f7"><span class="section-number-4">1.1.2</span> Chromium/Google Chrome</h4>
-<div class="outline-text-4" id="text-1-1-2">
-<p>
-in “/home/zds/.config/gtk-3.0/settings.ini/” add this line:
-gtk-key-theme-name=Emacs
-</p>
+<div id="outline-container-org58b4770" class="outline-4">
+<h4 id="org58b4770"><span class="section-number-4">1.3.2</span> daemon and client</h4>
 </div>
 </div>
+<div id="outline-container-orgc1c5686" class="outline-3">
+<h3 id="orgc1c5686"><span class="section-number-3">1.4</span> Terminal emulator</h3>
 </div>
-<div id="outline-container-org031cb46" class="outline-3">
-<h3 id="org031cb46"><span class="section-number-3">1.2</span> Desktop environment</h3>
-<div class="outline-text-3" id="text-1-2">
-</div>
-<div id="outline-container-org168368c" class="outline-4">
-<h4 id="org168368c"><span class="section-number-4">1.2.1</span> Xfce</h4>
-</div>
-</div>
-<div id="outline-container-org0072fc7" class="outline-3">
-<h3 id="org0072fc7"><span class="section-number-3">1.3</span> Emacs</h3>
-<div class="outline-text-3" id="text-1-3">
-</div>
-<div id="outline-container-org20d470a" class="outline-4">
-<h4 id="org20d470a"><span class="section-number-4">1.3.1</span> recommended compilation flags</h4>
-</div>
-</div>
-<div id="outline-container-org1622fd2" class="outline-3">
-<h3 id="org1622fd2"><span class="section-number-3">1.4</span> Terminal emulator</h3>
-</div>
-<div id="outline-container-org59ac33a" class="outline-3">
-<h3 id="org59ac33a"><span class="section-number-3">1.5</span> Shell</h3>
+<div id="outline-container-org315bb78" class="outline-3">
+<h3 id="org315bb78"><span class="section-number-3">1.5</span> Shell</h3>
 <div class="outline-text-3" id="text-1-5">
 </div>
-<div id="outline-container-org543b89b" class="outline-4">
-<h4 id="org543b89b"><span class="section-number-4">1.5.1</span> bash</h4>
+<div id="outline-container-org5083202" class="outline-4">
+<h4 id="org5083202"><span class="section-number-4">1.5.1</span> bash</h4>
 </div>
-<div id="outline-container-orga8f3f38" class="outline-4">
-<h4 id="orga8f3f38"><span class="section-number-4">1.5.2</span> zsh</h4>
+<div id="outline-container-org25b388e" class="outline-4">
+<h4 id="org25b388e"><span class="section-number-4">1.5.2</span> zsh</h4>
 </div>
 </div>
-<div id="outline-container-orgfc24f0e" class="outline-3">
-<h3 id="orgfc24f0e"><span class="section-number-3">1.6</span> input devicess</h3>
+<div id="outline-container-orgd4babb7" class="outline-3">
+<h3 id="orgd4babb7"><span class="section-number-3">1.6</span> input devices</h3>
 <div class="outline-text-3" id="text-1-6">
 </div>
-<div id="outline-container-org399b17a" class="outline-4">
-<h4 id="org399b17a"><span class="section-number-4">1.6.1</span> keyboard</h4>
+<div id="outline-container-org284f0b9" class="outline-4">
+<h4 id="org284f0b9"><span class="section-number-4">1.6.1</span> keyboard</h4>
 <div class="outline-text-4" id="text-1-6-1">
 </div>
 <ol class="org-ol">
-<li><a id="org4729d3a"></a>fast repeat, low repeat delay<br />
+<li><a id="orgfc50a48"></a>fast repeat, low repeat delay<br />
 <div class="outline-text-5" id="text-1-6-1-1">
+<div class="org-src-container">
+<pre class="src src-bash">$ xset r rate [delay ms] [rate]
+</pre>
+</div>
 <p>
-$ xset r rate [delay ms] [rate]
 Recommended: xset r rate 160 180
 </p>
 </div>
 </li>
 </ol>
 </div>
-<div id="outline-container-org91cee0a" class="outline-4">
-<h4 id="org91cee0a"><span class="section-number-4">1.6.2</span> mouse</h4>
+<div id="outline-container-orgdd7d774" class="outline-4">
+<h4 id="orgdd7d774"><span class="section-number-4">1.6.2</span> mouse</h4>
 <div class="outline-text-4" id="text-1-6-2">
 </div>
 <ol class="org-ol">
-<li><a id="org1101033"></a>high acceleration<br /></li>
+<li><a id="org4332253"></a>high acceleration<br /></li>
 </ol>
 </div>
 </div>
 </div>
-<div id="outline-container-orgce60212" class="outline-2">
-<h2 id="orgce60212"><span class="section-number-2">2</span> macOS</h2>
+<div id="outline-container-orgebab16b" class="outline-2">
+<h2 id="orgebab16b"><span class="section-number-2">2</span> macOS</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org7c45ef4" class="outline-3">
-<h3 id="org7c45ef4"><span class="section-number-3">2.1</span> input devices</h3>
+<div id="outline-container-org5b33363" class="outline-3">
+<h3 id="org5b33363"><span class="section-number-3">2.1</span> input devices</h3>
 <div class="outline-text-3" id="text-2-1">
 </div>
-<div id="outline-container-org1494ac8" class="outline-4">
-<h4 id="org1494ac8"><span class="section-number-4">2.1.1</span> keyboard</h4>
+<div id="outline-container-org6677a6f" class="outline-4">
+<h4 id="org6677a6f"><span class="section-number-4">2.1.1</span> keyboard</h4>
 <div class="outline-text-4" id="text-2-1-1">
 </div>
 <ol class="org-ol">
-<li><a id="org03a0679"></a>fast repeat, low repeat delay<br />
+<li><a id="org802da42"></a>fast repeat, low repeat delay<br />
 <div class="outline-text-5" id="text-2-1-1-1">
-<p>
-$ defaults write -g KeyRepeat -int 1
+<div class="org-src-container">
+<pre class="src src-bash">$ defaults write -g KeyRepeat -int 1
 $ defaults write -g InitialKeyRepeat -int 10
-</p>
+</pre>
+</div>
 </div>
 </li>
 </ol>
 </div>
 </div>
-<div id="outline-container-orge96e071" class="outline-3">
-<h3 id="orge96e071"><span class="section-number-3">2.2</span> Emacs</h3>
+<div id="outline-container-orgc16766f" class="outline-3">
+<h3 id="orgc16766f"><span class="section-number-3">2.2</span> Emacs</h3>
 <div class="outline-text-3" id="text-2-2">
 </div>
-<div id="outline-container-orgf0c6677" class="outline-4">
-<h4 id="orgf0c6677"><span class="section-number-4">2.2.1</span> Emacs Daemon</h4>
+<div id="outline-container-org6428a5b" class="outline-4">
+<h4 id="org6428a5b"><span class="section-number-4">2.2.1</span> Emacs Daemon</h4>
 <div class="outline-text-4" id="text-2-2-1">
 <p>
 These instructions work as of macOS High Sierra (version 10.14) to run Emacs as a daemon on login. You can quickly run emacsclient instances without waiting for Emacs to start up.
 </p>
 </div>
 <ol class="org-ol">
-<li><a id="orgd51e830"></a>Create an Apple Script with “Script Editor.app”<br />
+<li><a id="org88bf241"></a>Create an Apple Script with “Script Editor.app”<br />
 <div class="outline-text-5" id="text-2-2-1-1">
 <p>
-~/Applications/Emacs Daemon.app:
-do shell script &ldquo;/Applications/Emacs.app/Contents/MacOS/Emacs &#x2013;daemon&rdquo;
+<code>~/Applications/Emacs Daemon.app</code>:
 </p>
+<div class="org-src-container">
+<pre class="src src-applescript">do shell script "/Applications/Emacs.app/Contents/MacOS/Emacs --daemon"
+</pre>
+</div>
 </div>
 </li>
-<li><a id="org7ce1f2a"></a>Add “Emacs Daemon.app&ldquo; to autostart.<br />
+<li><a id="orgec9444d"></a>Add “Emacs Daemon.app” to autostart.<br />
 <div class="outline-text-5" id="text-2-2-1-2">
 <p>
 System Preferences → Users &amp; Groups → choose your user → Login Items
 </p>
 </div>
 </li>
-<li><a id="orgde97dab"></a>Create an Apple Script for the client.<br />
+<li><a id="org8f0d121"></a>Create an Apple Script for the client.<br />
 <div class="outline-text-5" id="text-2-2-1-3">
 <p>
-“~/Applications/Emacs Client.app”:
-do shell script &ldquo;/Applications/Emacs.app/Contents/MacOS/bin/emacsclient -nc&rdquo;
+<code>~/Applications/Emacs Client.app</code>:
 </p>
+<div class="org-src-container">
+<pre class="src src-applescript">do shell script "/Applications/Emacs.app/Contents/MacOS/bin/emacsclient -nc"
+</pre>
+</div>
 </div>
 </li>
 </ol>
 </div>
 </div>
 </div>
-<div id="outline-container-orgad52f02" class="outline-2">
-<h2 id="orgad52f02"><span class="section-number-2">3</span> Windows</h2>
+<div id="outline-container-org20dfb7d" class="outline-2">
+<h2 id="org20dfb7d"><span class="section-number-2">3</span> Windows</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-orge535de3" class="outline-3">
-<h3 id="orge535de3"><span class="section-number-3">3.1</span> keyboard repeat speed</h3>
+<div id="outline-container-orge8c785f" class="outline-3">
+<h3 id="orge8c785f"><span class="section-number-3">3.1</span> keyboard repeat speed</h3>
 <div class="outline-text-3" id="text-3-1">
 </div>
-<div id="outline-container-org1fdd13f" class="outline-4">
-<h4 id="org1fdd13f"><span class="section-number-4">3.1.1</span> <span class="todo TODO">TODO</span> find and publish the source of that Windows.h-calling code that changes keyboard repeat speed on Windows</h4>
+<div id="outline-container-org58b3bec" class="outline-4">
+<h4 id="org58b3bec"><span class="section-number-4">3.1.1</span> <span class="todo TODO">TODO</span> find and publish the source of that Windows.h-calling code that changes keyboard repeat speed on Windows</h4>
 </div>
 </div>
 </div>
-<div id="outline-container-orgc91aade" class="outline-2">
-<h2 id="orgc91aade"><span class="section-number-2">4</span> Chromium / Google Chrome</h2>
+<div id="outline-container-org8818407" class="outline-2">
+<h2 id="org8818407"><span class="section-number-2">4</span> Chromium / Google Chrome</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-orgb67141a" class="outline-3">
-<h3 id="orgb67141a"><span class="section-number-3">4.1</span> Recommended chrome://flags</h3>
+<div id="outline-container-org5916c13" class="outline-3">
+<h3 id="org5916c13"><span class="section-number-3">4.1</span> Recommended chrome://flags</h3>
 </div>
-<div id="outline-container-org9c269d1" class="outline-3">
-<h3 id="org9c269d1"><span class="section-number-3">4.2</span> How to use the KDE file picker instead of the default GTK file picker</h3>
+<div id="outline-container-org777f014" class="outline-3">
+<h3 id="org777f014"><span class="section-number-3">4.2</span> How to use the KDE file picker instead of the default GTK file picker</h3>
 <div class="outline-text-3" id="text-4-2">
 <p>
 The default file picker is the ugly GTK file picker, which can’t show thumbnails for images. The KDE file picker, kdialog, is much better; it has thumbnails and sorting abilities. Chrom{e, ium} won’t use kdialog unless you run it like this:
@@ -548,7 +684,6 @@ You can either modify Chromium’s .desktop entry to run this command or make th
 
 <div class="org-src-container">
 <pre class="src src-bash"><span style="font-weight: bold; font-style: italic;">#</span><span style="font-weight: bold; font-style: italic;">!/bin/</span><span style="font-weight: bold;">sh</span>
-
 <span style="font-weight: bold;">export</span> <span style="font-weight: bold; font-style: italic;">XDG_CURRENT_DESKTOP</span>=KDE
 <span style="font-weight: bold;">exec</span> chromium-browser <span style="font-style: italic;">"$@"</span>
 </pre>
@@ -556,8 +691,8 @@ You can either modify Chromium’s .desktop entry to run this command or make th
 </div>
 </div>
 </div>
-<div id="outline-container-org0570bc1" class="outline-2">
-<h2 id="org0570bc1"><span class="section-number-2">5</span> Emacs</h2>
+<div id="outline-container-org090b43e" class="outline-2">
+<h2 id="org090b43e"><span class="section-number-2">5</span> Emacs</h2>
 <div class="outline-text-2" id="text-5">
 <ul class="org-ul">
 <li>See my dotfiles/emacs.d repo</li>
@@ -565,12 +700,12 @@ You can either modify Chromium’s .desktop entry to run this command or make th
 </ul>
 </div>
 </div>
-<div id="outline-container-org9e4c986" class="outline-2">
-<h2 id="org9e4c986"><span class="section-number-2">6</span> Hardware</h2>
+<div id="outline-container-org5576a10" class="outline-2">
+<h2 id="org5576a10"><span class="section-number-2">6</span> Hardware/Firmware</h2>
 <div class="outline-text-2" id="text-6">
 </div>
-<div id="outline-container-orgf33245b" class="outline-3">
-<h3 id="orgf33245b"><span class="section-number-3">6.1</span> Reduce blue light from monitors</h3>
+<div id="outline-container-org3a347e6" class="outline-3">
+<h3 id="org3a347e6"><span class="section-number-3">6.1</span> Reduce blue light from monitors</h3>
 <div class="outline-text-3" id="text-6-1">
 <p>
 Blue light is <a href="https://phys.org/news/2018-08-chemists-blue.html">harmful and permanently damaging to your retinas</a>.
@@ -588,25 +723,30 @@ Blue light is <a href="https://phys.org/news/2018-08-chemists-blue.html">harmful
 </div>
 </div>
 </div>
+<div id="outline-container-org3ea3823" class="outline-2">
+<h2 id="org3ea3823"><span class="section-number-2">7</span> Jekyll</h2>
+<div class="outline-text-2" id="text-7">
+</div>
+<div id="outline-container-org20a5d79" class="outline-3">
+<h3 id="org20a5d79"><span class="section-number-3">7.1</span> Use org-mode without any fuss</h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+Install <a href="https://github.com/hackharmony/jekyll-org-to-html">my Jekyll converter plugin for using org-mode markup in a Jekyll site</a>. It uses Emacs directly—using Emacs’s mature, native org-mode HTML export command rather than reinventing a separate org-mode exporter. There are no surprises to deal with if you are a regular org-mode user.
+</p>
+</div>
+</div>
+<div id="outline-container-orgdd12d75" class="outline-3">
+<h3 id="orgdd12d75"><span class="section-number-3">7.2</span> Theme</h3>
+<div class="outline-text-3" id="text-7-2">
+<p>
+This site uses the <a href="https://github.com/poole/hyde">Hyde theme</a>.
+</p>
+</div>
+</div>
+</div>
 </div>
 </body>
 </html>
-</div>
-
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    
-      <li>
-        <h3>
-          <a href="/2019/01/12/x86-assembly/">
-            X86 Assembly
-            <small>12 Jan 2019</small>
-          </a>
-        </h3>
-      </li>
-    
-  </ul>
 </div>
 
     </div>
