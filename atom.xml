@@ -4,7 +4,7 @@
  <title>Zelly Snyder</title>
  <link href="https://blog.zellysnyder.com/atom.xml" rel="self"/>
  <link href="https://blog.zellysnyder.com/"/>
- <updated>2019-01-13T21:10:21-05:00</updated>
+ <updated>2019-01-13T21:13:20-05:00</updated>
  <id>https://blog.zellysnyder.com</id>
  <author>
    <name>Zelly Snyder</name>
@@ -22,7 +22,7 @@
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-01-13 Sun 21:10 --&gt;
+&lt;!-- 2019-01-13 Sun 21:13 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -247,21 +247,21 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-org62a5714&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org62a5714&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Why learn Assembly (ASM)?&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org9d2d0c5&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org9d2d0c5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Why learn Assembly (ASM)?&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 You will always be a pretend-programmer unless you understand how the machine actually works. Knowing how to &lt;del&gt;write and&lt;/del&gt; read assembly is an amazing benefit to any programmer writing code for native platforms (e.g., C/C++, Rust, Swift, Golang). Being able to mentally parse disassembly lets you judge what your code is actually doing on the bare metal; great for judging the overhead of your algorithms or figuring out what some obscure, undocumented API call is actually doing. Knowing ASM also gives you a superpower—you can debug, manipulate, crack, or hack anybody’s program, whether or not they gave you the high level source for it. The latter is probably the most attractive motivation for learning assembly and is the reason I got into it.
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org0ce6435&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org0ce6435&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;1.1&lt;/span&gt; Reverse engineering&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org9746622&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org9746622&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;1.1&lt;/span&gt; Reverse engineering&lt;/h3&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org331b4a0&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org331b4a0&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;1.2&lt;/span&gt; Debugging your own programs&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orgf93c4d4&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgf93c4d4&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;1.2&lt;/span&gt; Debugging your own programs&lt;/h3&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org495d647&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org495d647&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;1.3&lt;/span&gt; Embedded systems&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orgaf8d914&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgaf8d914&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;1.3&lt;/span&gt; Embedded systems&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
