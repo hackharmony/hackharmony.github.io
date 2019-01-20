@@ -112,7 +112,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-01-13 Sun 21:13 -->
+<!-- 2019-01-19 Sat 21:04 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -269,6 +269,19 @@
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
   .inlinetask {
     padding: 10px;
     border: 2px solid gray;
@@ -334,6 +347,28 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content">
@@ -341,153 +376,213 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgf839317">1. Abstract</a></li>
-<li><a href="#org1ba3104">2. Operating system</a></li>
-<li><a href="#org2890a9e">3. Web browser</a>
+<li><a href="#org747addd">1. Abstract</a></li>
+<li><a href="#org5f8c049">2. Operating system</a></li>
+<li><a href="#orgb90bdb3">3. Web browser</a>
 <ul>
-<li><a href="#org3489ab2">3.1. Chromium (or Google Chrome)</a></li>
+<li><a href="#orgdf0a285">3.1. Chromium (or Google Chrome)</a></li>
 </ul>
 </li>
-<li><a href="#org9271ab8">4. Text editor / IDE</a>
+<li><a href="#orgce2fa4a">4. Text editor / IDE</a>
 <ul>
-<li><a href="#org975674e">4.1. editor</a>
+<li><a href="#orgdb16db0">4.1. editor</a>
 <ul>
-<li><a href="#org406054e">4.1.1. GNU Emacs</a></li>
+<li><a href="#org6c70b66">4.1.1. GNU Emacs</a></li>
+<li><a href="#orgb51d882">4.1.2. Vim</a></li>
 </ul>
 </li>
-<li><a href="#orga97d486">4.2. IDE</a>
+<li><a href="#orgf98828c">4.2. IDE</a>
 <ul>
-<li><a href="#orgbd7531b">4.2.1. Visual Studio</a></li>
-<li><a href="#orgb91a5f9">4.2.2. XCode</a></li>
-<li><a href="#orgb54c5f1">4.2.3. Eclipse?</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#org8fc6a04">5. Shell</a>
-<ul>
-<li><a href="#org94566c0">5.1. bash</a></li>
-<li><a href="#org2f8f0ea">5.2. zsh</a></li>
-<li><a href="#org4379977">5.3. Python or Ruby</a></li>
-</ul>
-</li>
-<li><a href="#org7ba0eec">6. Programming languages</a>
-<ul>
-<li><a href="#org4010d10">6.1. For the pedantic: Languages vs. Runtimes</a></li>
-<li><a href="#org2d96bc9">6.2. Languages</a>
-<ul>
-<li><a href="#orgf3ec6c7">6.2.1. by use case</a></li>
-<li><a href="#orgc07e8cc">6.2.2. Reviews</a></li>
-<li><a href="#orgf972d6a">6.2.3. Trash Languages</a></li>
-<li><a href="#orgd9f50bb">6.2.4. Useless But Fun Hobby Languages</a></li>
+<li><a href="#org2536904">4.2.1. Visual Studio</a></li>
+<li><a href="#org378cd6e">4.2.2. XCode</a></li>
+<li><a href="#org253769e">4.2.3. Eclipse?</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org7884f9c">7. Databases</a>
+<li><a href="#org626a052">5. Shell</a>
 <ul>
-<li><a href="#orga784728">7.1. RDBMS</a>
-<ul>
-<li><a href="#org116a500">7.1.1. PostgreSQL</a></li>
+<li><a href="#org46c8e90">5.1. bash</a></li>
+<li><a href="#org9edcd01">5.2. zsh</a></li>
+<li><a href="#orgf5c6d50">5.3. Python or Ruby</a></li>
 </ul>
 </li>
-<li><a href="#org39e9132">7.2. In-Memory Cache</a>
+<li><a href="#org63e5897">6. Programming languages</a>
 <ul>
-<li><a href="#org2c3030b">7.2.1. Redis</a></li>
+<li><a href="#org227f2ca">6.1. <span class="todo TODO">TODO</span> For the pedantic: Languages vs. Runtimes</a></li>
+<li><a href="#org1d213ce">6.2. How to judge programming languages</a></li>
+<li><a href="#orga4a7a02">6.3. Languages</a>
+<ul>
+<li><a href="#org10d6e94">6.3.1. by use case</a>
+<ul>
+<li><a href="#org427fd9f">6.3.1.1. large projects</a></li>
+<li><a href="#orgb380cb2">6.3.1.2. scripting</a></li>
+<li><a href="#org61a0a64">6.3.1.3. science/stats/machine learning</a></li>
+<li><a href="#org3991d90">6.3.1.4. web services</a></li>
+<li><a href="#orgc7df97e">6.3.1.5. doing something new and revolutionary</a></li>
 </ul>
 </li>
-<li><a href="#org9d1f6c3">7.3. Embedded</a>
+<li><a href="#org348cdc3">6.3.2. Reviews</a>
 <ul>
-<li><a href="#org09c0be6">7.3.1. SQLite3</a></li>
-<li><a href="#org5b1493c">7.3.2. LMDB</a></li>
+<li><a href="#org43e0a7d">6.3.2.1. C++</a></li>
+<li><a href="#org93a659a">6.3.2.2. Common Lisp</a>
+<ul>
+<li><a href="#orgf2e9539">6.3.2.2.1. recommended implementation</a></li>
+<li><a href="#orgbedf85b">6.3.2.2.2. If LISP is so good, why did it fail?</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li><a href="#org41a335c">8. Fonts</a>
+<li><a href="#orga065fc2">6.3.2.3. Scheme</a>
 <ul>
-<li><a href="#orgf081f0f">8.1. serif</a>
+<li><a href="#orgcc788e8">6.3.2.3.1. best implementations</a>
 <ul>
-<li><a href="#orgea59f5b">8.1.1. Charter</a></li>
-<li><a href="#org4e7afb1">8.1.2. Publico Text</a></li>
-<li><a href="#orgb225989">8.1.3. Leitura News</a></li>
-</ul>
-</li>
-<li><a href="#org02a84a6">8.2. monospace (for code)</a>
-<ul>
-<li><a href="#orgb906a64">8.2.1. Go Mono</a></li>
-<li><a href="#orga983dfc">8.2.2. Operator Mono</a></li>
-<li><a href="#orgd0cb5d3">8.2.3. IBM Plex</a></li>
-<li><a href="#orgd042f92">8.2.4. Fira Code?</a></li>
-</ul>
-</li>
-<li><a href="#org7f168a7">8.3. sans serif</a>
-<ul>
-<li><a href="#orgbb0cdd4">8.3.1. Adelle Sans</a></li>
-<li><a href="#orga05e46a">8.3.2. San Francisco</a></li>
+<li><a href="#org323ad53">6.3.2.3.1.1. Chez Scheme</a></li>
+<li><a href="#org3143ffd">6.3.2.3.1.2. GNU Kawa</a></li>
+<li><a href="#orgf3992a3">6.3.2.3.1.3. Racket</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org3ce9e60">9. Multimedia</a>
-<ul>
-<li><a href="#org6ffd623">9.1. editors</a>
-<ul>
-<li><a href="#orgdfe0ccf">9.1.1. audio</a></li>
-<li><a href="#org0342922">9.1.2. video</a></li>
-<li><a href="#org441a0f5">9.1.3. photos</a></li>
+<li><a href="#org66ef0f1">6.3.2.4. Golang</a></li>
+<li><a href="#orgee463ac">6.3.2.5. JavaScript</a></li>
+<li><a href="#org8b30985">6.3.2.6. Java</a></li>
+<li><a href="#org4b97c1b">6.3.2.7. Ruby</a></li>
+<li><a href="#orgc7d6301">6.3.2.8. Python</a></li>
+<li><a href="#orgcdf5082">6.3.2.9. Mathematica</a></li>
+<li><a href="#org242e83a">6.3.2.10. Rust</a></li>
+<li><a href="#orgc8e2023">6.3.2.11. Haskell</a></li>
 </ul>
 </li>
-<li><a href="#org74a4d19">9.2. players</a>
+<li><a href="#org55b85d5">6.3.3. Trash Languages</a>
 <ul>
-<li><a href="#orgecef77e">9.2.1. video</a></li>
-<li><a href="#orge73151b">9.2.2. audio</a></li>
+<li><a href="#orgf54e60c">6.3.3.1. C</a></li>
+<li><a href="#org629c296">6.3.3.2. Visual Basic.NET</a></li>
+<li><a href="#orga2f9c09">6.3.3.3. PHP</a></li>
+<li><a href="#org92f131c">6.3.3.4. Perl</a></li>
+<li><a href="#org032b3b6">6.3.3.5. Clojure</a></li>
+</ul>
+</li>
+<li><a href="#org8c37794">6.3.4. Useless But Fun Hobby Languages</a>
+<ul>
+<li><a href="#orgc9c1a67">6.3.4.1. Idris</a></li>
+<li><a href="#orgdaa1a99">6.3.4.2. Scheme</a></li>
+<li><a href="#orgf6e2396">6.3.4.3. Haskell</a></li>
+<li><a href="#org76f6726">6.3.4.4. CoQ</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org02df985">10. Office</a>
-<ul>
-<li><a href="#org17142be">10.1. Word processor</a>
-<ul>
-<li><a href="#orgd49c79f">10.1.1. academic</a></li>
-<li><a href="#org7a65503">10.1.2. lightweight markup</a></li>
-<li><a href="#org2f58ea5">10.1.3. everything else</a></li>
 </ul>
 </li>
-<li><a href="#org6388d29">10.2. Presentation</a></li>
-<li><a href="#org6e02188">10.3. Spreadsheet</a></li>
-<li><a href="#orge77ce62">10.4. Email client</a></li>
-<li><a href="#org534de62">10.5. On LibreOffice</a></li>
+<li><a href="#orgfafa205">7. Databases</a>
+<ul>
+<li><a href="#org743e125">7.1. RDBMS</a>
+<ul>
+<li><a href="#orgaa1cfac">7.1.1. PostgreSQL</a></li>
 </ul>
 </li>
-<li><a href="#orgac82081">11. Cryptocurrency</a>
+<li><a href="#orgde6aade">7.2. In-Memory Cache</a>
 <ul>
-<li><a href="#orgeb2b9d4">11.1. Bitcoin ($XBT)</a></li>
-<li><a href="#org3942e9a">11.2. Monero ($XMR)</a></li>
-<li><a href="#org350f296">11.3. Ethereum ($ETH)</a>
-<ul>
-<li><a href="#orgc814c27">11.3.1. the JavaScript problem</a></li>
-<li><a href="#orgcbef061">11.3.2. the “smart contracts” problem</a></li>
-<li><a href="#org473b52d">11.3.3. decentralized apps “dApps”</a></li>
-<li><a href="#org6736407">11.3.4. scam ICOs</a></li>
+<li><a href="#org4b4819b">7.2.1. Redis</a></li>
 </ul>
 </li>
+<li><a href="#orgd1282c0">7.3. Embedded</a>
+<ul>
+<li><a href="#org385bb59">7.3.1. SQLite3</a></li>
+<li><a href="#orge94270f">7.3.2. LMDB</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org74d5dd0">8. Fonts</a>
+<ul>
+<li><a href="#org8a5c3be">8.1. serif</a>
+<ul>
+<li><a href="#org43813a1">8.1.1. Charter</a></li>
+<li><a href="#orgafa72ad">8.1.2. Publico Text</a></li>
+<li><a href="#org5ea12ba">8.1.3. Leitura News</a></li>
+</ul>
+</li>
+<li><a href="#org973c1c7">8.2. monospace (for code)</a>
+<ul>
+<li><a href="#org6b965e9">8.2.1. Go Mono</a></li>
+<li><a href="#orgda13964">8.2.2. Operator Mono</a></li>
+<li><a href="#org5eec9b3">8.2.3. IBM Plex</a></li>
+<li><a href="#orge7e7ef2">8.2.4. Fira Code?</a></li>
+</ul>
+</li>
+<li><a href="#org93d5420">8.3. sans serif</a>
+<ul>
+<li><a href="#org9180fb6">8.3.1. Adelle Sans</a></li>
+<li><a href="#org7741c77">8.3.2. San Francisco</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org132e3a9">9. Multimedia</a>
+<ul>
+<li><a href="#org5ecc762">9.1. editors</a>
+<ul>
+<li><a href="#org3ee9d10">9.1.1. audio</a></li>
+<li><a href="#orgfb72435">9.1.2. video</a></li>
+<li><a href="#org5c83848">9.1.3. photos</a></li>
+</ul>
+</li>
+<li><a href="#orgdb5db41">9.2. players</a>
+<ul>
+<li><a href="#org7475d10">9.2.1. video</a></li>
+<li><a href="#orgbcff273">9.2.2. audio</a>
+<ul>
+<li><a href="#org44b6b34">9.2.2.1. Windows</a></li>
+<li><a href="#org80e0530">9.2.2.2. GNU/Linux</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orge61e92e">10. Office</a>
+<ul>
+<li><a href="#org14e8bbc">10.1. Word processor</a>
+<ul>
+<li><a href="#org6b70749">10.1.1. academic</a></li>
+<li><a href="#orgec9e5ff">10.1.2. lightweight markup</a></li>
+<li><a href="#orgab2440a">10.1.3. everything else</a></li>
+</ul>
+</li>
+<li><a href="#org9cf9b50">10.2. Presentation</a></li>
+<li><a href="#org96add7d">10.3. Spreadsheet</a></li>
+<li><a href="#org4dc1ff9">10.4. Email client</a></li>
+<li><a href="#org3d9fcf9">10.5. On LibreOffice</a></li>
+</ul>
+</li>
+<li><a href="#orgf6d00ab">11. Cryptocurrency</a>
+<ul>
+<li><a href="#org2978c10">11.1. Bitcoin ($XBT)</a></li>
+<li><a href="#org85a87d0">11.2. Monero ($XMR)</a></li>
+<li><a href="#orgfd1a6ac">11.3. Ethereum ($ETH)</a>
+<ul>
+<li><a href="#orgfeaa7fe">11.3.1. the JavaScript problem</a></li>
+<li><a href="#org513ab6f">11.3.2. the “smart contracts” problem</a></li>
+<li><a href="#orgbf6764e">11.3.3. decentralized apps “dApps”</a></li>
+<li><a href="#org624bc15">11.3.4. scam ICOs</a></li>
+</ul>
+</li>
+<li><a href="#org7e8e062">11.4. Grin/MimbleWimble</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf839317" class="outline-2">
-<h2 id="orgf839317"><span class="section-number-2">1</span> Abstract</h2>
+<div id="outline-container-org747addd" class="outline-2">
+<h2 id="org747addd"><span class="section-number-2">1</span> Abstract</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 This is a curated collection of software that I recommend and brief reviews. It’s basically your ultimate guide to computing effectively. I have a bias toward software with free and open source licenses. Where I choose proprietary alternatives otherwise is always for very good reason.
 </p>
 </div>
 </div>
-<div id="outline-container-org1ba3104" class="outline-2">
-<h2 id="org1ba3104"><span class="section-number-2">2</span> Operating system</h2>
+<div id="outline-container-org5f8c049" class="outline-2">
+<h2 id="org5f8c049"><span class="section-number-2">2</span> Operating system</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 Use the right tool for the job. It all really depends on what you are doing, so instead of recommending one OS over all others, I will review each of them based on my experience with them. I have used all major operating systems. The top 3 OSes (macOS, GNU/Linux, and Windows) are all part of my regular usage, and all have their uses.
@@ -501,12 +596,12 @@ Use the right tool for the job. It all really depends on what you are doing, so 
 </ol>
 </div>
 </div>
-<div id="outline-container-org2890a9e" class="outline-2">
-<h2 id="org2890a9e"><span class="section-number-2">3</span> Web browser</h2>
+<div id="outline-container-orgb90bdb3" class="outline-2">
+<h2 id="orgb90bdb3"><span class="section-number-2">3</span> Web browser</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org3489ab2" class="outline-3">
-<h3 id="org3489ab2"><span class="section-number-3">3.1</span> Chromium (or Google Chrome)</h3>
+<div id="outline-container-orgdf0a285" class="outline-3">
+<h3 id="orgdf0a285"><span class="section-number-3">3.1</span> Chromium (or Google Chrome)</h3>
 <div class="outline-text-3" id="text-3-1">
 <p>
 As much as I wanted to like Mozilla Firefox, I have stopped fighting the trend. Every website out there is developed to target WebKit browsers first. There is no competing with the massive resources and mindshare directed at Chromium development. This means more than just better superficial features—it means better security updates. Chrom{e, ium} has the best dev tools for web development.
@@ -518,24 +613,44 @@ Prefer Chromium over Google Chrome. Why? It has slightly less spyware built in, 
 </div>
 </div>
 </div>
-<div id="outline-container-org9271ab8" class="outline-2">
-<h2 id="org9271ab8"><span class="section-number-2">4</span> Text editor / IDE</h2>
+<div id="outline-container-orgce2fa4a" class="outline-2">
+<h2 id="orgce2fa4a"><span class="section-number-2">4</span> Text editor / IDE</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-org975674e" class="outline-3">
-<h3 id="org975674e"><span class="section-number-3">4.1</span> editor</h3>
+<div id="outline-container-orgdb16db0" class="outline-3">
+<h3 id="orgdb16db0"><span class="section-number-3">4.1</span> editor</h3>
 <div class="outline-text-3" id="text-4-1">
+<p>
+Yes, it’s time for that childish argument.
+</p>
 </div>
-<div id="outline-container-org406054e" class="outline-4">
-<h4 id="org406054e"><span class="section-number-4">4.1.1</span> GNU Emacs</h4>
+<div id="outline-container-org6c70b66" class="outline-4">
+<h4 id="org6c70b66"><span class="section-number-4">4.1.1</span> GNU Emacs</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<p>
+I know it’s <a href="https://en.wikipedia.org/wiki/Imprinting_(psychology)#Baby_duck_syndrome">baby duck syndrome</a>, but I ♥ Emacs and will never stop using it. Thanks to <a href="https://langserver.org">Language Server Protocol</a> you can get feature parity with VS Code/Atom and other flavor-of-the-month editors. So I’m happy. (But that’s still quite long way from a real IDE like Visual Studio for C++.)
+</p>
+
+<p>
+You can survive in Emacs by writing long bits of code in Emacs while having an IDE open in the same project for doing everything else.
+</p>
 </div>
 </div>
-<div id="outline-container-orga97d486" class="outline-3">
-<h3 id="orga97d486"><span class="section-number-3">4.2</span> IDE</h3>
+<div id="outline-container-orgb51d882" class="outline-4">
+<h4 id="orgb51d882"><span class="section-number-4">4.1.2</span> Vim</h4>
+<div class="outline-text-4" id="text-4-1-2">
+<p>
+Vim is what I originally started with. It’s great but you’ll find yourself wanting more features than just a text editor.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf98828c" class="outline-3">
+<h3 id="orgf98828c"><span class="section-number-3">4.2</span> IDE</h3>
 <div class="outline-text-3" id="text-4-2">
 </div>
-<div id="outline-container-orgbd7531b" class="outline-4">
-<h4 id="orgbd7531b"><span class="section-number-4">4.2.1</span> Visual Studio</h4>
+<div id="outline-container-org2536904" class="outline-4">
+<h4 id="org2536904"><span class="section-number-4">4.2.1</span> Visual Studio</h4>
 <div class="outline-text-4" id="text-4-2-1">
 <p>
 If you are doing any kind of development for Windows systems, you would be a fool to use anything but Visual Studio. (N.B., I’m not talking about <i>Visual Studio Code</i>. I’m not a fan of VS Code.)
@@ -546,26 +661,26 @@ Visual Studio is hands down the best C++ IDE ever.
 </p>
 </div>
 </div>
-<div id="outline-container-orgb91a5f9" class="outline-4">
-<h4 id="orgb91a5f9"><span class="section-number-4">4.2.2</span> XCode</h4>
+<div id="outline-container-org378cd6e" class="outline-4">
+<h4 id="org378cd6e"><span class="section-number-4">4.2.2</span> XCode</h4>
 </div>
-<div id="outline-container-orgb54c5f1" class="outline-4">
-<h4 id="orgb54c5f1"><span class="section-number-4">4.2.3</span> Eclipse?</h4>
+<div id="outline-container-org253769e" class="outline-4">
+<h4 id="org253769e"><span class="section-number-4">4.2.3</span> Eclipse?</h4>
 </div>
 </div>
 </div>
-<div id="outline-container-org8fc6a04" class="outline-2">
-<h2 id="org8fc6a04"><span class="section-number-2">5</span> Shell</h2>
+<div id="outline-container-org626a052" class="outline-2">
+<h2 id="org626a052"><span class="section-number-2">5</span> Shell</h2>
 <div class="outline-text-2" id="text-5">
 </div>
-<div id="outline-container-org94566c0" class="outline-3">
-<h3 id="org94566c0"><span class="section-number-3">5.1</span> bash</h3>
+<div id="outline-container-org46c8e90" class="outline-3">
+<h3 id="org46c8e90"><span class="section-number-3">5.1</span> bash</h3>
 </div>
-<div id="outline-container-org2f8f0ea" class="outline-3">
-<h3 id="org2f8f0ea"><span class="section-number-3">5.2</span> zsh</h3>
+<div id="outline-container-org9edcd01" class="outline-3">
+<h3 id="org9edcd01"><span class="section-number-3">5.2</span> zsh</h3>
 </div>
-<div id="outline-container-org4379977" class="outline-3">
-<h3 id="org4379977"><span class="section-number-3">5.3</span> Python or Ruby</h3>
+<div id="outline-container-orgf5c6d50" class="outline-3">
+<h3 id="orgf5c6d50"><span class="section-number-3">5.3</span> Python or Ruby</h3>
 <div class="outline-text-3" id="text-5-3">
 <p>
 If you have to write a script that will ever be used again in the future by you or someone else, then don’t write it in shell script. Please use Python or Ruby (not Perl—that’s as unreadable as shell). Shell script is for one-off actions.
@@ -588,150 +703,178 @@ There are some people who use IPython as their system shell and never touch bash
 </div>
 </div>
 </div>
-<div id="outline-container-org7ba0eec" class="outline-2">
-<h2 id="org7ba0eec"><span class="section-number-2">6</span> Programming languages</h2>
+<div id="outline-container-org63e5897" class="outline-2">
+<h2 id="org63e5897"><span class="section-number-2">6</span> Programming languages</h2>
 <div class="outline-text-2" id="text-6">
 <p>
-As always, my mantra is: <i>Use the right tool for the job!</i> Nevertheless, I will review my favorite languages here.
+<i>“Use the right tool for the job!,”</i> you hear condescendingly from the mature people whenever you talk about favorite programming languages. But I think this view is dated in today’s world since there are several competing popular languages/environments for every domain of software development. Some of them have to be objectively bad, the metric being their amenability to producing good software. I don’t and can’t accept the idea that X language is <i>just as good</i> as Y no more than I accept that PHP and Python are on the same level because they’re both Turing complete.
 </p>
 </div>
-<div id="outline-container-org4010d10" class="outline-3">
-<h3 id="org4010d10"><span class="section-number-3">6.1</span> For the pedantic: Languages vs. Runtimes</h3>
+<div id="outline-container-org227f2ca" class="outline-3">
+<h3 id="org227f2ca"><span class="section-number-3">6.1</span> <span class="todo TODO">TODO</span> For the pedantic: Languages vs. Runtimes</h3>
 </div>
-<div id="outline-container-org2d96bc9" class="outline-3">
-<h3 id="org2d96bc9"><span class="section-number-3">6.2</span> Languages</h3>
+<div id="outline-container-org1d213ce" class="outline-3">
+<h3 id="org1d213ce"><span class="section-number-3">6.2</span> How to judge programming languages</h3>
 <div class="outline-text-3" id="text-6-2">
+<p>
+You judge programming languages by judging the programs that have been developed using it. And the way you judge programs is by seeing the market response by the users of those programs.
+</p>
+
+<p>
+The <i>worst</i> way to judge a programming language is to judge it by how it relates to programmer sensibilities. What a programmer (no matter what skill level) thinks the best language is, is barely a relevant question. They don’t matter. The bad programmers will say the language they have used the most because they only know one or two languages. The good programmers will tell you Haskell is the best language because they see programming as a fun intellectual game rather than an industrial endeavor like drilling for oil. In general, you shouldn’t judge a field by what the people within the field say because it will eventually lead to abstract academic bloviating divorced from any real world stress-testing that an exposure to actual users would reveal.
+</p>
+
+<p>
+The older a programming language, the better. If an old language is still being used enough for you to care about it, it survived brutal selection in the free market. You win no points by being an early adopter of a technology tool, only a massive risk of your precious time. Joe Programmer can just as easily pick up your pet tool a few years down the line if it miraculously lasts that long and gains traction. Within a couple months, Joe Programmer now is <a href="https://en.wikipedia.org/wiki/Pareto_principle">80%</a> as functionally skilled as you are. On this basis I would argue that you are better off learning COBOL and FORTRAN than any language created in the past 10 years. More on this in other writings.
+</p>
+
+<p>
+Last on the list, I consider the <i>aesthetics</i> of the language to be important. I’m not talking about syntax per se. Code in an Aesthetic Language gives you a feeling of freedom and makes you happy to see it. An Aesthetic Language makes it very easy to write easy-to-read code. You <i>feel</i> like you can do anything with the language because the syntax isn’t holding you back. The most Aesthetic Language that comes to mind is Common Lisp&#x2014;you are stripped of all the limitations of traditional structured programming languages and are free to express yourself in constructs you make yourself (Lisp macros). Ruby is also an Aesthetic Language. By contrast, an Ugly Language is C because everything is either an if statement, a glorified goto/jump, or a for loop, forcing you to encode your solution space in this tiny vocabulary as if you’re an assembly programmer from the 1970s. This is completely my personal take; feel free to dismiss this aspect of programming language selection. But I’d rather live in a world with less PHP even though PHP is probably one of the top 3 programming languages by the amount of wealth generated (read: Facebook).
+</p>
 </div>
-<div id="outline-container-orgf3ec6c7" class="outline-4">
-<h4 id="orgf3ec6c7"><span class="section-number-4">6.2.1</span> by use case</h4>
-<div class="outline-text-4" id="text-6-2-1">
 </div>
-<ol class="org-ol">
-<li><a id="org83fcbeb"></a>general purpose<br />
-<div class="outline-text-5" id="text-6-2-1-1">
+<div id="outline-container-orga4a7a02" class="outline-3">
+<h3 id="orga4a7a02"><span class="section-number-3">6.3</span> Languages</h3>
+<div class="outline-text-3" id="text-6-3">
+</div>
+<div id="outline-container-org10d6e94" class="outline-4">
+<h4 id="org10d6e94"><span class="section-number-4">6.3.1</span> by use case</h4>
+<div class="outline-text-4" id="text-6-3-1">
+</div>
+<div id="outline-container-org427fd9f" class="outline-5">
+<h5 id="org427fd9f"><span class="section-number-5">6.3.1.1</span> large projects</h5>
+<div class="outline-text-5" id="text-6-3-1-1">
 <ol class="org-ol">
 <li>C++</li>
 <li>Java</li>
-<li>Common Lisp</li>
-<li>Rust</li>
 </ol>
 </div>
-</li>
-<li><a id="org15ccaf9"></a>scripting<br />
-<div class="outline-text-5" id="text-6-2-1-2">
+</div>
+<div id="outline-container-orgb380cb2" class="outline-5">
+<h5 id="orgb380cb2"><span class="section-number-5">6.3.1.2</span> scripting</h5>
+<div class="outline-text-5" id="text-6-3-1-2">
 <ol class="org-ol">
 <li>Ruby</li>
 <li>Python</li>
 <li>Lua</li>
 </ol>
 </div>
-</li>
-<li><a id="orgfb1a04e"></a>science/stats/machine learning<br />
-<div class="outline-text-5" id="text-6-2-1-3">
+</div>
+<div id="outline-container-org61a0a64" class="outline-5">
+<h5 id="org61a0a64"><span class="section-number-5">6.3.1.3</span> science/stats/machine learning</h5>
+<div class="outline-text-5" id="text-6-3-1-3">
 <ol class="org-ol">
 <li>Python</li>
-<li>C++</li>
 <li>Mathematica</li>
-<li>R</li>
+<li>C++</li>
 </ol>
 </div>
-</li>
-<li><a id="org2124d49"></a>web services<br />
-<div class="outline-text-5" id="text-6-2-1-4">
+</div>
+<div id="outline-container-org3991d90" class="outline-5">
+<h5 id="org3991d90"><span class="section-number-5">6.3.1.4</span> web services</h5>
+<div class="outline-text-5" id="text-6-3-1-4">
 <ol class="org-ol">
 <li>Golang</li>
 <li>Java</li>
 <li>Ruby</li>
 </ol>
 </div>
-</li>
-<li><a id="org5d119a3"></a>web frontend<br />
-<div class="outline-text-5" id="text-6-2-1-5">
-<ol class="org-ol">
-<li>TypeScript</li>
-<li>JavaScript (latest ECMAScript standard)</li>
-<li>ClojureScript</li>
-</ol>
 </div>
-</li>
-<li><a id="orge8ead66"></a>mobile apps<br />
-<div class="outline-text-5" id="text-6-2-1-6">
+<div id="outline-container-orgc7df97e" class="outline-5">
+<h5 id="orgc7df97e"><span class="section-number-5">6.3.1.5</span> doing something new and revolutionary</h5>
+<div class="outline-text-5" id="text-6-3-1-5">
 <ol class="org-ol">
-<li>Swift</li>
-<li>Kotlin</li>
-</ol>
-</div>
-</li>
-<li><a id="orgd93a3be"></a>Windows<br />
-<div class="outline-text-5" id="text-6-2-1-7">
-<ol class="org-ol">
-<li>C#</li>
 <li>C++</li>
+<li>Common Lisp</li>
+<li>Rust</li>
 </ol>
 </div>
-</li>
-</ol>
 </div>
-<div id="outline-container-orgc07e8cc" class="outline-4">
-<h4 id="orgc07e8cc"><span class="section-number-4">6.2.2</span> Reviews</h4>
-<div class="outline-text-4" id="text-6-2-2">
 </div>
-<ol class="org-ol">
-<li><a id="orge0e873a"></a>C++<br /></li>
-<li><a id="orgbf602e8"></a>Common Lisp<br />
-<ol class="org-ol">
-<li><a id="orgfebb0c1"></a>recommended implementation<br />
-<div class="outline-text-6" id="text-6-2-2-2-1">
+<div id="outline-container-org348cdc3" class="outline-4">
+<h4 id="org348cdc3"><span class="section-number-4">6.3.2</span> Reviews</h4>
+<div class="outline-text-4" id="text-6-3-2">
+</div>
+<div id="outline-container-org43e0a7d" class="outline-5">
+<h5 id="org43e0a7d"><span class="section-number-5">6.3.2.1</span> C++</h5>
+<div class="outline-text-5" id="text-6-3-2-1">
+<p>
+I love C++. Why? Because you’re running a program(s) written in C++ to read this right now. It’s faster than everything, and it can do everything better than anyone else can. It can go as low level as inline ASM, backwards compatibility with C, then all the way up to modern Python-esque abstraction facilities. It has features for everything, the whole kitchen sink, and that’s a good thing.
+</p>
+
+<p>
+I don’t care how hard it is to use. The ends justify the means here.
+</p>
+
+<p>
+100 years from now I guarantee you, barring civilizational collapse, you will still be using C++ binaries and there will still be people writing C++.
+</p>
+</div>
+</div>
+<div id="outline-container-org93a659a" class="outline-5">
+<h5 id="org93a659a"><span class="section-number-5">6.3.2.2</span> Common Lisp</h5>
+<div class="outline-text-5" id="text-6-3-2-2">
+</div>
+<div id="outline-container-orgf2e9539" class="outline-6">
+<h6 id="orgf2e9539"><span class="section-number-6">6.3.2.2.1</span> recommended implementation</h6>
+<div class="outline-text-6" id="text-6-3-2-2-1">
 <p>
 SBCL
 </p>
 </div>
-</li>
-<li><a id="org08dc6bf"></a>If LISP is so good, why did it fail?<br />
-<div class="outline-text-6" id="text-6-2-2-2-2">
+</div>
+<div id="outline-container-orgbedf85b" class="outline-6">
+<h6 id="orgbedf85b"><span class="section-number-6">6.3.2.2.2</span> If LISP is so good, why did it fail?</h6>
+<div class="outline-text-6" id="text-6-3-2-2-2">
 <ul class="org-ul">
 <li><a href="https://groups.google.com/forum/#!topic/comp.lang.lisp/eicqvm3GXiE">The Bipolar Lisp Programmer</a></li>
 <li><a href="http://winestockwebdesign.com/Essays/Lisp_Curse.html">The Lisp Curse</a></li>
 <li><a href="https://www.jwz.org/doc/worse-is-better.html">Worse Is Better</a></li>
 </ul>
 </div>
-</li>
-</ol>
-</li>
-<li><a id="org63f0e1b"></a>Scheme<br />
-<ol class="org-ol">
-<li><a id="org3db4698"></a>best implementations<br />
-<ol class="org-ol">
-<li><a id="org44bf239"></a>GNU Kawa<br />
-<div class="outline-text-7" id="text-6-2-2-3-1-1">
+</div>
+</div>
+<div id="outline-container-orga065fc2" class="outline-5">
+<h5 id="orga065fc2"><span class="section-number-5">6.3.2.3</span> Scheme</h5>
+<div class="outline-text-5" id="text-6-3-2-3">
+</div>
+<div id="outline-container-orgcc788e8" class="outline-6">
+<h6 id="orgcc788e8"><span class="section-number-6">6.3.2.3.1</span> best implementations</h6>
+<div class="outline-text-6" id="text-6-3-2-3-1">
+</div>
+<div id="outline-container-org323ad53" class="outline-7">
+<h7 id="org323ad53"><span class="section-number-7">6.3.2.3.1.1</span> Chez Scheme</h7>
+<div class="outline-text-7" id="text-6-3-2-3-1-1">
+<ul class="org-ul">
+<li>Compiles to very efficient machine code; ideal for deployment</li>
+<li>Used by Cisco for years before they open sourced it</li>
+<li>Author is a genius</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3143ffd" class="outline-7">
+<h7 id="org3143ffd"><span class="section-number-7">6.3.2.3.1.2</span> GNU Kawa</h7>
+<div class="outline-text-7" id="text-6-3-2-3-1-2">
 <ul class="org-ul">
 <li>Compiles to portable JVM bytecode</li>
 <li>Entire JVM ecosystem available with convenient interop syntax</li>
 </ul>
 </div>
-</li>
-<li><a id="orgf08d569"></a>Chez Scheme<br />
-<div class="outline-text-7" id="text-6-2-2-3-1-2">
-<ul class="org-ul">
-<li>Compiles to very efficient machine code; ideal for deployment</li>
-<li>Unfortunately, no libraries</li>
-</ul>
 </div>
-</li>
-<li><a id="orgdec7a52"></a>Racket<br />
-<div class="outline-text-7" id="text-6-2-2-3-1-3">
+<div id="outline-container-orgf3992a3" class="outline-7">
+<h7 id="orgf3992a3"><span class="section-number-7">6.3.2.3.1.3</span> Racket</h7>
+<div class="outline-text-7" id="text-6-3-2-3-1-3">
 <ul class="org-ul">
 <li>Easiest to get started with</li>
-<li>Con: Not really Scheme</li>
+<li>Con: Not really Scheme. Tries too hard to be a functional language. (Scheme and LISP style languages in general are <i>not</i> functional languages, nor should they be.)</li>
 </ul>
 </div>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-<li><a id="org89ec7e6"></a>Golang<br />
-<div class="outline-text-5" id="text-6-2-2-4">
+</div>
+</div>
+</div>
+<div id="outline-container-org66ef0f1" class="outline-5">
+<h5 id="org66ef0f1"><span class="section-number-5">6.3.2.4</span> Golang</h5>
+<div class="outline-text-5" id="text-6-3-2-4">
 <p>
 Golang is basically a DSL for writing web servers and web services. It is <i>phenomenal</i> at this. Golang gives you all the batteries you need to write very good web and networking software and the battle-testedness that comes with it being used by big corporations for this purpose.
 </p>
@@ -740,85 +883,112 @@ Golang is basically a DSL for writing web servers and web services. It is <i>phe
 You shouldn’t use it for much else though. Well, it’s good as an alternative to Python for when you need a binary and non-molasses performance.
 </p>
 </div>
-</li>
-<li><a id="org31e193b"></a>JavaScript<br /></li>
-<li><a id="orgce3f08a"></a>Java<br />
-<div class="outline-text-5" id="text-6-2-2-6">
+</div>
+<div id="outline-container-orgee463ac" class="outline-5">
+<h5 id="orgee463ac"><span class="section-number-5">6.3.2.5</span> JavaScript</h5>
+</div>
+<div id="outline-container-org8b30985" class="outline-5">
+<h5 id="org8b30985"><span class="section-number-5">6.3.2.6</span> Java</h5>
+<div class="outline-text-5" id="text-6-3-2-6">
 <p>
 Java gets far too much hate. It’s the best language and ecosystem for almost 99% of applications.
 </p>
 </div>
-</li>
-<li><a id="org8bec142"></a>Clojure<br /></li>
-<li><a id="org560f3e8"></a>Ruby<br /></li>
-<li><a id="org891650d"></a>Python<br /></li>
-<li><a id="org9d8dc86"></a>Mathematica<br /></li>
-<li><a id="orga9a5ab0"></a>Rust<br /></li>
-<li><a id="orgf5f5eb8"></a>Haskell<br /></li>
-</ol>
 </div>
-<div id="outline-container-orgf972d6a" class="outline-4">
-<h4 id="orgf972d6a"><span class="section-number-4">6.2.3</span> Trash Languages</h4>
-<div class="outline-text-4" id="text-6-2-3">
+<div id="outline-container-org4b97c1b" class="outline-5">
+<h5 id="org4b97c1b"><span class="section-number-5">6.3.2.7</span> Ruby</h5>
 </div>
-<ol class="org-ol">
-<li><a id="org4e5a48b"></a>C<br />
-<div class="outline-text-5" id="text-6-2-3-1">
+<div id="outline-container-orgc7d6301" class="outline-5">
+<h5 id="orgc7d6301"><span class="section-number-5">6.3.2.8</span> Python</h5>
+</div>
+<div id="outline-container-orgcdf5082" class="outline-5">
+<h5 id="orgcdf5082"><span class="section-number-5">6.3.2.9</span> Mathematica</h5>
+</div>
+<div id="outline-container-org242e83a" class="outline-5">
+<h5 id="org242e83a"><span class="section-number-5">6.3.2.10</span> Rust</h5>
+</div>
+<div id="outline-container-orgc8e2023" class="outline-5">
+<h5 id="orgc8e2023"><span class="section-number-5">6.3.2.11</span> Haskell</h5>
+</div>
+</div>
+<div id="outline-container-org55b85d5" class="outline-4">
+<h4 id="org55b85d5"><span class="section-number-4">6.3.3</span> Trash Languages</h4>
+<div class="outline-text-4" id="text-6-3-3">
+</div>
+<div id="outline-container-orgf54e60c" class="outline-5">
+<h5 id="orgf54e60c"><span class="section-number-5">6.3.3.1</span> C</h5>
+<div class="outline-text-5" id="text-6-3-3-1">
 <p>
 The triumph of C was one of the greater tragedies in the history of computing (and perhaps the history of humanity). The entire computer security industry would not exist without C. It is broken by design. Programmers having access to pointers to raw memory was a mistake. C is behind every security vulnerability or software crash that cost society trillions of dollars or countless human lives whenever critical systems have crash for “unknown” reasons. Every C programmer thinks he or she is going to be the one who is smart enough to never make these serious mistakes; they laugh when you tell them to sacrifice a tiny bit of performance for a memory/type safe language instead. Nah, Python and Java are for wimps.
 </p>
 
 <p>
-The worst part is that the C mental model isn’t even how CPUs work anymore. Where’s the C semantics for CPU caches? Or SIMD vectorization? Compiler authors have worked very hard to infer educated guesses about the correct instructions from C code, because C code is unable to express these intents. C is hardly “close to the metal”—it’s only by accident because the compilers are so advanced.
+The worst part is that the C mental model isn’t even how CPUs work anymore. Where’s the C semantics for minimizing cache misses? Or SIMD opcodes? Or GPU programming? You have to use compiler extensions and vendor specific DSLs. Compiler authors have worked very hard to infer educated guesses about the correct instructions from C code, because C code is unable to express these intents. C as a language is hardly “close to the metal”&#x2014;it’s only so by accident because the compilers are so advanced.
 </p>
 
 <p>
-Don’t use C. Ever. Use modern C++20 and get literally the exact same performance at significantly less risk for catastrophic failure. If you are willing to experiment, and sacrifice only a small amount of performance, opt for Rust instead.
+Don’t use C. Boycott C. Use modern C++20 and get literally the exact same performance at significantly less risk for catastrophic failure.
 </p>
 </div>
-</li>
-<li><a id="org0899206"></a>Perl<br />
-<div class="outline-text-5" id="text-6-2-3-2">
+</div>
+<div id="outline-container-org629c296" class="outline-5">
+<h5 id="org629c296"><span class="section-number-5">6.3.3.2</span> Visual Basic.NET</h5>
+<div class="outline-text-5" id="text-6-3-3-2">
 <p>
-Spaghetti code.
+I have never used this one, but I still feel entitled to badmouth it because it’s BASIC after all.
 </p>
 </div>
-</li>
-<li><a id="orgdf2858a"></a>Visual Basic<br /></li>
-<li><a id="org405ba16"></a>PHP<br />
-<div class="outline-text-5" id="text-6-2-3-4">
+</div>
+<div id="outline-container-orga2f9c09" class="outline-5">
+<h5 id="orga2f9c09"><span class="section-number-5">6.3.3.3</span> PHP</h5>
+<div class="outline-text-5" id="text-6-3-3-3">
 <p>
-Spaghetti code.
+Spaghetti code. Spaghetti code everywhere.
 </p>
 </div>
-</li>
-<li><a id="orga760327"></a>Clojure<br />
-<div class="outline-text-5" id="text-6-2-3-5">
+</div>
+<div id="outline-container-org92f131c" class="outline-5">
+<h5 id="org92f131c"><span class="section-number-5">6.3.3.4</span> Perl</h5>
+<div class="outline-text-5" id="text-6-3-3-4">
 <p>
-It’s not a LISP. It sacrifices a lot to be compatible with Java. Many of the best features of Common Lisp are missing in Clojure. Clojure is also basically unmaintained, being an in-house tool for Rich Hickey’s company first and a community open source language second. Just use Common Lisp.
+Dead camel
 </p>
 </div>
-</li>
-</ol>
 </div>
-<div id="outline-container-orgd9f50bb" class="outline-4">
-<h4 id="orgd9f50bb"><span class="section-number-4">6.2.4</span> Useless But Fun Hobby Languages</h4>
-<div class="outline-text-4" id="text-6-2-4">
+<div id="outline-container-org032b3b6" class="outline-5">
+<h5 id="org032b3b6"><span class="section-number-5">6.3.3.5</span> Clojure</h5>
+<div class="outline-text-5" id="text-6-3-3-5">
+<p>
+Clojure is not LISP. It sacrifices way too much to run on the JVM. (Not that I think being a hosted language was a bad idea&#x2014;it just should have been LLVM.) Clojure is an internal tool used by Rich Hickey’s database company. It’s slower than Java. No one is adopting it. Expect to spend a lot of time reading the source of Clojure to figure out how all the black boxes work. Use it at your own risk.
+</p>
+
+<p>
+If you really need to use a LISP and can’t use SBCL/LispWorks/etc. for some reason, go for Clojure of course. But you don’t <i>really</i> need to use LISP unless you can also use SBCL. I fail to see the motivation for using this.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8c37794" class="outline-4">
+<h4 id="org8c37794"><span class="section-number-4">6.3.4</span> Useless But Fun Hobby Languages</h4>
+<div class="outline-text-4" id="text-6-3-4">
 <p>
 Only devote time to these if you literally have nothing better to do, or are doing a Ph.D. on programming language theory. They explore very interesting ideas, but rest assured, these ideas will be incorporated in mainstream languages if they are proven good enough.
 </p>
 </div>
-<ol class="org-ol">
-<li><a id="org74a51a6"></a>Idris<br />
-<div class="outline-text-5" id="text-6-2-4-1">
+<div id="outline-container-orgc9c1a67" class="outline-5">
+<h5 id="orgc9c1a67"><span class="section-number-5">6.3.4.1</span> Idris</h5>
+<div class="outline-text-5" id="text-6-3-4-1">
 <p>
 Dependent types are potentially a game changer. Problem is, I can’t think of many practical uses for them aside from the canonical example of vector bounds checking.
 </p>
 </div>
-</li>
-<li><a id="orgd2b583a"></a>Scheme<br /></li>
-<li><a id="org36a6b28"></a>Haskell<br />
-<div class="outline-text-5" id="text-6-2-4-3">
+</div>
+<div id="outline-container-orgdaa1a99" class="outline-5">
+<h5 id="orgdaa1a99"><span class="section-number-5">6.3.4.2</span> Scheme</h5>
+</div>
+<div id="outline-container-orgf6e2396" class="outline-5">
+<h5 id="orgf6e2396"><span class="section-number-5">6.3.4.3</span> Haskell</h5>
+<div class="outline-text-5" id="text-6-3-4-3">
 <p>
 The most important thing you can learn from Haskell is when to give up learning something.
 </p>
@@ -843,122 +1013,123 @@ Since everyone touts Haskell “because it makes you a better programmer,” why
 <li><a href="https://wiki.haskell.org/Typeclassopedia">monads</a></li>
 </ul>
 </div>
-</li>
-<li><a id="orgc3e3d32"></a>CoQ<br /></li>
-</ol>
+</div>
+<div id="outline-container-org76f6726" class="outline-5">
+<h5 id="org76f6726"><span class="section-number-5">6.3.4.4</span> CoQ</h5>
 </div>
 </div>
 </div>
-<div id="outline-container-org7884f9c" class="outline-2">
-<h2 id="org7884f9c"><span class="section-number-2">7</span> Databases</h2>
+</div>
+<div id="outline-container-orgfafa205" class="outline-2">
+<h2 id="orgfafa205"><span class="section-number-2">7</span> Databases</h2>
 <div class="outline-text-2" id="text-7">
 </div>
-<div id="outline-container-orga784728" class="outline-3">
-<h3 id="orga784728"><span class="section-number-3">7.1</span> RDBMS</h3>
+<div id="outline-container-org743e125" class="outline-3">
+<h3 id="org743e125"><span class="section-number-3">7.1</span> RDBMS</h3>
 <div class="outline-text-3" id="text-7-1">
 </div>
-<div id="outline-container-org116a500" class="outline-4">
-<h4 id="org116a500"><span class="section-number-4">7.1.1</span> PostgreSQL</h4>
+<div id="outline-container-orgaa1cfac" class="outline-4">
+<h4 id="orgaa1cfac"><span class="section-number-4">7.1.1</span> PostgreSQL</h4>
 </div>
 </div>
-<div id="outline-container-org39e9132" class="outline-3">
-<h3 id="org39e9132"><span class="section-number-3">7.2</span> In-Memory Cache</h3>
+<div id="outline-container-orgde6aade" class="outline-3">
+<h3 id="orgde6aade"><span class="section-number-3">7.2</span> In-Memory Cache</h3>
 <div class="outline-text-3" id="text-7-2">
 </div>
-<div id="outline-container-org2c3030b" class="outline-4">
-<h4 id="org2c3030b"><span class="section-number-4">7.2.1</span> Redis</h4>
+<div id="outline-container-org4b4819b" class="outline-4">
+<h4 id="org4b4819b"><span class="section-number-4">7.2.1</span> Redis</h4>
 </div>
 </div>
-<div id="outline-container-org9d1f6c3" class="outline-3">
-<h3 id="org9d1f6c3"><span class="section-number-3">7.3</span> Embedded</h3>
+<div id="outline-container-orgd1282c0" class="outline-3">
+<h3 id="orgd1282c0"><span class="section-number-3">7.3</span> Embedded</h3>
 <div class="outline-text-3" id="text-7-3">
 </div>
-<div id="outline-container-org09c0be6" class="outline-4">
-<h4 id="org09c0be6"><span class="section-number-4">7.3.1</span> SQLite3</h4>
+<div id="outline-container-org385bb59" class="outline-4">
+<h4 id="org385bb59"><span class="section-number-4">7.3.1</span> SQLite3</h4>
 </div>
-<div id="outline-container-org5b1493c" class="outline-4">
-<h4 id="org5b1493c"><span class="section-number-4">7.3.2</span> LMDB</h4>
+<div id="outline-container-orge94270f" class="outline-4">
+<h4 id="orge94270f"><span class="section-number-4">7.3.2</span> LMDB</h4>
 </div>
 </div>
 </div>
-<div id="outline-container-org41a335c" class="outline-2">
-<h2 id="org41a335c"><span class="section-number-2">8</span> Fonts</h2>
+<div id="outline-container-org74d5dd0" class="outline-2">
+<h2 id="org74d5dd0"><span class="section-number-2">8</span> Fonts</h2>
 <div class="outline-text-2" id="text-8">
 </div>
-<div id="outline-container-orgf081f0f" class="outline-3">
-<h3 id="orgf081f0f"><span class="section-number-3">8.1</span> serif</h3>
+<div id="outline-container-org8a5c3be" class="outline-3">
+<h3 id="org8a5c3be"><span class="section-number-3">8.1</span> serif</h3>
 <div class="outline-text-3" id="text-8-1">
 </div>
-<div id="outline-container-orgea59f5b" class="outline-4">
-<h4 id="orgea59f5b"><span class="section-number-4">8.1.1</span> Charter</h4>
+<div id="outline-container-org43813a1" class="outline-4">
+<h4 id="org43813a1"><span class="section-number-4">8.1.1</span> Charter</h4>
 <div class="outline-text-4" id="text-8-1-1">
 <p>
 Ideal for body text.
 </p>
 </div>
 </div>
-<div id="outline-container-org4e7afb1" class="outline-4">
-<h4 id="org4e7afb1"><span class="section-number-4">8.1.2</span> Publico Text</h4>
+<div id="outline-container-orgafa72ad" class="outline-4">
+<h4 id="orgafa72ad"><span class="section-number-4">8.1.2</span> Publico Text</h4>
 </div>
-<div id="outline-container-orgb225989" class="outline-4">
-<h4 id="orgb225989"><span class="section-number-4">8.1.3</span> Leitura News</h4>
+<div id="outline-container-org5ea12ba" class="outline-4">
+<h4 id="org5ea12ba"><span class="section-number-4">8.1.3</span> Leitura News</h4>
 </div>
 </div>
-<div id="outline-container-org02a84a6" class="outline-3">
-<h3 id="org02a84a6"><span class="section-number-3">8.2</span> monospace (for code)</h3>
+<div id="outline-container-org973c1c7" class="outline-3">
+<h3 id="org973c1c7"><span class="section-number-3">8.2</span> monospace (for code)</h3>
 <div class="outline-text-3" id="text-8-2">
 </div>
-<div id="outline-container-orgb906a64" class="outline-4">
-<h4 id="orgb906a64"><span class="section-number-4">8.2.1</span> Go Mono</h4>
+<div id="outline-container-org6b965e9" class="outline-4">
+<h4 id="org6b965e9"><span class="section-number-4">8.2.1</span> Go Mono</h4>
 </div>
-<div id="outline-container-orga983dfc" class="outline-4">
-<h4 id="orga983dfc"><span class="section-number-4">8.2.2</span> Operator Mono</h4>
+<div id="outline-container-orgda13964" class="outline-4">
+<h4 id="orgda13964"><span class="section-number-4">8.2.2</span> Operator Mono</h4>
 <div class="outline-text-4" id="text-8-2-2">
 <p>
 The Lamborghini of programming fonts.
 </p>
 </div>
 </div>
-<div id="outline-container-orgd0cb5d3" class="outline-4">
-<h4 id="orgd0cb5d3"><span class="section-number-4">8.2.3</span> IBM Plex</h4>
+<div id="outline-container-org5eec9b3" class="outline-4">
+<h4 id="org5eec9b3"><span class="section-number-4">8.2.3</span> IBM Plex</h4>
 </div>
-<div id="outline-container-orgd042f92" class="outline-4">
-<h4 id="orgd042f92"><span class="section-number-4">8.2.4</span> Fira Code?</h4>
+<div id="outline-container-orge7e7ef2" class="outline-4">
+<h4 id="orge7e7ef2"><span class="section-number-4">8.2.4</span> Fira Code?</h4>
 </div>
 </div>
-<div id="outline-container-org7f168a7" class="outline-3">
-<h3 id="org7f168a7"><span class="section-number-3">8.3</span> sans serif</h3>
+<div id="outline-container-org93d5420" class="outline-3">
+<h3 id="org93d5420"><span class="section-number-3">8.3</span> sans serif</h3>
 <div class="outline-text-3" id="text-8-3">
 </div>
-<div id="outline-container-orgbb0cdd4" class="outline-4">
-<h4 id="orgbb0cdd4"><span class="section-number-4">8.3.1</span> Adelle Sans</h4>
+<div id="outline-container-org9180fb6" class="outline-4">
+<h4 id="org9180fb6"><span class="section-number-4">8.3.1</span> Adelle Sans</h4>
 </div>
-<div id="outline-container-orga05e46a" class="outline-4">
-<h4 id="orga05e46a"><span class="section-number-4">8.3.2</span> San Francisco</h4>
+<div id="outline-container-org7741c77" class="outline-4">
+<h4 id="org7741c77"><span class="section-number-4">8.3.2</span> San Francisco</h4>
 </div>
 </div>
 </div>
-<div id="outline-container-org3ce9e60" class="outline-2">
-<h2 id="org3ce9e60"><span class="section-number-2">9</span> Multimedia</h2>
+<div id="outline-container-org132e3a9" class="outline-2">
+<h2 id="org132e3a9"><span class="section-number-2">9</span> Multimedia</h2>
 <div class="outline-text-2" id="text-9">
 </div>
-<div id="outline-container-org6ffd623" class="outline-3">
-<h3 id="org6ffd623"><span class="section-number-3">9.1</span> editors</h3>
+<div id="outline-container-org5ecc762" class="outline-3">
+<h3 id="org5ecc762"><span class="section-number-3">9.1</span> editors</h3>
 <div class="outline-text-3" id="text-9-1">
 </div>
-<div id="outline-container-orgdfe0ccf" class="outline-4">
-<h4 id="orgdfe0ccf"><span class="section-number-4">9.1.1</span> audio</h4>
+<div id="outline-container-org3ee9d10" class="outline-4">
+<h4 id="org3ee9d10"><span class="section-number-4">9.1.1</span> audio</h4>
 </div>
-<div id="outline-container-org0342922" class="outline-4">
-<h4 id="org0342922"><span class="section-number-4">9.1.2</span> video</h4>
+<div id="outline-container-orgfb72435" class="outline-4">
+<h4 id="orgfb72435"><span class="section-number-4">9.1.2</span> video</h4>
 <div class="outline-text-4" id="text-9-1-2">
 <p>
 Adobe Premiere Pro
 </p>
 </div>
 </div>
-<div id="outline-container-org441a0f5" class="outline-4">
-<h4 id="org441a0f5"><span class="section-number-4">9.1.3</span> photos</h4>
+<div id="outline-container-org5c83848" class="outline-4">
+<h4 id="org5c83848"><span class="section-number-4">9.1.3</span> photos</h4>
 <div class="outline-text-4" id="text-9-1-3">
 <p>
 Adobe Photoshop
@@ -966,102 +1137,100 @@ Adobe Photoshop
 </div>
 </div>
 </div>
-<div id="outline-container-org74a4d19" class="outline-3">
-<h3 id="org74a4d19"><span class="section-number-3">9.2</span> players</h3>
+<div id="outline-container-orgdb5db41" class="outline-3">
+<h3 id="orgdb5db41"><span class="section-number-3">9.2</span> players</h3>
 <div class="outline-text-3" id="text-9-2">
 </div>
-<div id="outline-container-orgecef77e" class="outline-4">
-<h4 id="orgecef77e"><span class="section-number-4">9.2.1</span> video</h4>
+<div id="outline-container-org7475d10" class="outline-4">
+<h4 id="org7475d10"><span class="section-number-4">9.2.1</span> video</h4>
 <div class="outline-text-4" id="text-9-2-1">
 <p>
 mpv
 </p>
 </div>
 </div>
-<div id="outline-container-orge73151b" class="outline-4">
-<h4 id="orge73151b"><span class="section-number-4">9.2.2</span> audio</h4>
+<div id="outline-container-orgbcff273" class="outline-4">
+<h4 id="orgbcff273"><span class="section-number-4">9.2.2</span> audio</h4>
 <div class="outline-text-4" id="text-9-2-2">
 </div>
-<ol class="org-ol">
-<li><a id="org22e4318"></a>Windows<br />
+<div id="outline-container-org44b6b34" class="outline-5">
+<h5 id="org44b6b34"><span class="section-number-5">9.2.2.1</span> Windows</h5>
 <div class="outline-text-5" id="text-9-2-2-1">
 <p>
 foobar2000
 </p>
 </div>
-</li>
-<li><a id="orgc255265"></a>GNU/Linux<br />
+</div>
+<div id="outline-container-org80e0530" class="outline-5">
+<h5 id="org80e0530"><span class="section-number-5">9.2.2.2</span> GNU/Linux</h5>
 <div class="outline-text-5" id="text-9-2-2-2">
 <p>
 Clementine (?)
 </p>
 </div>
-</li>
-</ol>
 </div>
 </div>
 </div>
-<div id="outline-container-org02df985" class="outline-2">
-<h2 id="org02df985"><span class="section-number-2">10</span> Office</h2>
+</div>
+<div id="outline-container-orge61e92e" class="outline-2">
+<h2 id="orge61e92e"><span class="section-number-2">10</span> Office</h2>
 <div class="outline-text-2" id="text-10">
 </div>
-<div id="outline-container-org17142be" class="outline-3">
-<h3 id="org17142be"><span class="section-number-3">10.1</span> Word processor</h3>
+<div id="outline-container-org14e8bbc" class="outline-3">
+<h3 id="org14e8bbc"><span class="section-number-3">10.1</span> Word processor</h3>
 <div class="outline-text-3" id="text-10-1">
 </div>
-<div id="outline-container-orgd49c79f" class="outline-4">
-<h4 id="orgd49c79f"><span class="section-number-4">10.1.1</span> academic</h4>
+<div id="outline-container-org6b70749" class="outline-4">
+<h4 id="org6b70749"><span class="section-number-4">10.1.1</span> academic</h4>
 <div class="outline-text-4" id="text-10-1-1">
 <p>
-LaTeX
+\( \LaTeX \)
 </p>
 </div>
 </div>
-<div id="outline-container-org7a65503" class="outline-4">
-<h4 id="org7a65503"><span class="section-number-4">10.1.2</span> lightweight markup</h4>
+<div id="outline-container-orgec9e5ff" class="outline-4">
+<h4 id="orgec9e5ff"><span class="section-number-4">10.1.2</span> lightweight markup</h4>
 <div class="outline-text-4" id="text-10-1-2">
-<ol class="org-ol">
-<li>org-mode</li>
-<li>markdown</li>
-<li>s-exp code (?)</li>
-</ol>
+<p>
+org-mode all the way. Markdown is trash.
+</p>
 </div>
 </div>
-<div id="outline-container-org2f58ea5" class="outline-4">
-<h4 id="org2f58ea5"><span class="section-number-4">10.1.3</span> everything else</h4>
+<div id="outline-container-orgab2440a" class="outline-4">
+<h4 id="orgab2440a"><span class="section-number-4">10.1.3</span> everything else</h4>
 <div class="outline-text-4" id="text-10-1-3">
 <p>
-Microsoft Word
+Microsoft Word. Don’t fight the world by using LibreOffice, Pages, Google Drive, or whatever you think is acceptable.
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-org6388d29" class="outline-3">
-<h3 id="org6388d29"><span class="section-number-3">10.2</span> Presentation</h3>
+<div id="outline-container-org9cf9b50" class="outline-3">
+<h3 id="org9cf9b50"><span class="section-number-3">10.2</span> Presentation</h3>
 <div class="outline-text-3" id="text-10-2">
 <p>
 Apple Keynote
 </p>
 </div>
 </div>
-<div id="outline-container-org6e02188" class="outline-3">
-<h3 id="org6e02188"><span class="section-number-3">10.3</span> Spreadsheet</h3>
+<div id="outline-container-org96add7d" class="outline-3">
+<h3 id="org96add7d"><span class="section-number-3">10.3</span> Spreadsheet</h3>
 <div class="outline-text-3" id="text-10-3">
 <p>
 Microsoft Excel
 </p>
 </div>
 </div>
-<div id="outline-container-orge77ce62" class="outline-3">
-<h3 id="orge77ce62"><span class="section-number-3">10.4</span> Email client</h3>
+<div id="outline-container-org4dc1ff9" class="outline-3">
+<h3 id="org4dc1ff9"><span class="section-number-3">10.4</span> Email client</h3>
 <div class="outline-text-3" id="text-10-4">
 <p>
 Mozilla Thunderbird
 </p>
 </div>
 </div>
-<div id="outline-container-org534de62" class="outline-3">
-<h3 id="org534de62"><span class="section-number-3">10.5</span> On LibreOffice</h3>
+<div id="outline-container-org3d9fcf9" class="outline-3">
+<h3 id="org3d9fcf9"><span class="section-number-3">10.5</span> On LibreOffice</h3>
 <div class="outline-text-3" id="text-10-5">
 <p>
 LibreOffice is horribly bad. I guess it’s good that Linux users have <i>some</i> native office clients. It gets the job done—barely. But unless you’re Richard Stallman, just boot into Windows and use Microsoft Office and save your time.
@@ -1069,12 +1238,12 @@ LibreOffice is horribly bad. I guess it’s good that Linux users have <i>some</
 </div>
 </div>
 </div>
-<div id="outline-container-orgac82081" class="outline-2">
-<h2 id="orgac82081"><span class="section-number-2">11</span> Cryptocurrency</h2>
+<div id="outline-container-orgf6d00ab" class="outline-2">
+<h2 id="orgf6d00ab"><span class="section-number-2">11</span> Cryptocurrency</h2>
 <div class="outline-text-2" id="text-11">
 </div>
-<div id="outline-container-orgeb2b9d4" class="outline-3">
-<h3 id="orgeb2b9d4"><span class="section-number-3">11.1</span> Bitcoin ($XBT)</h3>
+<div id="outline-container-org2978c10" class="outline-3">
+<h3 id="org2978c10"><span class="section-number-3">11.1</span> Bitcoin ($XBT)</h3>
 <div class="outline-text-3" id="text-11-1">
 <ul class="org-ul">
 <li>First mover advantage</li>
@@ -1084,23 +1253,23 @@ LibreOffice is horribly bad. I guess it’s good that Linux users have <i>some</
 </ul>
 </div>
 </div>
-<div id="outline-container-org3942e9a" class="outline-3">
-<h3 id="org3942e9a"><span class="section-number-3">11.2</span> Monero ($XMR)</h3>
+<div id="outline-container-org85a87d0" class="outline-3">
+<h3 id="org85a87d0"><span class="section-number-3">11.2</span> Monero ($XMR)</h3>
 <div class="outline-text-3" id="text-11-2">
 <p>
 This is one of the best cryptocurrencies and probably the only one besides Bitcoin that will still be used in 20 years. Monero implements the ideal of cryptocurrency as an anonymous, fungible, censorship-resistant electronic cash.
 </p>
 </div>
 </div>
-<div id="outline-container-org350f296" class="outline-3">
-<h3 id="org350f296"><span class="section-number-3">11.3</span> Ethereum ($ETH)</h3>
+<div id="outline-container-orgfd1a6ac" class="outline-3">
+<h3 id="orgfd1a6ac"><span class="section-number-3">11.3</span> Ethereum ($ETH)</h3>
 <div class="outline-text-3" id="text-11-3">
 <p>
-Scam destined for failure. It’s based on this idealistic “world computer” meme that while interesting has no reason to involve currency at all except to be a cash grab. Smart contracts are a joke—I can much more easily implement “smart contracts” using fiat and traditional payment gateways than by using some decentralized mess.
+<a href="https://blog.bitmex.com/ether-a-double-digit-shitcoin/">Scam</a>. It’s based on this idealistic “world computer” meme that while interesting has no reason to involve currency at all except to be a cash grab. Smart contracts are a joke—I can much more easily implement “smart contracts” using fiat and traditional payment gateways than by using some decentralized mess.
 </p>
 </div>
-<div id="outline-container-orgc814c27" class="outline-4">
-<h4 id="orgc814c27"><span class="section-number-4">11.3.1</span> the JavaScript problem</h4>
+<div id="outline-container-orgfeaa7fe" class="outline-4">
+<h4 id="orgfeaa7fe"><span class="section-number-4">11.3.1</span> the JavaScript problem</h4>
 <div class="outline-text-4" id="text-11-3-1">
 <p>
 The idea of smart contracts is to have programs running on a P2P network that decide to spend a certain amount of Ethereum tokens. Problems:
@@ -1117,8 +1286,8 @@ When someone tells you they want to manage everyone’s <i>money</i> using <i>Ja
 </p>
 </div>
 </div>
-<div id="outline-container-orgcbef061" class="outline-4">
-<h4 id="orgcbef061"><span class="section-number-4">11.3.2</span> the “smart contracts” problem</h4>
+<div id="outline-container-org513ab6f" class="outline-4">
+<h4 id="org513ab6f"><span class="section-number-4">11.3.2</span> the “smart contracts” problem</h4>
 <div class="outline-text-4" id="text-11-3-2">
 <p>
 We don’t <i>need</i> Ethereum to create the utility of a smart contract. Ethereum advocates argue that it would be used to validate transactions in exchange for X without a third party. Suppose a vending machine executes a smart contract with you that only spends your Ethereum once it has dispensed your snack. Or suppose a driverless Uber only charges you once you have been dropped off. Or suppose Alice only pays Bob once Bob has paid Paul (note: this is the only scenario currently possible on Ethereum because the only information the smart contract has is the blockchain/transaction history).
@@ -1148,8 +1317,8 @@ If people have a choice between some business practice that can potentially lose
 </p>
 </div>
 </div>
-<div id="outline-container-org473b52d" class="outline-4">
-<h4 id="org473b52d"><span class="section-number-4">11.3.3</span> decentralized apps “dApps”</h4>
+<div id="outline-container-orgbf6764e" class="outline-4">
+<h4 id="orgbf6764e"><span class="section-number-4">11.3.3</span> decentralized apps “dApps”</h4>
 <div class="outline-text-4" id="text-11-3-3">
 <p>
 This is part of the “world computer” meme. Ethereum wants to create decentralized programs running on the Ethereum P2P network. The only successful example of this is <a href="https://en.wikipedia.org/wiki/CryptoKitties">a video game about cats</a> that crashed the network (because who would have guessed…a bunch of users running a program on everyone’s computers has n×m complexity and is super inefficient).
@@ -1168,13 +1337,21 @@ If a rational human has a choice between paying for running software and an alte
 </p>
 </div>
 </div>
-<div id="outline-container-org6736407" class="outline-4">
-<h4 id="org6736407"><span class="section-number-4">11.3.4</span> scam ICOs</h4>
+<div id="outline-container-org624bc15" class="outline-4">
+<h4 id="org624bc15"><span class="section-number-4">11.3.4</span> scam ICOs</h4>
 <div class="outline-text-4" id="text-11-3-4">
 <p>
 I have a lot of respect for the creator of Ethereum. I think he had good intentions for the project, but unfortunately, the community seems to have been taken over by scammers looking to exploit the public’s greed for quick cash grabs (ICOs). The SEC explains <a href="https://www.sec.gov/ICO">the scam that is ICOs</a> better than I could.
 </p>
 </div>
+</div>
+</div>
+<div id="outline-container-org7e8e062" class="outline-3">
+<h3 id="org7e8e062"><span class="section-number-3">11.4</span> Grin/MimbleWimble</h3>
+<div class="outline-text-3" id="text-11-4">
+<p>
+Very promising technology in its infancy. It’s staunchly not a scam cash grab like nearly every other alt coin. It was designed to be used as trustless and anonymous cash. Since it has permanent inflation, it is unlikely to ever inspire a Ponzian sentiment and attract hoarders who would drive up the price. It’s most likely going to go to zero, and that’s a shame.
+</p>
 </div>
 </div>
 </div>
