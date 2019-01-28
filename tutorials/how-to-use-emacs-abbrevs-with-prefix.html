@@ -11,7 +11,7 @@
 
   <title>
     
-      Resources & Training Material &middot; Zelly Snyder
+      How to Use Emacs Abbrevs With a Prefix Symbol &middot; Zelly Snyder
     
   </title>
 
@@ -57,7 +57,7 @@
       
         
           
-            <a class="sidebar-nav-item" href="/about/">About</a>
+            <a class="sidebar-nav-item" href="/about">About</a>
           
         
       
@@ -73,10 +73,6 @@
       
         
           
-        
-      
-        
-      
         
       
 
@@ -103,12 +99,15 @@
 
 
     <div class="content container">
-      <?xml version="1.0" encoding="utf-8"?>
+      <div class="post">
+  <h1 class="post-title">How to Use Emacs Abbrevs With a Prefix Symbol</h1>
+  <span class="post-date">27 Jan 2019</span>
+  <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-01-19 Sat 21:04 -->
+<!-- 2019-01-27 Sun 21:52 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -346,157 +345,125 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<div id="outline-container-orga38cdd9" class="outline-2">
-<h2 id="orga38cdd9"><span class="section-number-2">1</span> What’s this?</h2>
+<div id="outline-container-org1481b5f" class="outline-2">
+<h2 id="org1481b5f"><span class="section-number-2">1</span> Abbrevs in Emacs and its limited namespace problem</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-A curated collection of documents that I found useful over time for studying programming.
-</p>
-</div>
-</div>
-<div id="outline-container-orgcd52a49" class="outline-2">
-<h2 id="orgcd52a49"><span class="section-number-2">2</span> General approaches to finding resources</h2>
-<div class="outline-text-2" id="text-2">
-</div>
-<div id="outline-container-org92a51d9" class="outline-3">
-<h3 id="org92a51d9"><span class="section-number-3">2.1</span> Don’t ever buy physical books.</h3>
-<div class="outline-text-3" id="text-2-1">
-<p>
-Especially for programming material, everything is on the internet. Even <a href="https://libgen.io">books</a>. Even <a href="https://sci-hub.tw">paywalled research papers</a>. For software, focus on using the authors’ documentation as your first resource.
-</p>
-</div>
-</div>
-<div id="outline-container-org66cc112" class="outline-3">
-<h3 id="org66cc112"><span class="section-number-3">2.2</span> Stack Overflow Driven Development</h3>
-<div class="outline-text-3" id="text-2-2">
-<p>
-There is no shame in Stack Overflowing all the time. The shame is in searching twice on Stack Overflow for the same problem. You need to remember the solution to the problem. Pay attention.
-</p>
-</div>
-</div>
-<div id="outline-container-org9325aa0" class="outline-3">
-<h3 id="org9325aa0"><span class="section-number-3">2.3</span> Use manpages.</h3>
-</div>
-</div>
-<div id="outline-container-org3fc3fae" class="outline-2">
-<h2 id="org3fc3fae"><span class="section-number-2">3</span> Programming Languages</h2>
-<div class="outline-text-2" id="text-3">
-</div>
-<div id="outline-container-orgda177c6" class="outline-3">
-<h3 id="orgda177c6"><span class="section-number-3">3.1</span> Ruby</h3>
-<div class="outline-text-3" id="text-3-1">
-<p>
-<a href="https://ruby-doc.org">official Ruby docs</a>
-</p>
-</div>
-</div>
-<div id="outline-container-org33eae16" class="outline-3">
-<h3 id="org33eae16"><span class="section-number-3">3.2</span> Common Lisp</h3>
-<div class="outline-text-3" id="text-3-2">
-</div>
-<div id="outline-container-org5d27755" class="outline-4">
-<h4 id="org5d27755"><span class="section-number-4">3.2.1</span> books</h4>
-<div class="outline-text-4" id="text-3-2-1">
-<ul class="org-ul">
-<li>Peter Siebel - <a href="http://www.gigamonkeys.com/book/"><i>Practical Common Lisp</i></a> (fulltext) (2005)</li>
-<li>Paul Graham - <a href="http://www.paulgraham.com/onlisptext.html"><i>On Lisp</i></a> (fulltext) (1993)</li>
-<li>Doug Hoyte - <a href="https://letoverlambda.com/"><i>Let Over Lambda</i></a> (2008)</li>
-<li>Paul Graham - <a href="http://www.paulgraham.com/acl.html"><i>ANSI Common Lisp</i></a> (1995)</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-org892d6cc" class="outline-4">
-<h4 id="org892d6cc"><span class="section-number-4">3.2.2</span> standard</h4>
-<div class="outline-text-4" id="text-3-2-2">
-<p>
-<a href="http://www.lispworks.com/documentation/HyperSpec/Front/">Common Lisp Hyperspec</a>
-</p>
-</div>
-</div>
-</div>
-<div id="outline-container-org259f6c1" class="outline-3">
-<h3 id="org259f6c1"><span class="section-number-3">3.3</span> Python</h3>
-<div class="outline-text-3" id="text-3-3">
-<p>
-<a href="https://docs.python.org/3/">official Python docs</a>
-</p>
-</div>
-</div>
-<div id="outline-container-org9351d41" class="outline-3">
-<h3 id="org9351d41"><span class="section-number-3">3.4</span> C++</h3>
-<div class="outline-text-3" id="text-3-4">
-</div>
-<div id="outline-container-org57eb7f1" class="outline-4">
-<h4 id="org57eb7f1"><span class="section-number-4">3.4.1</span> books</h4>
-<div class="outline-text-4" id="text-3-4-1">
-<ul class="org-ul">
-<li>Bjarne Stroustrup - <a href="https://isocpp.org/tour"><i>A Tour of C++</i></a> (2017)</li>
-<li>Scott Myers - <i>Effective Modern C++</i></li>
-</ul>
-</div>
-</div>
-<div id="outline-container-org0525b31" class="outline-4">
-<h4 id="org0525b31"><span class="section-number-4">3.4.2</span> documentation</h4>
-<div class="outline-text-4" id="text-3-4-2">
-<p>
-<a href="https://en.cppreference.com/w/">cppreference.com</a>
-</p>
-</div>
-</div>
-<div id="outline-container-orgbbdbc1e" class="outline-4">
-<h4 id="orgbbdbc1e"><span class="section-number-4">3.4.3</span> standard</h4>
-<div class="outline-text-4" id="text-3-4-3">
-<p>
-The C++ standard is the most authoritative reference for C++. It is very difficult to read; you are probably better off relying on <a href="https://en.cppreference.com/w/">cppreference.com</a> unless you want to be a C++ expert or contribute to compilers. It is good to keep on your hard drive as a reference, though, like a lawyer keeps bookshelves of legal cases that he or she may not necessarily ever read.
+<a href="https://www.gnu.org/software/emacs/manual/html_node/elisp/Abbrevs.html">Abbrevs</a> in Emacs are tables of expansions of short words to arbitrary longer strings. This is commonly called a “text replacement” in other editors. The canonical example of an abbrev/text replacement is “omw” → “on my way”. Of course you could make more sophisticated abbrevs&#x2014;e.g., replace a few letters with lines of <code>#include &lt;stdio.h&gt;</code> type boilerplate.
 </p>
 
 <p>
-The ISO C++ Committee charges you hundreds of dollars for official releases of the standard. The <a href="https://wg21.link/std">current working draft of the standard</a> is available for free though.
+A limitation I encountered with this was how easily my abbrevs could clash with normal text. Since abbrevs can only be alphanumeric, and you can’t put punctuation in the abbrev, the number of abbrevs you can have is limited to just character combinations like “zbt”, “dfje”, &#x2026;, that don’t clash with words you might actually write. You can easily run out. You also can’t have a convenient single character expand to your text macro: “b” → “&lt;b&gt;&lt;/b&gt;” would be impossible.
 </p>
 </div>
 </div>
-</div>
-<div id="outline-container-org91d06ea" class="outline-3">
-<h3 id="org91d06ea"><span class="section-number-3">3.5</span> Golang</h3>
-<div class="outline-text-3" id="text-3-5">
-</div>
-<div id="outline-container-org477cc3a" class="outline-4">
-<h4 id="org477cc3a"><span class="section-number-4">3.5.1</span> standard</h4>
-<div class="outline-text-4" id="text-3-5-1">
+<div id="outline-container-orgb2db593" class="outline-2">
+<h2 id="orgb2db593"><span class="section-number-2">2</span> More possibilities with prefixed abbrevs</h2>
+<div class="outline-text-2" id="text-2">
 <p>
-<a href="https://golang.org/ref/spec">Go language specification</a>
+The solution was to hack abbrevs to be namespaced under a prefix symbol. I like using “$”, so I could use something like “$ps” → “public static ” whereas typing “ps” wouldn’t trigger the expansion since it is not preceded by my prefix character.
 </p>
-</div>
-</div>
-<div id="outline-container-org7084c70" class="outline-4">
-<h4 id="org7084c70"><span class="section-number-4">3.5.2</span> best practices</h4>
-<div class="outline-text-4" id="text-3-5-2">
+
 <p>
-<a href="https://golang.org/doc/effective_go.html">Effective Go</a>
+Here’s the macro:
 </p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(<span style="font-weight: bold;">defmacro</span> <span style="font-weight: bold;">make-prefixed-abbrev-table</span> (prefix-char abbrev-spec)
+  <span style="font-style: italic;">"Creates and loads an abbrev-table with abbrevs prefixed by a PREFIX-CHAR. The abbrev table is loaded into local buffer scope.</span>
+
+<span style="font-style: italic;">RETURNS the new abbrev table.</span>
+
+<span style="font-style: italic;">Abbrev tables by themselves can only match plain words, like 'abc'. With this macro, you can prefix words with a special character, like '$', so that 'abc' would only expand to its expansion if you wrote '$abc'. This makes it harder to unintentionally write an abbrev because the prefix character makes it unlikely.</span>
+<span style="font-style: italic;">(defmacro make-prefixed-abbrev-table (prefix-char abbrev-spec)</span>
+<span style="font-style: italic;">  "</span>Creates and loads an abbrev-table with abbrevs prefixed by a PREFIX-CHAR. The abbrev table is loaded into local buffer scope.
+
+RETURNS the new abbrev table.
+
+Abbrev tables by themselves can only match plain words, like 'abc'. With this macro, you can prefix words with a special character, like '$', so that 'abc' would only expand to its expansion if you wrote '$abc'. This makes it harder to unintentionally write an abbrev because the prefix character makes it unlikely.
+
+Example:
+
+(make-prefixed-abbrev-table ?$ '((\"epsilon\" \"&#949;\")))
+
+Then when you're writing:
+
+$epsilon &#8594; &#949;<span style="font-style: italic;">"</span>
+<span style="font-style: italic;">  (assert (and (char-or-string-p prefix-char)</span>
+<span style="font-style: italic;">               (or (not (sequencep prefix-char))</span>
+<span style="font-style: italic;">                   (= 1 (length prefix-char))))</span>
+<span style="font-style: italic;">          t</span>
+<span style="font-style: italic;">          "</span>PREFIX-CHAR must either be a character or a string one character long<span style="font-style: italic;">")</span>
+<span style="font-style: italic;">  `(prog1 (define-abbrev-table 'local-abbrev-table</span>
+<span style="font-style: italic;">            ,abbrev-spec</span>
+<span style="font-style: italic;">            :case-fixed t</span>
+<span style="font-style: italic;">            :regexp ,(concat "</span>\\<span style="font-style: italic;">" (char-to-string prefix-char) "</span>\\([a-zA-Z0-9]+\\)<span style="font-style: italic;">")</span>
+<span style="font-style: italic;">            )</span>
+<span style="font-style: italic;">     (add-function :around (local 'abbrev-expand-function)</span>
+<span style="font-style: italic;">                   #'(lambda (expand-fn)</span>
+<span style="font-style: italic;">                       (let ((prev-point (save-excursion</span>
+<span style="font-style: italic;">                                           (backward-word-strictly)</span>
+<span style="font-style: italic;">                                           (point))))</span>
+<span style="font-style: italic;">                         (when (funcall expand-fn)</span>
+<span style="font-style: italic;">                           (save-excursion</span>
+<span style="font-style: italic;">                             (goto-char prev-point)</span>
+<span style="font-style: italic;">                             (delete-char 1))))))))</span>
+</pre>
 </div>
-</div>
-</div>
-</div>
-<div id="outline-container-org5233414" class="outline-2">
-<h2 id="org5233414"><span class="section-number-2">4</span> Tools</h2>
-<div class="outline-text-2" id="text-4">
-</div>
-<div id="outline-container-org946f856" class="outline-3">
-<h3 id="org946f856"><span class="section-number-3">4.1</span> git</h3>
-<div class="outline-text-3" id="text-4-1">
+
 <p>
-The <a href="https://git-scm.com/book/"><i>Pro Git</i></a> book is the standard resource. It was very helpful, but there is so much to git that you really have to learn by doing and diving into the man pages as your issues arise.
+Usage:
 </p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(<span style="font-weight: bold;">defun</span> <span style="font-weight: bold;">activate-my-writing-abbrevs</span> ()
+  (<span style="font-weight: bold;">interactive</span>)
+  (make-prefixed-abbrev-table ?$ <span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">use $ as prefix symbol</span>
+                              '(
+                                (<span style="font-style: italic;">"beta"</span> <span style="font-style: italic;">"&#946;"</span>)
+                                (<span style="font-style: italic;">"alpha"</span> <span style="font-style: italic;">"&#945;"</span>)
+                                (<span style="font-style: italic;">"Alpha"</span> <span style="font-style: italic;">"&#913;"</span>)
+                                (<span style="font-style: italic;">"crylaugh"</span> <span style="font-style: italic;">"&#128514;"</span>)
+                                (<span style="font-style: italic;">"rofl"</span> <span style="font-style: italic;">"&#129315;"</span>)
+                                )))
+</pre>
 </div>
-</div>
-<div id="outline-container-org4c2695e" class="outline-3">
-<h3 id="org4c2695e"><span class="section-number-3">4.2</span> <span class="todo TODO">TODO</span> Docker</h3>
+
+<p>
+When editing your file, <code>M-x activate-my-writing-abbrevs</code> to see it in action.
+</p>
 </div>
 </div>
 </div>
 </body>
 </html>
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/bikeshedding/snake-case-is-better-than-camelcase">
+            snake_case is better than CamelCase
+            <small>19 Jan 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/software/how-to-set-key-repeat-rate-and-delay-on-windows-10">
+            How to set key repeat delay and rate very high on Windows 10 without limitations
+            <small>19 Jan 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
     </div>
 
   </body>

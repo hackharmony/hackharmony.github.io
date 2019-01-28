@@ -11,7 +11,7 @@
 
   <title>
     
-      X86 Assembly &middot; Zelly Snyder
+      How to set key repeat delay and rate very high on Windows 10 without limitations &middot; Zelly Snyder
     
   </title>
 
@@ -57,7 +57,7 @@
       
         
           
-            <a class="sidebar-nav-item" href="/about/">About</a>
+            <a class="sidebar-nav-item" href="/about">About</a>
           
         
       
@@ -73,10 +73,6 @@
       
         
           
-        
-      
-        
-      
         
       
 
@@ -104,14 +100,14 @@
 
     <div class="content container">
       <div class="post">
-  <h1 class="post-title">X86 Assembly</h1>
-  <span class="post-date">12 Jan 2019</span>
+  <h1 class="post-title">How to set key repeat delay and rate very high on Windows 10 without limitations</h1>
+  <span class="post-date">19 Jan 2019</span>
   <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-01-19 Sat 21:04 -->
+<!-- 2019-01-27 Sun 21:52 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -349,21 +345,83 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<div id="outline-container-orgb7907dc" class="outline-2">
-<h2 id="orgb7907dc"><span class="section-number-2">1</span> Why learn Assembly (ASM)?</h2>
+<div id="outline-container-org478dea4" class="outline-2">
+<h2 id="org478dea4"><span class="section-number-2">1</span> Problem</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-You will always be a pretend-programmer unless you understand how the machine actually works. Knowing how to <del>write and</del> read assembly is an amazing benefit to any programmer writing code for native platforms (e.g., C/C++, Rust, Swift, Golang). Being able to mentally parse disassembly lets you judge what your code is actually doing on the bare metal; great for judging the overhead of your algorithms or figuring out what some obscure, undocumented API call is actually doing. Knowing ASM also gives you a superpower—you can debug, manipulate, crack, or hack anybody’s program, whether or not they gave you the high level source for it. The latter is probably the most attractive motivation for learning assembly and is the reason I got into it.
+You can’t set the key repeat rate beyond a certain amount in the Windows 10 Control Panel. There are some recommendations to change some registry settings, but even that doesn’t work; it only changes the setting in the Control Panel that you could change anyway.
+</p>
+
+<p>
+I like keys repeating very quickly because it allows quick navigation in text files. GNU/Linux desktop environments already let you choose any repeat rate you want. On Windows I wanted this too, so here’s how you can do that.
 </p>
 </div>
-<div id="outline-container-orgd516391" class="outline-3">
-<h3 id="orgd516391"><span class="section-number-3">1.1</span> Reverse engineering</h3>
 </div>
-<div id="outline-container-org51ee004" class="outline-3">
-<h3 id="org51ee004"><span class="section-number-3">1.2</span> Debugging your own programs</h3>
-</div>
-<div id="outline-container-orgb8257bc" class="outline-3">
-<h3 id="orgb8257bc"><span class="section-number-3">1.3</span> Embedded systems</h3>
+<div id="outline-container-org62a1196" class="outline-2">
+<h2 id="org62a1196"><span class="section-number-2">2</span> Solution</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+This is the only way to change the keyboard repeat settings beyond what you are allowed to change it to in the Control Panel. You need to compile and run this C++ code.
+</p>
+
+<p>
+Use Visual Studio for the smoothest experience. Then execute the binary from command line like this: <code>name_of_your_binary &lt;delay ms&gt; &lt;repeat ms&gt;</code>.
+</p>
+
+<pre class="example">
+#include &lt;windows.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;stdio.h&gt;
+
+BOOL parseDword(const char* in, DWORD* out)
+{
+  char* end;
+  long result = strtol(in, &amp;end, 10);
+  BOOL success = (errno == 0 &amp;&amp; end != in);
+  if (success)
+	{
+      *out = result;
+	}
+  return success;
+}
+
+int main(int argc, char* argv[])
+{
+  FILTERKEYS keys { sizeof(FILTERKEYS) };
+
+  if (argc == 3
+      &amp;&amp; parseDword(argv[1], &amp;keys.iDelayMSec)
+      &amp;&amp; parseDword(argv[2], &amp;keys.iRepeatMSec))
+	{
+      printf("Setting keyrate: delay: %d, rate: %d\n", (int)keys.iDelayMSec, (int)keys.iRepeatMSec);
+      keys.dwFlags = FKF_FILTERKEYSON | FKF_AVAILABLE;
+	}
+  else if (argc == 1)
+	{
+      puts("No parameters given, so displaying the current value of the key rate delay and speed settings:");
+      if (!SystemParametersInfo(SPI_GETFILTERKEYS, sizeof(FILTERKEYS), (LPVOID)&amp;keys, 0)) {
+	fprintf(stderr, "System call ``SystemParametersInfo(SPI_GETFILTERKEYS, …)'' failed.");
+	return 2;l
+      }
+      printf("delay: %d, rate: %d\n", static_cast&lt;int&gt;(keys.iDelayMSec), static_cast&lt;int&gt;(keys.iRepeatMSec));
+      puts("Usage: keyrate &lt;delay ms&gt; &lt;repeat ms&gt;\nCall with no parameters to show the current setting.");
+      return 0;
+	}
+  else
+	{
+      puts("Usage: keyrate &lt;delay ms&gt; &lt;repeat ms&gt;\nCall with no parameters to show the current setting.\n\nN.B.: I recommend the settings delay=200 and repeat=6");
+      return 0;
+	}
+
+  if (!SystemParametersInfo(SPI_SETFILTERKEYS, sizeof(FILTERKEYS), (LPVOID)&amp;keys, 0))
+	{
+      fprintf(stderr, "System call failed.\nUnable to set keyrate.");
+	}
+  printf("delay: %d, rate: %d\n", (int)keys.iDelayMSec, (int)keys.iRepeatMSec);
+
+  return 0;
+}
+</pre>
 </div>
 </div>
 </div>
@@ -377,17 +435,17 @@ You will always be a pretend-programmer unless you understand how the machine ac
     
       <li>
         <h3>
-          <a href="/bikeshedding/2019/01/19/snake_case_is_better_than_camelCase/">
-            snake_case is better than CamelCase
-            <small>19 Jan 2019</small>
+          <a href="/tutorials/how-to-use-emacs-abbrevs-with-prefix">
+            How to Use Emacs Abbrevs With a Prefix Symbol
+            <small>27 Jan 2019</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/software/2019/01/19/how-to-set-key-repeat-rate-and-delay-on-windows-10/">
-            How to set key repeat delay and rate very high on Windows 10 without limitations
+          <a href="/bikeshedding/snake-case-is-better-than-camelcase">
+            snake_case is better than CamelCase
             <small>19 Jan 2019</small>
           </a>
         </h3>
