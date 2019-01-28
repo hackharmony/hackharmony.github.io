@@ -83,14 +83,9 @@
               Software Guides
             </a>
             <a class="sidebar-nav-item"
-               href="/tutorials/">
+               href="/tutorials">
               Programming Tutorials
             </a>
-            <a class="sidebar-nav-item"
-               href="/futurism/">
-              Future Predictions
-            </a>
-      <span class="sidebar-nav-item">Currently v0.0.1</span>
     </nav>
 
     <p>&copy; 2019. All rights reserved.</p>
@@ -115,7 +110,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-01-27 Sun 21:52 -->
+<!-- 2019-01-27 Sun 21:59 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -353,8 +348,8 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<div id="outline-container-org1481b5f" class="outline-2">
-<h2 id="org1481b5f"><span class="section-number-2">1</span> Abbrevs in Emacs and its limited namespace problem</h2>
+<div id="outline-container-org945d0f4" class="outline-2">
+<h2 id="org945d0f4"><span class="section-number-2">1</span> Abbrevs in Emacs and its limited namespace problem</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 <a href="https://www.gnu.org/software/emacs/manual/html_node/elisp/Abbrevs.html">Abbrevs</a> in Emacs are tables of expansions of short words to arbitrary longer strings. This is commonly called a “text replacement” in other editors. The canonical example of an abbrev/text replacement is “omw” → “on my way”. Of course you could make more sophisticated abbrevs&#x2014;e.g., replace a few letters with lines of <code>#include &lt;stdio.h&gt;</code> type boilerplate.
@@ -365,8 +360,8 @@ A limitation I encountered with this was how easily my abbrevs could clash with 
 </p>
 </div>
 </div>
-<div id="outline-container-orgb2db593" class="outline-2">
-<h2 id="orgb2db593"><span class="section-number-2">2</span> More possibilities with prefixed abbrevs</h2>
+<div id="outline-container-org0851cc4" class="outline-2">
+<h2 id="org0851cc4"><span class="section-number-2">2</span> More possibilities with prefixed abbrevs</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 The solution was to hack abbrevs to be namespaced under a prefix symbol. I like using “$”, so I could use something like “$ps” → “public static ” whereas typing “ps” wouldn’t trigger the expansion since it is not preceded by my prefix character.
@@ -461,7 +456,7 @@ When editing your file, <code>M-x activate-my-writing-abbrevs</code> to see it i
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-01-27 Sun 21:52 -->
+<!-- 2019-01-27 Sun 21:59 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -699,8 +694,8 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<div id="outline-container-org5db2470" class="outline-2">
-<h2 id="org5db2470"><span class="section-number-2">1</span> To underscore or not to underscore?</h2>
+<div id="outline-container-org97e5bac" class="outline-2">
+<h2 id="org97e5bac"><span class="section-number-2">1</span> To underscore or not to underscore?</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 I don’t get why underscoring isn’t the <i>de facto</i> standard everywhere by now. It’s much easier to read. The underscore can be much more easily parsed by your mind as a separator. With objectOrientedEnterpriseAbstractFactoryCase, you have to intuit each token “manually,” relying on capitalization to separate words. I think that’s horrible.
@@ -711,8 +706,8 @@ This post is about all the reasons you should stop using camel case and why you 
 </p>
 </div>
 </div>
-<div id="outline-container-orgfc3118c" class="outline-2">
-<h2 id="orgfc3118c"><span class="section-number-2">2</span> Proven to be more readable</h2>
+<div id="outline-container-orga0fb61e" class="outline-2">
+<h2 id="orga0fb61e"><span class="section-number-2">2</span> Proven to be more readable</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 Empirical testing for the win. <a href="https://ieeexplore.ieee.org/document/5521745">snake case is more readable</a>. Time is money. Code is read 1000x more human-hours than it is written. Therefore the goal of naming conventions should be readability.
@@ -729,8 +724,8 @@ This shouldn’t come to any surprise since the underscore is so visually simila
 </p>
 </div>
 </div>
-<div id="outline-container-org5187333" class="outline-2">
-<h2 id="org5187333"><span class="section-number-2">3</span> CamelCase forces you to deform natural language</h2>
+<div id="outline-container-orgd763906" class="outline-2">
+<h2 id="orgd763906"><span class="section-number-2">3</span> CamelCase forces you to deform natural language</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 For example, the standard that the first word must be lowercase for Java member functions/variables…well what if that first word is semantically correct as uppercase?
@@ -749,8 +744,8 @@ Overloading capitalization is a bad idea.
 </p>
 </div>
 </div>
-<div id="outline-container-orgdf86427" class="outline-2">
-<h2 id="orgdf86427"><span class="section-number-2">4</span> If typing an underscore is so hard for you, make it easy</h2>
+<div id="outline-container-org5268259" class="outline-2">
+<h2 id="org5268259"><span class="section-number-2">4</span> If typing an underscore is so hard for you, make it easy</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 I suspect a lot of the reason for camelCase is how easy it is to write capital letters compared to reaching for the underscore. Everyone already has a keen muscle memory for capitalization. For the average person, underscores are not often typed over and over.
@@ -789,16 +784,16 @@ or put this in your <code>~/.Xmodmap</code>:
 </div>
 </div>
 </div>
-<div id="outline-container-orga6b266f" class="outline-2">
-<h2 id="orga6b266f"><span class="section-number-2">5</span> Capitalization doesn’t mean anything in many world languages</h2>
+<div id="outline-container-org05ecffb" class="outline-2">
+<h2 id="org05ecffb"><span class="section-number-2">5</span> Capitalization doesn’t mean anything in many world languages</h2>
 <div class="outline-text-2" id="text-5">
 <p>
 It’s just English and other Indo-European languages that have this concept.
 </p>
 </div>
 </div>
-<div id="outline-container-org419f59e" class="outline-2">
-<h2 id="org419f59e"><span class="section-number-2">6</span> Looking beyond underscores&#x2014;ideal naming convention for identifiers</h2>
+<div id="outline-container-org5351333" class="outline-2">
+<h2 id="org5351333"><span class="section-number-2">6</span> Looking beyond underscores&#x2014;ideal naming convention for identifiers</h2>
 <div class="outline-text-2" id="text-6">
 <p>
 It has been said tongue-in-cheek that one of the biggest unsolved problems in programming is naming things. There’s a lot of truth to that, but I’d extend that to <i>how</i> those names are displayed as well. <code>Snake_case</code> is a good step in the right direction; underscores being indistinguishable from spaces on a cursory visual scan.
@@ -836,7 +831,7 @@ A better compromise that can be easily implemented is having delimiters around v
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-01-27 Sun 21:52 -->
+<!-- 2019-01-27 Sun 21:59 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -1074,8 +1069,8 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<div id="outline-container-org478dea4" class="outline-2">
-<h2 id="org478dea4"><span class="section-number-2">1</span> Problem</h2>
+<div id="outline-container-org39e6104" class="outline-2">
+<h2 id="org39e6104"><span class="section-number-2">1</span> Problem</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 You can’t set the key repeat rate beyond a certain amount in the Windows 10 Control Panel. There are some recommendations to change some registry settings, but even that doesn’t work; it only changes the setting in the Control Panel that you could change anyway.
@@ -1086,8 +1081,8 @@ I like keys repeating very quickly because it allows quick navigation in text fi
 </p>
 </div>
 </div>
-<div id="outline-container-org62a1196" class="outline-2">
-<h2 id="org62a1196"><span class="section-number-2">2</span> Solution</h2>
+<div id="outline-container-org19ea819" class="outline-2">
+<h2 id="org19ea819"><span class="section-number-2">2</span> Solution</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 This is the only way to change the keyboard repeat settings beyond what you are allowed to change it to in the Control Panel. You need to compile and run this C++ code.
