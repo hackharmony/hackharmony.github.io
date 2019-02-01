@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      How to install Apple macOS on Windows or Linux in a virtual machine &middot; Zelly Snyder
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="/public/charter_font/stylesheet.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-08">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Zelly Snyder
+        </a>
+      </h1>
+      <p class="lead">programming, software reviews, finance, health</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about">About</a>
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+
+            <a class="sidebar-nav-item" href="/categories">
+              Posts by topic
+            </a>
+            <a class="sidebar-nav-item" href="/software">
+              Software Guides
+            </a>
+            <a class="sidebar-nav-item"
+               href="/tutorials">
+              Programming Tutorials
+            </a>
+    </nav>
+
+    <p>&copy; 2019. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">How to install Apple macOS on Windows or Linux in a virtual machine</h1>
+  <span class="post-date">01 Feb 2019</span>
+  <p>I can only guarantee this working as of the time that this was posted. It&#39;s a complete hack, but it works. I also was able to do the same thing on GNU/Linux (Ubuntu 18.04) with the exact same method.</p>
+
+<p>The biggest downside is that there is <em>no</em> way to get macOS on VMWare (or Virtualbox) to use multiple monitors.</p>
+
+<p>This can be done without having to trust any sketchy, malware-laden torrents. You can use a genuine macOS image from Apple and a genuine VMWare Player.</p>
+
+<h1>1. Download genuine MacOS from the App Store on a real Mac</h1>
+
+<p>Acquire access to a genuine Mac temporarily.</p>
+
+<p>Go in the App Store, search for &quot;MacOS&quot;, and hit download. It will save to &quot;/Applications/Install macOS High Sierra.app&quot;. The installer will automatically open as if you are updating the computer you&#39;re using--just ⌘Q out of it.</p>
+
+<p>Caveat: I tried to do this step in my VM install of macOS, and was only able to get a ~17MB &quot;Install macOS High Sierra.app&quot; from the App Store. It probably was because there was very little space left on the drive, so make sure the Mac you&#39;re using has at least 10GB of free storage space. The image from the App Store for High Sierra is close to 6GB.</p>
+
+<h1>2. Create a bootable ISO on the Mac</h1>
+
+<p>Follow <a href="http://archive.is/Mqr8I">Step 1 of these instructions from HowToGeek</a>. If you&#39;re reading this in the future, and using a future version of macOS, be sure to change &quot;/Applications/Install\ macOS\ High\ Sierra.app&quot; to the actual path of your new installation. (Don&#39;t just blindly copy and paste the terminal commands here.)</p>
+
+<p>You can&#39;t do this on Linux or Windows. Making the bootable ISO depends on some proprietary tools from Apple that come with the OS. If you don&#39;t have <code>hdiutil</code> or <code>asr</code> on the Mac you&#39;re using, make sure to install XCode Command Line Tools from the App Store.</p>
+
+<p>If you want to skip steps 1 and 2 here, you can just <a href="https://drive.google.com/open?id=1BFmaCqMN2ur9ZQumw3EXbsYPyky5h73l">download the High Sierra image I made</a>. (I would prefer you actually go through the work above, though, rather than trusting binaries from random blogs.)</p>
+
+<h1>3. On Windows (or Linux), install VMWare Player</h1>
+
+<p><a href="https://www.vmware.com/products/workstation-player.html">It&#39;s free (as in beer)</a> for personal, non-commercial use. The one I used was the current version at the time of writing, VMWare Workstation Player 14.</p>
+
+<h1>4. Install the VMWare unlocker hack</h1>
+
+<p>It&#39;s <a href="https://github.com/DrDonk/unlocker">on Github and open source</a>. Normally VMWare won&#39;t run macOS on non-Apple devices, as that violates Apple&#39;s EULA. Follow the instructions on there. This also installs the Guest Additions so that you can open macOS at full screen resolutions.</p>
+
+<p>Without this hack, none of this would work.</p>
+
+<h1>5. Go through the tedious steps of configuring the VM</h1>
+
+<p><img src="https://i.imgur.com/Z6YsUqh.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/8Hd1uU5.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/ogYT2oV.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/ogYT2oV.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/mT1jFMF.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/as4YMpX.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/kKXtMFt.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/K0z8DOB.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/qQZQ4JY.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/5gevmp1.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/GSKJxcl.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/nhYbZHs.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/GRoslDI.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/A5J3U4D.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/9ZgQLQd.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/egVdBfS.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/7eKbeuU.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/Q4yjEQJ.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/09o3q8Y.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/xvROSla.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/l4PikGT.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/lFrrURe.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/riDn1Ec.jpg" alt=""></p>
+
+<p><img src="https://i.imgur.com/9UbIgDh.jpg" alt=""></p>
+
+<p>You can handle it from there.</p>
+
+<p>If the display resolution refuses to change to your actual high resolution, try:</p>
+
+<p><code>$ sudo defaults delete /Library/Preferences/com.apple.windowserver.plist DisplayResolutionEnabled</code></p>
+
+<p>and restart the VM. The HiDPI setting will be gone.</p>
+
+<h1>6. You&#39;re in! You&#39;re officially in macOS! 🎉🎉🎉🙌</h1>
+
+<p>You can do pretty much anything you could do on a genuine Mac…well, except some animations will cause the VM to crash because VMWare has a hard limit on the video memory you can allocate to it. Just disable all the fancy animations and don&#39;t play videos in your VM. This isn&#39;t a good idea for regular computing usage---Windows or Linux are much smoother. You should only do this for things that absolutely require macOS, like running XCode for example.</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/tutorials/how-to-use-emacs-abbrevs-with-prefix">
+            How to Use Emacs Abbrevs With a Prefix Symbol
+            <small>27 Jan 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/bikeshedding/snake-case-is-better-than-camelcase">
+            snake_case is better than CamelCase
+            <small>19 Jan 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/software/how-to-set-key-repeat-rate-and-delay-on-windows-10">
+            How to set key repeat delay and rate very high on Windows 10 without limitations
+            <small>19 Jan 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Zelly Snyder</title>
- <link href="https://blog.zellysnyder.com/atom.xml" rel="self"/>
- <link href="https://blog.zellysnyder.com/"/>
- <updated>2019-01-28T22:13:54-05:00</updated>
- <id>https://blog.zellysnyder.com</id>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2019-02-01T05:05:24-05:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>Zelly Snyder</name>
    <email></email>
@@ -13,16 +13,117 @@
 
  
  <entry>
+   <title>How to install Apple macOS on Windows or Linux in a virtual machine</title>
+   <link href="http://localhost:4000/software/how-to-install-macos-on-windows-or-linux"/>
+   <updated>2019-02-01T00:00:00-05:00</updated>
+   <id>http://localhost:4000/software/how-to-install-macOS-on-Windows-or-Linux</id>
+   <content type="html">&lt;p&gt;I can only guarantee this working as of the time that this was posted. It&amp;#39;s a complete hack, but it works. I also was able to do the same thing on GNU/Linux (Ubuntu 18.04) with the exact same method.&lt;/p&gt;
+
+&lt;p&gt;The biggest downside is that there is &lt;em&gt;no&lt;/em&gt; way to get macOS on VMWare (or Virtualbox) to use multiple monitors.&lt;/p&gt;
+
+&lt;p&gt;This can be done without having to trust any sketchy, malware-laden torrents. You can use a genuine macOS image from Apple and a genuine VMWare Player.&lt;/p&gt;
+
+&lt;h1&gt;1. Download genuine MacOS from the App Store on a real Mac&lt;/h1&gt;
+
+&lt;p&gt;Acquire access to a genuine Mac temporarily.&lt;/p&gt;
+
+&lt;p&gt;Go in the App Store, search for &amp;quot;MacOS&amp;quot;, and hit download. It will save to &amp;quot;/Applications/Install macOS High Sierra.app&amp;quot;. The installer will automatically open as if you are updating the computer you&amp;#39;re using--just ⌘Q out of it.&lt;/p&gt;
+
+&lt;p&gt;Caveat: I tried to do this step in my VM install of macOS, and was only able to get a ~17MB &amp;quot;Install macOS High Sierra.app&amp;quot; from the App Store. It probably was because there was very little space left on the drive, so make sure the Mac you&amp;#39;re using has at least 10GB of free storage space. The image from the App Store for High Sierra is close to 6GB.&lt;/p&gt;
+
+&lt;h1&gt;2. Create a bootable ISO on the Mac&lt;/h1&gt;
+
+&lt;p&gt;Follow &lt;a href=&quot;http://archive.is/Mqr8I&quot;&gt;Step 1 of these instructions from HowToGeek&lt;/a&gt;. If you&amp;#39;re reading this in the future, and using a future version of macOS, be sure to change &amp;quot;/Applications/Install\ macOS\ High\ Sierra.app&amp;quot; to the actual path of your new installation. (Don&amp;#39;t just blindly copy and paste the terminal commands here.)&lt;/p&gt;
+
+&lt;p&gt;You can&amp;#39;t do this on Linux or Windows. Making the bootable ISO depends on some proprietary tools from Apple that come with the OS. If you don&amp;#39;t have &lt;code&gt;hdiutil&lt;/code&gt; or &lt;code&gt;asr&lt;/code&gt; on the Mac you&amp;#39;re using, make sure to install XCode Command Line Tools from the App Store.&lt;/p&gt;
+
+&lt;p&gt;If you want to skip steps 1 and 2 here, you can just &lt;a href=&quot;https://drive.google.com/open?id=1BFmaCqMN2ur9ZQumw3EXbsYPyky5h73l&quot;&gt;download the High Sierra image I made&lt;/a&gt;. (I would prefer you actually go through the work above, though, rather than trusting binaries from random blogs.)&lt;/p&gt;
+
+&lt;h1&gt;3. On Windows (or Linux), install VMWare Player&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.vmware.com/products/workstation-player.html&quot;&gt;It&amp;#39;s free (as in beer)&lt;/a&gt; for personal, non-commercial use. The one I used was the current version at the time of writing, VMWare Workstation Player 14.&lt;/p&gt;
+
+&lt;h1&gt;4. Install the VMWare unlocker hack&lt;/h1&gt;
+
+&lt;p&gt;It&amp;#39;s &lt;a href=&quot;https://github.com/DrDonk/unlocker&quot;&gt;on Github and open source&lt;/a&gt;. Normally VMWare won&amp;#39;t run macOS on non-Apple devices, as that violates Apple&amp;#39;s EULA. Follow the instructions on there. This also installs the Guest Additions so that you can open macOS at full screen resolutions.&lt;/p&gt;
+
+&lt;p&gt;Without this hack, none of this would work.&lt;/p&gt;
+
+&lt;h1&gt;5. Go through the tedious steps of configuring the VM&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Z6YsUqh.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/8Hd1uU5.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/ogYT2oV.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/ogYT2oV.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/mT1jFMF.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/as4YMpX.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/kKXtMFt.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/K0z8DOB.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/qQZQ4JY.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/5gevmp1.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/GSKJxcl.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/nhYbZHs.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/GRoslDI.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/A5J3U4D.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/9ZgQLQd.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/egVdBfS.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/7eKbeuU.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Q4yjEQJ.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/09o3q8Y.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/xvROSla.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/l4PikGT.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/lFrrURe.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/riDn1Ec.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/9UbIgDh.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;You can handle it from there.&lt;/p&gt;
+
+&lt;p&gt;If the display resolution refuses to change to your actual high resolution, try:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ sudo defaults delete /Library/Preferences/com.apple.windowserver.plist DisplayResolutionEnabled&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;and restart the VM. The HiDPI setting will be gone.&lt;/p&gt;
+
+&lt;h1&gt;6. You&amp;#39;re in! You&amp;#39;re officially in macOS! 🎉🎉🎉🙌&lt;/h1&gt;
+
+&lt;p&gt;You can do pretty much anything you could do on a genuine Mac…well, except some animations will cause the VM to crash because VMWare has a hard limit on the video memory you can allocate to it. Just disable all the fancy animations and don&amp;#39;t play videos in your VM. This isn&amp;#39;t a good idea for regular computing usage---Windows or Linux are much smoother. You should only do this for things that absolutely require macOS, like running XCode for example.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>How to Use Emacs Abbrevs With a Prefix Symbol</title>
-   <link href="https://blog.zellysnyder.com/tutorials/how-to-use-emacs-abbrevs-with-prefix"/>
+   <link href="http://localhost:4000/tutorials/how-to-use-emacs-abbrevs-with-prefix"/>
    <updated>2019-01-27T00:00:00-05:00</updated>
-   <id>https://blog.zellysnyder.com/tutorials/how-to-use-emacs-abbrevs-with-prefix</id>
+   <id>http://localhost:4000/tutorials/how-to-use-emacs-abbrevs-with-prefix</id>
    <content type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-01-28 Mon 22:14 --&gt;
+&lt;!-- 2019-02-01 Fri 05:05 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -260,8 +361,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-orgd37b14f&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgd37b14f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Abbrevs in Emacs and its limited namespace problem&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgec46d44&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgec46d44&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Abbrevs in Emacs and its limited namespace problem&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 &lt;a href=&quot;https://www.gnu.org/software/emacs/manual/html_node/elisp/Abbrevs.html&quot;&gt;Abbrevs&lt;/a&gt; in Emacs are tables of expansions of short words to arbitrary longer strings. This is commonly called a “text replacement” in other editors. The canonical example of an abbrev/text replacement&lt;sup&gt;&lt;a id=&quot;fnr.1&quot; class=&quot;footref&quot; href=&quot;#fn.1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; is “omw” → “on my way”. Of course you could make more sophisticated abbrevs&amp;#x2014;e.g., replace a few letters with lines of &lt;code&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/code&gt; type boilerplate.
@@ -272,8 +373,8 @@ A limitation I encountered with this was how easily my abbrevs could clash with 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgbcc8aa8&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgbcc8aa8&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; More possibilities with prefixed abbrevs&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org1681c7b&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org1681c7b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; More possibilities with prefixed abbrevs&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 The solution was to hack abbrevs to be namespaced under a prefix symbol. I like using “$”, so I could use something like “$ps” → “public static ” whereas typing “ps” wouldn’t trigger the expansion since it is not preceded by my prefix character.
@@ -366,15 +467,15 @@ Meta: Make an abbrev to replace “abbrev” → “text replacement”
  
  <entry>
    <title>snake_case is better than CamelCase</title>
-   <link href="https://blog.zellysnyder.com/bikeshedding/snake-case-is-better-than-camelcase"/>
+   <link href="http://localhost:4000/bikeshedding/snake-case-is-better-than-camelcase"/>
    <updated>2019-01-19T00:00:00-05:00</updated>
-   <id>https://blog.zellysnyder.com/bikeshedding/snake_case_is_better_than_camelCase</id>
+   <id>http://localhost:4000/bikeshedding/snake_case_is_better_than_camelCase</id>
    <content type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-01-28 Mon 22:14 --&gt;
+&lt;!-- 2019-02-01 Fri 05:05 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -612,8 +713,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-orgb1b0d83&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgb1b0d83&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; To underscore or not to underscore?&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org05890b5&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org05890b5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; To underscore or not to underscore?&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 I don’t get why underscoring isn’t the &lt;i&gt;de facto&lt;/i&gt; standard everywhere by now. It’s much easier to read. The underscore can be much more easily parsed by your mind as a separator. With objectOrientedEnterpriseAbstractFactoryCase, you have to intuit each token “manually,” relying on capitalization to separate words. I think that’s horrible.
@@ -624,8 +725,8 @@ This post is about all the reasons you should stop using camel case and why you 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org5baa46e&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org5baa46e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Proven to be more readable&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org0379318&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org0379318&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Proven to be more readable&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 Empirical testing for the win. &lt;a href=&quot;https://ieeexplore.ieee.org/document/5521745&quot;&gt;snake case is more readable&lt;/a&gt;. Time is money. Code is read 1000x more human-hours than it is written. Therefore the goal of naming conventions should be readability.
@@ -642,8 +743,8 @@ This shouldn’t come to any surprise since the underscore is so visually simila
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org5c5b742&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org5c5b742&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; CamelCase forces you to deform natural language&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgf28b6a7&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgf28b6a7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; CamelCase forces you to deform natural language&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;p&gt;
 For example, the standard that the first word must be lowercase for Java member functions/variables…well what if that first word is semantically correct as uppercase?
@@ -662,8 +763,8 @@ Overloading capitalization is a bad idea.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org38da024&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org38da024&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; If typing an underscore is so hard for you, make it easy&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgc257384&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgc257384&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; If typing an underscore is so hard for you, make it easy&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;p&gt;
 I suspect a lot of the reason for camelCase is how easy it is to write capital letters compared to reaching for the underscore. Everyone already has a keen muscle memory for capitalization. For the average person, underscores are not often typed over and over.
@@ -702,16 +803,16 @@ or put this in your &lt;code&gt;~/.Xmodmap&lt;/code&gt;:
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org016804e&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org016804e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Capitalization doesn’t mean anything in many world languages&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org68a01a3&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org68a01a3&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Capitalization doesn’t mean anything in many world languages&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
 &lt;p&gt;
 It’s just English and other Indo-European languages that have this concept.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org952513c&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org952513c&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Looking beyond underscores&amp;#x2014;ideal naming convention for identifiers&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgde3fde4&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgde3fde4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Looking beyond underscores&amp;#x2014;ideal naming convention for identifiers&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
 &lt;p&gt;
 It has been said tongue-in-cheek that one of the biggest unsolved problems in programming is naming things. There’s a lot of truth to that, but I’d extend that to &lt;i&gt;how&lt;/i&gt; those names are displayed as well. &lt;code&gt;Snake_case&lt;/code&gt; is a good step in the right direction; underscores being indistinguishable from spaces on a cursory visual scan.
@@ -737,15 +838,15 @@ A better compromise that can be easily implemented is having delimiters around v
  
  <entry>
    <title>How to set key repeat delay and rate very high on Windows 10 without limitations</title>
-   <link href="https://blog.zellysnyder.com/software/how-to-set-key-repeat-rate-and-delay-on-windows-10"/>
+   <link href="http://localhost:4000/software/how-to-set-key-repeat-rate-and-delay-on-windows-10"/>
    <updated>2019-01-19T00:00:00-05:00</updated>
-   <id>https://blog.zellysnyder.com/software/how-to-set-key-repeat-rate-and-delay-on-windows-10</id>
+   <id>http://localhost:4000/software/how-to-set-key-repeat-rate-and-delay-on-windows-10</id>
    <content type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-01-28 Mon 22:13 --&gt;
+&lt;!-- 2019-02-01 Fri 05:05 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -983,8 +1084,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-org4855ee8&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org4855ee8&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Problem&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org61744ed&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org61744ed&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Problem&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 You can’t set the key repeat rate beyond a certain amount in the Windows 10 Control Panel. There are some recommendations to change some registry settings, but even that doesn’t work; it only changes the setting in the Control Panel that you could change anyway.
@@ -995,8 +1096,8 @@ I like keys repeating very quickly because it allows quick navigation in text fi
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org994b5c8&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org994b5c8&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Solution&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgc6f5c49&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgc6f5c49&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Solution&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 This is the only way to change the keyboard repeat settings beyond what you are allowed to change it to in the Control Panel. You need to compile and run this C++ code.

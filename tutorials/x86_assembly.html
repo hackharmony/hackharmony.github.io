@@ -103,7 +103,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-01-28 Mon 22:14 -->
+<!-- 2019-02-01 Fri 05:05 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -341,19 +341,31 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<div id="outline-container-org596251d" class="outline-2">
-<h2 id="org596251d"><span class="section-number-2">1</span> The case for learning ASM</h2>
+<div id="outline-container-orgb0bfdae" class="outline-2">
+<h2 id="orgb0bfdae"><span class="section-number-2">1</span> The case for learning ASM</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org831b5b1" class="outline-3">
-<h3 id="org831b5b1"><span class="section-number-3">1.1</span> Curiosity</h3>
+<div id="outline-container-org480c77c" class="outline-3">
+<h3 id="org480c77c"><span class="section-number-3">1.1</span> Curiosity</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
-You will always be a “lightweight” programmer unless you know assembly. Assembly is how the machine works<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>. Working with high level languages is like putting together Lego blocks&#x2014;the components for your project are neatly provided to you as modular pieces. These Lego pieces, although tremendously useful, are manufactured abstractions having semantics almost completely divorced from those of their actual runtime as electrons moving around on a circuit board. The advantage of knowing how to use assembly is a matter of insight. A programmer who knows how to use assembly has drawn back the curtains on computing to see beyond the high level charade. A programmer who knows how to use assembly has the power to take any mysterious, high level black box of a program and figure out what it does (and change what it does!) by disassembling it. This skill, once sufficiently honed, is a <i>superpower</i>. The overarching motivation for learning assembly is one of curiosity. Assembly is the logical endpoint for the curious student of computing who keeps asking, <i>How does it work?</i>
+You will always be a “lightweight” programmer unless you know assembly. Assembly is how the machine works<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>. All programming languages are syntactic sugar for Assembly<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>. There’s a ceiling to how efficient you can make your programs without having any idea how they’re actually executed by the machine.
 </p>
 
 <p>
-The standard path for a high level programmer is to focus on the insides and outs of their high level tools&#x2014;Java, Ruby, Linux, etc.&#x2014;and basically ignore what happens on the CPU. The OS and virtual machines provide a usable mental model with which to successfully write applications. In 99% of cases, such application programmers would not be served by knowing assembly; in fact, it may be a hindrance since many high level mental models (e.g., Haskell or Mathematica) are so abstracted from the machine. There are two types of programmers<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>:
+High level languages are advanced enough to give programmers wildly useful abstractions, so high level that the code can feel more like <a href="https://wiki.haskell.org/Blow_your_mind">a math proof</a> or <a href="https://www.cse.unsw.edu.au/~billw/cs9414/notes/prolog/intro.html#structures">telling the computer</a> <a href="http://composingprograms.com/pages/43-declarative-programming.html">what information you want instead of how to find it</a>. I imagine a future world where programs are written by describing in English (or other natural language) what you want your program to do, and an AI writes the code for you, filling in the blanks which you can tell it to amend later if it got it wrong. But we are not there yet. No matter what code you are writing today, at the end of the day, you still are giving the machine a linear list of instructions to execute, and obviously, different ways you write that code would change the list of instructions the machine runs.
+</p>
+
+<p>
+To have an expert ability on how your final machine code would behave, you have to know (1) how your high level code is compiled/interpreted to low level instructions and (2) how those low level instructions affect efficiency and resource usage. Without this, you’re basically guessing. Suppose you didn’t know anything about stacks, and you noticed your code that used lots of recursion performed poorly. You might figure out that recursion is slow (not realizing its relation to the CPU stack), so you refactor to iterate instead, not being able to see it coming the next time stack exhaustion is involved in some other scenario. Optimizing code without knowing the hardware is essentially reverse engineering the CPU, which is a lot more effort than taking the time to skim the Intel manual.
+</p>
+
+<p>
+Working with high level languages is like putting together Lego blocks&#x2014;the components for your project are neatly provided to you as modular pieces. These Lego pieces, although tremendously useful, are manufactured abstractions having semantics completely divorced from those of their runtime as electrons moving around on a circuit board. The advantage of knowing how to use assembly is a matter of insight. A programmer who knows how to use assembly has drawn back the curtains on computing to see beyond the high level charade.
+</p>
+
+<p>
+The standard path for a high level programmer is to focus on the insides and outs of their high level tools&#x2014;Java, Ruby, Linux, etc.&#x2014;and basically ignore what happens on the CPU. The OS and virtual machines provide a usable mental model with which to successfully write applications. In 99% of cases, such application programmers would not be served by knowing assembly; in fact, it may be a hindrance since many high level mental models (e.g., Haskell or Mathematica) are so abstracted from the machine. There are two types of programmers<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>:
 </p>
 <ol class="org-ol">
 <li>ones that focus on the ultra theoretical/high level space and thrive there; they use languages like Python, Java, Ruby, C#, and maybe dabble in functional languages</li>
@@ -364,8 +376,8 @@ The latter category needs no convincing to know assembly. They have to know asse
 </p>
 </div>
 </div>
-<div id="outline-container-org00c819f" class="outline-3">
-<h3 id="org00c819f"><span class="section-number-3">1.2</span> Native code is the future (medium-term, 5-30 years out)</h3>
+<div id="outline-container-org042fd5a" class="outline-3">
+<h3 id="org042fd5a"><span class="section-number-3">1.2</span> Native code is the future (medium-term, 5-30 years out)</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 Knowing how to read <del>and write</del> assembly is an amazing benefit to any programmer writing code for native platforms (e.g., C/C++, Rust, Swift, Golang). I predict that we will see a mass migration back to native code as hardware stops accelerating in step with the acceleration of demand for improved software. Over the past several decades, hardware has been improving exponentially, and this allowed software to also improve exponentially with little improvement in the efficiency of software development. Software development did the opposite and got less efficient, not surprisingly, as Moore’s law allowed software developers to get away with slower code. As has been discussed ad nauseum, Moore’s law is already over. (My CPU from 2011 was no more than 10-20% slower than the one I have now.) Eventually, either software will stop improving exponentially (disappointing everyone) or software people will have to finally innovate as hard as the hardware manufacturers did.
@@ -380,24 +392,32 @@ Ironically, to be prepared for the future of software, you will need to know the
 </p>
 </div>
 </div>
-<div id="outline-container-org0ad4c28" class="outline-3">
-<h3 id="org0ad4c28"><span class="section-number-3">1.3</span> Being able to debug and reverse engineer</h3>
+<div id="outline-container-orgccd0962" class="outline-3">
+<h3 id="orgccd0962"><span class="section-number-3">1.3</span> Being able to debug and reverse engineer</h3>
 <div class="outline-text-3" id="text-1-3">
 <p>
-Being able to mentally parse disassembly lets you judge what your code is actually doing on the bare metal; great for judging the overhead of your algorithms or figuring out what some obscure, undocumented API call is actually doing. Knowing ASM also gives you a superpower—you can debug, manipulate, crack, or hack anybody’s program, whether or not they gave you the high level source for it. The latter is probably the most attractive motivation for learning assembly and is the reason I got into it.
+You can’t successfully reverse engineer without knowing assembly. And reverse engineering is awesome.
+</p>
+
+<p>
+Being able to mentally parse disassembly lets you judge what an executable is actually doing on the bare metal (also great for judging the overhead of your algorithms or figuring out what’s actually going on in some library call to which you don’t have the source code). Knowing ASM gives you a superpower&#x2014;you can debug, manipulate, crack, or hack anybody’s program, whether or not they gave you the high level source for it. The latter is probably the most attractive motivation for learning assembly and is the reason I got into it.
+</p>
+
+<p>
+A programmer who knows how to use assembly has the power to take any mysterious, high level black box of a program and figure out what it does (and change what it does!) by disassembling it. This skill, once sufficiently honed, is a <i>superpower</i>. The overarching motivation for learning assembly is one of curiosity. Assembly is the logical endpoint for the curious student of computing who keeps asking, <i>How does it work?</i>
 </p>
 </div>
 </div>
-<div id="outline-container-org939bff5" class="outline-3">
-<h3 id="org939bff5"><span class="section-number-3">1.4</span> Embedded systems</h3>
+<div id="outline-container-orgb95ea71" class="outline-3">
+<h3 id="orgb95ea71"><span class="section-number-3">1.4</span> Embedded systems</h3>
 <div class="outline-text-3" id="text-1-4">
 <p>
 Another trend of computing is a movement away from bulky personal computers and adoption of small devices that do a few things really well. People are already getting rid of their laptops and just using their smartphones. The smaller the target, the more low level the code running on it has to be.
 </p>
 </div>
 </div>
-<div id="outline-container-org846a758" class="outline-3">
-<h3 id="org846a758"><span class="section-number-3">1.5</span> It will never be a wasted investment of time</h3>
+<div id="outline-container-org7bb11c5" class="outline-3">
+<h3 id="org7bb11c5"><span class="section-number-3">1.5</span> It will never be a wasted investment of time</h3>
 <div class="outline-text-3" id="text-1-5">
 <p>
 Learning the latest hipster language that compiles to JavaScript? Might be a good use of your time if it takes off, but there’s a good chance it will end up like 99% of its peers and die off in the dustbin of history.
@@ -409,26 +429,26 @@ In your lifetime, I can guarantee that CPUs/GPUs will be basically the same. The
 </div>
 </div>
 </div>
-<div id="outline-container-orgfe08502" class="outline-2">
-<h2 id="orgfe08502"><span class="section-number-2">2</span> Reference</h2>
+<div id="outline-container-org20a0f9c" class="outline-2">
+<h2 id="org20a0f9c"><span class="section-number-2">2</span> Reference</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 The only books you need for Assembly are the <a href="https://software.intel.com/en-us/articles/intel-sdm">official Intel manuals</a>.
 </p>
 </div>
 </div>
-<div id="outline-container-org4cb1398" class="outline-2">
-<h2 id="org4cb1398"><span class="section-number-2">3</span> Choosing an assembler</h2>
+<div id="outline-container-org845a3f1" class="outline-2">
+<h2 id="org845a3f1"><span class="section-number-2">3</span> Choosing an assembler</h2>
 </div>
-<div id="outline-container-orgef0b2ea" class="outline-2">
-<h2 id="orgef0b2ea"><span class="section-number-2">4</span> Hello World</h2>
+<div id="outline-container-orgef49ac1" class="outline-2">
+<h2 id="orgef49ac1"><span class="section-number-2">4</span> Hello World</h2>
 </div>
-<div id="outline-container-org9ad01f9" class="outline-2">
-<h2 id="org9ad01f9"><span class="section-number-2">5</span> Syntax</h2>
+<div id="outline-container-org5510893" class="outline-2">
+<h2 id="org5510893"><span class="section-number-2">5</span> Syntax</h2>
 <div class="outline-text-2" id="text-5">
 </div>
-<div id="outline-container-org3ca5447" class="outline-3">
-<h3 id="org3ca5447"><span class="section-number-3">5.1</span> Instructions</h3>
+<div id="outline-container-org793b470" class="outline-3">
+<h3 id="org793b470"><span class="section-number-3">5.1</span> Instructions</h3>
 <div class="outline-text-3" id="text-5-1">
 <p>
 Symbolically, ASM is a very simple language. There are only 3 constructs:
@@ -456,8 +476,8 @@ The label can be used as a place to jump to from other places in the code.
 </p>
 </div>
 </div>
-<div id="outline-container-orgc9c92dc" class="outline-3">
-<h3 id="orgc9c92dc"><span class="section-number-3">5.2</span> Intel vs. AT&amp;T</h3>
+<div id="outline-container-org8975c52" class="outline-3">
+<h3 id="org8975c52"><span class="section-number-3">5.2</span> Intel vs. AT&amp;T</h3>
 <div class="outline-text-3" id="text-5-2">
 <p>
 In Intel syntax, the first argument, <code>argument_1</code> is the <i>destination</i> and <code>argument_2</code> serve as the source. In AT&amp;T syntax, the first argument is the source, the second argument the destination.
@@ -469,33 +489,33 @@ AT&amp;T syntax: <code>mov 0x01 a</code> would copy the integer value of 1 into 
 </p>
 </div>
 </div>
-<div id="outline-container-org64373ca" class="outline-3">
-<h3 id="org64373ca"><span class="section-number-3">5.3</span> Macros</h3>
+<div id="outline-container-orgcc53e5d" class="outline-3">
+<h3 id="orgcc53e5d"><span class="section-number-3">5.3</span> Macros</h3>
 </div>
 </div>
-<div id="outline-container-orgeb9797d" class="outline-2">
-<h2 id="orgeb9797d"><span class="section-number-2">6</span> Memory</h2>
+<div id="outline-container-org64b72ad" class="outline-2">
+<h2 id="org64b72ad"><span class="section-number-2">6</span> Memory</h2>
 </div>
-<div id="outline-container-orga6e1520" class="outline-2">
-<h2 id="orga6e1520"><span class="section-number-2">7</span> Registers</h2>
+<div id="outline-container-orga3db8b4" class="outline-2">
+<h2 id="orga3db8b4"><span class="section-number-2">7</span> Registers</h2>
 </div>
-<div id="outline-container-org2a4f66b" class="outline-2">
-<h2 id="org2a4f66b"><span class="section-number-2">8</span> Functions</h2>
+<div id="outline-container-org0951729" class="outline-2">
+<h2 id="org0951729"><span class="section-number-2">8</span> Functions</h2>
 </div>
-<div id="outline-container-org03ee777" class="outline-2">
-<h2 id="org03ee777"><span class="section-number-2">9</span> Control flow</h2>
+<div id="outline-container-orgbec74db" class="outline-2">
+<h2 id="orgbec74db"><span class="section-number-2">9</span> Control flow</h2>
 </div>
-<div id="outline-container-orge78cd17" class="outline-2">
-<h2 id="orge78cd17"><span class="section-number-2">10</span> Arithmetic</h2>
+<div id="outline-container-orgc2d7dda" class="outline-2">
+<h2 id="orgc2d7dda"><span class="section-number-2">10</span> Arithmetic</h2>
 </div>
-<div id="outline-container-org29e1ce8" class="outline-2">
-<h2 id="org29e1ce8"><span class="section-number-2">11</span> Using objdump</h2>
+<div id="outline-container-org6dcde0d" class="outline-2">
+<h2 id="org6dcde0d"><span class="section-number-2">11</span> Using objdump</h2>
 </div>
-<div id="outline-container-orgb15da9b" class="outline-2">
-<h2 id="orgb15da9b"><span class="section-number-2">12</span> Using gdb (GNU Debugger)</h2>
+<div id="outline-container-org2de8a7e" class="outline-2">
+<h2 id="org2de8a7e"><span class="section-number-2">12</span> Using gdb (GNU Debugger)</h2>
 </div>
-<div id="outline-container-orgf6242f6" class="outline-2">
-<h2 id="orgf6242f6"><span class="section-number-2">13</span> Reverse engineering</h2>
+<div id="outline-container-orgf0967a8" class="outline-2">
+<h2 id="orgf0967a8"><span class="section-number-2">13</span> Reverse engineering</h2>
 </div>
 <div id="footnotes">
 <h2 class="footnotes">Footnotes: </h2>
@@ -506,6 +526,10 @@ This is not entirely accurate. At one point in history, assembly opcodes did tra
 </p></div></div>
 
 <div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
+This isn’t strictly true because (1) JIT’ed compilers can map a given piece of high code to <a href="https://en.wikipedia.org/wiki/Surjective_function">many distinct sets of machine instructions</a> by optimizing at runtime and (2) because some languages like C are barely syntactic sugar for Assembly. Nevertheless, regardless of the complexity of the intermediary steps, what you write in high level code will end up as machine instructions.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3">3</a></sup> <div class="footpara"><p class="footpara">
 Of course there is significant overlap between these categories. Let’s not get overly pedantic. Most people specialize in one of these two clusters, though.
 </p></div></div>
 
