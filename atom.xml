@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Zelly Snyder</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2019-02-01T05:05:24-05:00</updated>
- <id>http://localhost:4000</id>
+ <link href="https://blog.zellysnyder.com/atom.xml" rel="self"/>
+ <link href="https://blog.zellysnyder.com/"/>
+ <updated>2019-02-10T22:30:44-05:00</updated>
+ <id>https://blog.zellysnyder.com</id>
  <author>
    <name>Zelly Snyder</name>
    <email></email>
@@ -13,10 +13,454 @@
 
  
  <entry>
+   <title>All Investment Strategies Mean Revert</title>
+   <link href="https://blog.zellysnyder.com/the-next-big-thing"/>
+   <updated>2019-02-10T00:00:00-05:00</updated>
+   <id>https://blog.zellysnyder.com/the-next-big-thing</id>
+   <content type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
+&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;!-- 2019-02-10 Sun 22:30 --&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+&lt;title&gt;&amp;lrm;&lt;/title&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;Org mode&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+ &lt;!--/*--&gt;&lt;![CDATA[/*&gt;&lt;!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per &quot;defun org-babel-execute&quot;
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf &quot; &quot;)) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]&gt;*/--&gt;
+&lt;/style&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+&lt;!--/*--&gt;&lt;![CDATA[/*&gt;&lt;!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = &quot;code-highlighted&quot;;
+     elem.className   = &quot;code-highlighted&quot;;
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]&gt;*///--&gt;
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id=&quot;content&quot;&gt;
+&lt;div id=&quot;table-of-contents&quot;&gt;
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;div id=&quot;text-table-of-contents&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#org5b5dfe4&quot;&gt;1. Passive Get Rich Quick schemes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgf3ed83f&quot;&gt;2. Lifecycle of investments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#org77d2585&quot;&gt;2.1. The cycle of all successful investment strategies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org651557a&quot;&gt;2.2. Examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgc7df7a9&quot;&gt;2.3. Reversion to the S&amp;amp;P 500&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgd29f55e&quot;&gt;3. The Next Big Thing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org54a9d4f&quot;&gt;4. Rent-seeking vs. Creating&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org5b5dfe4&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org5b5dfe4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Passive Get Rich Quick schemes&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;p&gt;
+This is a reflection on patterns in Get Rich Quick schemes that actually worked. I’m fascinated by passive investments that made people extremely rich just by assuming risk with extraordinarily good timing and foresight.
+&lt;/p&gt;
+
+&lt;p&gt;
+You hear a lot about the very smart people who invented or pioneered things (e.g., Edison, Ford, Gates, Jobs, Zuckerberg), but you don’t hear much fanfare about the (arguably smarter) people who invested in them and made fortunes &lt;a href=&quot;https://en.wikipedia.org/wiki/Rent-seeking&quot;&gt;without doing all the hard work&lt;/a&gt;. I guess this bias is a manifestation of society’s, perhaps rightful, preference for creation and labor over idle rich-getting-richer wealth growth.
+&lt;/p&gt;
+
+&lt;p&gt;
+But I think the desire to Get Rich Quick is so universal and romanticized that those who say they don’t care about them are only pretending. The tendency to gamble is really the distilled form of the desire to Get Rich Quick. Gambling has been around &lt;a href=&quot;https://en.wikipedia.org/wiki/Gambling#History&quot;&gt;since the dawn of human civilization&lt;/a&gt; (I could imagine hunter-gatherers also gambled spare (and not spare) resources in their tribes). The Get Rich Quick impulse is the essence of risk-taking, fundamental to the human experience. Gambling feels good, gives us a reliable and potentially addiction-forming shot of dopamine. Why? Evolution incentivized the genes that promoted gambling: &lt;i&gt;We are all invariably descendants of people who took massive risks and happened to succeed&lt;/i&gt;. Without getting too philosophical, I would argue that the human impulse to Get Rich Quick is the #1 reason communism is a failure.
+&lt;/p&gt;
+
+&lt;p&gt;
+Don’t tell me getting rich slowly is more guaranteed&amp;#x2014;I know. But don’t tell me this is not interesting.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-orgf3ed83f&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgf3ed83f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Lifecycle of investments&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org77d2585&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org77d2585&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; The cycle of all successful investment strategies&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
+&lt;ol class=&quot;org-ol&quot;&gt;
+&lt;li&gt;&lt;b&gt;Genesis&lt;/b&gt;: Someone discovers or invents something big, potentially paradigm-shifting or just a Better Mousetrap. This is the new “Investment Vehicle,” as I will refer to it here. Think personal computers in the early 1990s.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Smart Money&lt;/b&gt;: Early adopters get in (the Smart Money phase). VCs, institutional investors, or just smart individuals start throwing money at this, seeing the potential.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Proof of Concept&lt;/b&gt;: The concept either works or doesn’t. (If it doesn’t, it never makes it past this point, the early adopters lose their investment, and we never hear about the concept since it failed.)&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Dumb Money&lt;/b&gt;: Eventually, the masses see the potential too, and crowd in the speculative investment. Consequently, the price of entry into the investment soars.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Critical Mass&lt;/b&gt;: By the time the Investment Vehicle starts producing revenue, the returns paid out to Dumb Money amounts to little more than&amp;#x2014;or possibly significantly less than&amp;#x2014;the returns of other mature investment vehicles, whereas Smart Money creates generational fortunes. (Alternate scenario: The Investment Vehicle fails to produce revenue/returns and wipes out Dumb Money, possibly Smart Money too.)&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Reversion to Mean&lt;/b&gt;: The Investment Vehicle becomes “commoditized”. Corporations or governments take it over. It produces returns equivalent to any old traditional investment (such as, say, the S&amp;amp;P 500 index), because over time it becomes a traditional investment by definition.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;
+Sound familiar? This is the story of every once Big Thing that landed on economies ever since civilized economies were a thing.
+&lt;/p&gt;
+
+&lt;p&gt;
+Despite how it may sound, this is not a description of a bubble or Ponzi scheme or a pump-and-dump. It may resemble a Ponzi in that early investors are rewarded. But it doesn’t reward early investors at the direct expense of the investments of the new investors, because it doesn’t dump to zero; it just keeps going up. The phenomenon of the personal computer or the smartphone is the prototypical example of the kind of investment I’m talking about: the PC was undervalued in the beginning because the masses didn’t see the potential. The difference between a bubble and the type of investment I’m talking about is that the new investors don’t suffer for the early investors’ benefit&amp;#x2014;they just benefit less.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org651557a&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org651557a&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; Examples&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;Flipping houses? Dead; $100+ Billion market cap REITs got into it too and took the opportunities that once allowed individuals to get rich.&lt;/li&gt;
+&lt;li&gt;Trading stocks, Forex, or derivative securities? Dead. Hedge funds and investment banks employ Ph.D. quants to design proprietary algorithms to extract money from the market. High frequency trading algorithms can execute tens of thousands of trades per second, whereas an individual human can barely move their mouse over the Sell button in one second. All short-term trading opportunities are taken by these machines. Investment bank traders have taken an &lt;a href=&quot;https://youtu.be/sn1GYqfijvs?t=417&quot;&gt;80% pay cut&lt;/a&gt; ever since high frequency trading rolled out. The pros can’t beat the machines&amp;#x2014;so the average Joe retail trader stands no chance. What can ordinary retail traders do to invest in markets? Basically just passive investment in major indices, or long term bets on assets based on long-term fundamentals. So not much better than pension fund. Dead.&lt;/li&gt;
+&lt;li&gt;Investing in Amazon, Uber, et al.? Dead. Obviously. These former Next Big Things are now just another item on a pension fund, right alongside Coca-Cola and AT&amp;amp;T.&lt;/li&gt;
+&lt;li&gt;Buying and selling cars? Dead. Some decades ago, it was possible to make good money by taking advantage of people who didn’t know how much cars were worth. The internet killed this. Everyone uses an app to sell their car and knows exactly how much it is worth. (N.B. flipping cars is not necessarily a passive investment, but it is worth mentioning under the category of easy money sources subsumed by mass adoption.)&lt;/li&gt;
+&lt;li&gt;Bitcoin/Ethereum/cryptocurrencies? Dead. Everyone and their grandma in the United States has a &lt;a href=&quot;https://en.wikipedia.org/wiki/Coinbase&quot;&gt;Coinbase&lt;/a&gt; account with funds. It was a phenomenal investment for the Smart Money who got in early. (Bitcoin may actually be the biggest ROI-time (return on investment with time considered) in human history. Some people paid on the order of $0.001 for what turned into $10’000.00 just seven years later&amp;#x2014;10’000’000x gains in 7 yrs.) Of course the bubble burst, but the value proposition remains: There is no better alternative for a censorship-resistant medium of exchange that can store or move value arbitrarily without any counterparties. The days are gone of people smuggling art or gold around the world to move money without anyone knowing&amp;#x2014;they all use Bitcoin now. Anyway, point is, as an investor, this ship has already sailed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+When I say “Dead”, I don’t mean that you cannot make money by investing in them. On the contrary, thanks to compounding returns, over several decades it’s possible to turn $10k into $1 Million. I mean that they are no longer Next Big Things that have the potential to give truly crazy returns. Not interesting.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-orgc7df7a9&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgc7df7a9&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; Reversion to the S&amp;amp;P 500&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-3&quot;&gt;
+&lt;p&gt;
+Every investment strategy that has anomalous high rewards quickly reverts to those of the S&amp;amp;P 500 once enough people know about it.
+&lt;/p&gt;
+
+&lt;p&gt;
+At maturity, once-promising investment vehicles turn into traditional investments with the same returns as traditional investments. At worst, they significantly underperform. At best, the returns match those of the S&amp;amp;P 500 (“the S&amp;amp;P 500” being a placeholder for any broad economy-tracking investment vehicle that serves as a benchmark for investment because of its high average performance&amp;#x2014;it could be the S&amp;amp;P 500 or the Nasdaq or bonds or whatever depending on the current economy). All investments tend toward this measure in equilibrium. Therefore, there are no investment strategies that can “always win”. Winning in investment is rare by design, often the result of luck more than anything. Here I explain why.
+&lt;/p&gt;
+
+&lt;p&gt;
+Like most economic phenomena, supply and demand are at play. An investment that would be good in the future, but not the present, possesses a non-ideal economic state where the cost of entry into the investment is lower than the expected benefit to its participants (the long-term average return). There are fewer participants on the demand side (investors) in the present, because of the low/nonexistent returns in the present, so the cost of entry must be lower. Obviously no one knows what the future holds. When the future is particularly uncertain (as with some new speculative investment like Ford’s Model T), nothing about the future of the investment can be priced in, i.e., baked into the price already. The sellers of the asset&amp;#x2014;e.g., Bill Gates selling equity in early Microsoft&amp;#x2014;are taking a long-term loss in exchange for short-term gain; in other words, early investors are profiting from a discrepancy in forecasting of the future&lt;sup&gt;&lt;a id=&quot;fnr.1&quot; class=&quot;footref&quot; href=&quot;#fn.1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. This is all an overly pedantic way to say that early investors are speculating on an asset. Bear with me.
+&lt;/p&gt;
+
+&lt;p&gt;
+Once the speculative asset proves itself promising to the broader market, the future forecast becomes less speculative; the demand side naturally rises. The cost of entry increases. Wealth is created. As the asset continues to perform up to investor predictions, it will continue to attract new investors, higher and higher demand. When does it peak and demand slow down? When the performance of the investment achieves parity with the next best alternative, which is often the S&amp;amp;P 500 index. (It’s very hard to beat the returns of the S&amp;amp;P 500, which is why relative performance of investments are &lt;a href=&quot;https://en.wikipedia.org/wiki/Alpha_(finance)&quot;&gt;measured against it&lt;/a&gt;.) Then demand will cool off. Equilibrium will set in. It’s no longer a better-than-average investment. Why? &lt;b&gt;Because too many people found out about it.&lt;/b&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-orgd29f55e&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgd29f55e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; The Next Big Thing&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
+&lt;p&gt;
+The point of our inquiry isn’t necessarily to promote pessimism. Yes, all good investments eventually become not-good investments because too many people hear about them. That’s just an objective fact. You will not make better-than-average money by investing in something a lot of other people are also investing in. If that discourages you from investing (e.g., in some investment strategy &lt;a href=&quot;https://www.tailopez.com/&quot;&gt;some charlatan&lt;/a&gt; convinced you was a Sure Thing), then maybe it’s a good thing you’re discouraged; high false expectations lead to high disappointments. The point of identifying this fact is to use it to discover really good investments. Hardly pessimistic.
+&lt;/p&gt;
+
+&lt;p&gt;
+The important thing to realize is popularity is inversely correlated to the quality of an investment. &lt;i&gt;No one gets rich by doing the same thing everyone else is doing&lt;/i&gt;&amp;#x2026;proven as a straightforward consequence of the definition of “rich” being relative to average wealth.
+&lt;/p&gt;
+
+&lt;p&gt;
+For instance, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Renaissance_Technologies#Medallion_Fund&quot;&gt;only hedge fund&lt;/a&gt; that has consistently beat the market for decades is private and invite-only. Given the previous discussion, it’s clear why they did this. Suppose they made the fund public. Everyone would immediately crowd into it. They would have to expand their anomalously profitable positions to be able to invest all the new money. This would drive up the price of those positions, making them no longer profitable, eliminating the advantage they once had by taking advantage of superior knowledge about the value of assets that weren’t priced in. The low number of participants is one of the big reasons why the fund performs so well in the first place.
+&lt;/p&gt;
+
+&lt;p&gt;
+Venture capital industrializes the concept of finding winners no one else is investing in. But they have more capital than you to absorb the loss of 99 losing bets in the process of the process of finding the 1 winner that pays for everything. Does this make you a competitor to venture capital if you’re trying to discover a true Get Rich Quick scheme? Yes. So not only is your risk infinite as your speculations turn out wrong, but you also have competition in doing exactly that. Getting rich quick isn’t meant to be easy&amp;#x2026;or else everyone else would be doing it, and it wouldn’t be getting rich quick anymore.
+&lt;/p&gt;
+
+&lt;p&gt;
+So what do you look for? What’s the Next Big Thing? Based on the previous Next Big Things, there are some patterns: (1) they created new industries, (2) they changed the way most people lived&lt;sup&gt;&lt;a id=&quot;fnr.2&quot; class=&quot;footref&quot; href=&quot;#fn.2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, (3) no one predicted them&lt;sup&gt;&lt;a id=&quot;fnr.3&quot; class=&quot;footref&quot; href=&quot;#fn.3&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;, and (4) few expected them to be successful.
+&lt;/p&gt;
+
+&lt;p&gt;
+We already had&amp;#x2026;
+&lt;/p&gt;
+
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;Money in ca. 5’000 B.C.&lt;/li&gt;
+&lt;li&gt;Steel in ca. 200 B.C.&lt;/li&gt;
+&lt;li&gt;Guns in ca. 1300&lt;/li&gt;
+&lt;li&gt;Oil in 1860&lt;/li&gt;
+&lt;li&gt;Airplanes in 1905&lt;/li&gt;
+&lt;li&gt;Cars in the 1910&lt;/li&gt;
+&lt;li&gt;S&amp;amp;P 500 in 1957&lt;/li&gt;
+&lt;li&gt;PCs in 1990&lt;/li&gt;
+&lt;li&gt;World Wide Web in 1993&lt;/li&gt;
+&lt;li&gt;Smartphones in 2007&lt;/li&gt;
+&lt;li&gt;Social Media in 2008&lt;/li&gt;
+&lt;li&gt;Bitcoin in 2010&lt;/li&gt;
+&lt;li&gt;&amp;#x2026; in ???&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+What’s next?
+&lt;/p&gt;
+
+&lt;p&gt;
+(Hint: If you think it’s something everyone else would also guess (like “artificial intelligence”), that ain’t it.)
+&lt;/p&gt;
+
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;https://amp.businessinsider.com/images/52c173566bb3f7bb746167bb-750-750.jpg&quot; alt=&quot;52c173566bb3f7bb746167bb-750-750.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org54a9d4f&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org54a9d4f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Rent-seeking vs. Creating&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
+&lt;p&gt;
+It’s fun to chase Get Rich Quick schemes, but it’s ultimately pointless and adds almost zero value to humanity. I can’t think of anything more self-centered than &lt;a href=&quot;https://en.wikipedia.org/wiki/Venture_capital&quot;&gt;professionally seeking to profit from other people’s creations&lt;/a&gt;, but &lt;a href=&quot;https://en.wikipedia.org/wiki/Ayn_Rand&quot;&gt;some philosophies&lt;/a&gt; are used by &lt;a href=&quot;https://en.wikipedia.org/wiki/Peter_Thiel&quot;&gt;some people&lt;/a&gt; to argue this is not a bad thing. After all, without investors, a lot of very good ideas would never have gotten off the ground. Good ideas need resources to produce good for the world. Investment serves a purpose. Although on paper it’s a zero sum game&amp;#x2014;the recipient of a future-successful investment loses long term value to the investor&amp;#x2014;, there is no alternative in a non-perfect world where scarcity exists.
+&lt;/p&gt;
+
+&lt;p&gt;
+Speaking from purely an idealistic perspective, it’s better to create, not just profit from other people’s creation. There are two categories of ways to generate value for yourself: rent-seeking or creating. Things like playing poker, trading stocks, gambling, suing people, imprisoning people for profit, etc. are all zero-sum games; your win is someone else’s loss. These activities only create value as a consequence of human-invented organized economies. They really are &lt;i&gt;games&lt;/i&gt;&amp;#x2014;simulacra of tangible achievement. Profitably trading Forex currency pairs isn’t something that would feed you if you lived 100’000 years ago in nature&lt;sup&gt;&lt;a id=&quot;fnr.4&quot; class=&quot;footref&quot; href=&quot;#fn.4&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;. It’s not real achievement. Getting really good at playing zero-sum games is guaranteed to be less personally fulfilling than equivalent effort expended on actual creation. Work. Build something. Add value to the world. It not only pays better, but it’s also a better use of your time.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;footnotes&quot;&gt;
+&lt;h2 class=&quot;footnotes&quot;&gt;Footnotes: &lt;/h2&gt;
+&lt;div id=&quot;text-footnotes&quot;&gt;
+
+&lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a id=&quot;fn.1&quot; class=&quot;footnum&quot; href=&quot;#fnr.1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;
+You could say early investors or Smart Money &lt;i&gt;arbitrage time&lt;/i&gt;, but honestly that’s taking the analogy to cringe levels.
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a id=&quot;fn.2&quot; class=&quot;footnum&quot; href=&quot;#fnr.2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;
+Not necessarily for the better. That was never a requirement.
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a id=&quot;fn.3&quot; class=&quot;footnum&quot; href=&quot;#fnr.3&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;
+People have a tendency to only predict things that sound cool. People in the 70s predicted moon colonies&amp;#x2014;not as a consequence of necessity, but moon colonies sure sounded cool, like a sci-fi movie. &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Singularity_Is_Near&quot;&gt;Ray Kurzweil’s Singularity&lt;/a&gt; also sounds very cool too, like a sci-fi movie.
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a id=&quot;fn.4&quot; class=&quot;footnum&quot; href=&quot;#fnr.4&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;
+Not to imply that everything which is unnatural is necessarily bad.
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+ </entry>
+ 
+ <entry>
    <title>How to install Apple macOS on Windows or Linux in a virtual machine</title>
-   <link href="http://localhost:4000/software/how-to-install-macos-on-windows-or-linux"/>
+   <link href="https://blog.zellysnyder.com/software/how-to-install-macos-on-windows-or-linux"/>
    <updated>2019-02-01T00:00:00-05:00</updated>
-   <id>http://localhost:4000/software/how-to-install-macOS-on-Windows-or-Linux</id>
+   <id>https://blog.zellysnyder.com/software/how-to-install-macOS-on-Windows-or-Linux</id>
    <content type="html">&lt;p&gt;I can only guarantee this working as of the time that this was posted. It&amp;#39;s a complete hack, but it works. I also was able to do the same thing on GNU/Linux (Ubuntu 18.04) with the exact same method.&lt;/p&gt;
 
 &lt;p&gt;The biggest downside is that there is &lt;em&gt;no&lt;/em&gt; way to get macOS on VMWare (or Virtualbox) to use multiple monitors.&lt;/p&gt;
@@ -115,15 +559,15 @@
  
  <entry>
    <title>How to Use Emacs Abbrevs With a Prefix Symbol</title>
-   <link href="http://localhost:4000/tutorials/how-to-use-emacs-abbrevs-with-prefix"/>
+   <link href="https://blog.zellysnyder.com/tutorials/how-to-use-emacs-abbrevs-with-prefix"/>
    <updated>2019-01-27T00:00:00-05:00</updated>
-   <id>http://localhost:4000/tutorials/how-to-use-emacs-abbrevs-with-prefix</id>
+   <id>https://blog.zellysnyder.com/tutorials/how-to-use-emacs-abbrevs-with-prefix</id>
    <content type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-02-01 Fri 05:05 --&gt;
+&lt;!-- 2019-02-10 Sun 22:30 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -361,8 +805,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-orgec46d44&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgec46d44&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Abbrevs in Emacs and its limited namespace problem&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgcfdb7d5&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgcfdb7d5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Abbrevs in Emacs and its limited namespace problem&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 &lt;a href=&quot;https://www.gnu.org/software/emacs/manual/html_node/elisp/Abbrevs.html&quot;&gt;Abbrevs&lt;/a&gt; in Emacs are tables of expansions of short words to arbitrary longer strings. This is commonly called a “text replacement” in other editors. The canonical example of an abbrev/text replacement&lt;sup&gt;&lt;a id=&quot;fnr.1&quot; class=&quot;footref&quot; href=&quot;#fn.1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; is “omw” → “on my way”. Of course you could make more sophisticated abbrevs&amp;#x2014;e.g., replace a few letters with lines of &lt;code&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/code&gt; type boilerplate.
@@ -373,8 +817,8 @@ A limitation I encountered with this was how easily my abbrevs could clash with 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org1681c7b&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org1681c7b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; More possibilities with prefixed abbrevs&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org914b1eb&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org914b1eb&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; More possibilities with prefixed abbrevs&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 The solution was to hack abbrevs to be namespaced under a prefix symbol. I like using “$”, so I could use something like “$ps” → “public static ” whereas typing “ps” wouldn’t trigger the expansion since it is not preceded by my prefix character.
@@ -467,15 +911,15 @@ Meta: Make an abbrev to replace “abbrev” → “text replacement”
  
  <entry>
    <title>snake_case is better than CamelCase</title>
-   <link href="http://localhost:4000/bikeshedding/snake-case-is-better-than-camelcase"/>
+   <link href="https://blog.zellysnyder.com/bikeshedding/snake-case-is-better-than-camelcase"/>
    <updated>2019-01-19T00:00:00-05:00</updated>
-   <id>http://localhost:4000/bikeshedding/snake_case_is_better_than_camelCase</id>
+   <id>https://blog.zellysnyder.com/bikeshedding/snake_case_is_better_than_camelCase</id>
    <content type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-02-01 Fri 05:05 --&gt;
+&lt;!-- 2019-02-10 Sun 22:30 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -713,8 +1157,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-org05890b5&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org05890b5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; To underscore or not to underscore?&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgc46baa2&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgc46baa2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; To underscore or not to underscore?&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 I don’t get why underscoring isn’t the &lt;i&gt;de facto&lt;/i&gt; standard everywhere by now. It’s much easier to read. The underscore can be much more easily parsed by your mind as a separator. With objectOrientedEnterpriseAbstractFactoryCase, you have to intuit each token “manually,” relying on capitalization to separate words. I think that’s horrible.
@@ -725,8 +1169,8 @@ This post is about all the reasons you should stop using camel case and why you 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org0379318&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org0379318&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Proven to be more readable&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org5329496&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org5329496&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Proven to be more readable&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 Empirical testing for the win. &lt;a href=&quot;https://ieeexplore.ieee.org/document/5521745&quot;&gt;snake case is more readable&lt;/a&gt;. Time is money. Code is read 1000x more human-hours than it is written. Therefore the goal of naming conventions should be readability.
@@ -743,8 +1187,8 @@ This shouldn’t come to any surprise since the underscore is so visually simila
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgf28b6a7&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgf28b6a7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; CamelCase forces you to deform natural language&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgc401478&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgc401478&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; CamelCase forces you to deform natural language&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;p&gt;
 For example, the standard that the first word must be lowercase for Java member functions/variables…well what if that first word is semantically correct as uppercase?
@@ -763,8 +1207,8 @@ Overloading capitalization is a bad idea.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgc257384&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgc257384&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; If typing an underscore is so hard for you, make it easy&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org0d8bc88&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org0d8bc88&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; If typing an underscore is so hard for you, make it easy&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;p&gt;
 I suspect a lot of the reason for camelCase is how easy it is to write capital letters compared to reaching for the underscore. Everyone already has a keen muscle memory for capitalization. For the average person, underscores are not often typed over and over.
@@ -803,16 +1247,16 @@ or put this in your &lt;code&gt;~/.Xmodmap&lt;/code&gt;:
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org68a01a3&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org68a01a3&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Capitalization doesn’t mean anything in many world languages&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org7522a2e&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org7522a2e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Capitalization doesn’t mean anything in many world languages&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
 &lt;p&gt;
 It’s just English and other Indo-European languages that have this concept.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgde3fde4&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgde3fde4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Looking beyond underscores&amp;#x2014;ideal naming convention for identifiers&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgf0f1d85&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgf0f1d85&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Looking beyond underscores&amp;#x2014;ideal naming convention for identifiers&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
 &lt;p&gt;
 It has been said tongue-in-cheek that one of the biggest unsolved problems in programming is naming things. There’s a lot of truth to that, but I’d extend that to &lt;i&gt;how&lt;/i&gt; those names are displayed as well. &lt;code&gt;Snake_case&lt;/code&gt; is a good step in the right direction; underscores being indistinguishable from spaces on a cursory visual scan.
@@ -838,15 +1282,15 @@ A better compromise that can be easily implemented is having delimiters around v
  
  <entry>
    <title>How to set key repeat delay and rate very high on Windows 10 without limitations</title>
-   <link href="http://localhost:4000/software/how-to-set-key-repeat-rate-and-delay-on-windows-10"/>
+   <link href="https://blog.zellysnyder.com/software/how-to-set-key-repeat-rate-and-delay-on-windows-10"/>
    <updated>2019-01-19T00:00:00-05:00</updated>
-   <id>http://localhost:4000/software/how-to-set-key-repeat-rate-and-delay-on-windows-10</id>
+   <id>https://blog.zellysnyder.com/software/how-to-set-key-repeat-rate-and-delay-on-windows-10</id>
    <content type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-02-01 Fri 05:05 --&gt;
+&lt;!-- 2019-02-10 Sun 22:30 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -1084,8 +1528,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-org61744ed&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org61744ed&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Problem&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org9c7baee&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org9c7baee&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Problem&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 You can’t set the key repeat rate beyond a certain amount in the Windows 10 Control Panel. There are some recommendations to change some registry settings, but even that doesn’t work; it only changes the setting in the Control Panel that you could change anyway.
@@ -1096,8 +1540,8 @@ I like keys repeating very quickly because it allows quick navigation in text fi
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgc6f5c49&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgc6f5c49&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Solution&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgd6f60bc&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgd6f60bc&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Solution&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 This is the only way to change the keyboard repeat settings beyond what you are allowed to change it to in the Control Panel. You need to compile and run this C++ code.
