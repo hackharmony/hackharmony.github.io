@@ -4,7 +4,7 @@
  <title>Zelly Snyder</title>
  <link href="https://blog.zellysnyder.com/atom.xml" rel="self"/>
  <link href="https://blog.zellysnyder.com/"/>
- <updated>2019-02-10T22:35:55-05:00</updated>
+ <updated>2019-03-23T18:27:49-04:00</updated>
  <id>https://blog.zellysnyder.com</id>
  <author>
    <name>Zelly Snyder</name>
@@ -13,16 +13,16 @@
 
  
  <entry>
-   <title>All Investment Strategies Mean Revert</title>
-   <link href="https://blog.zellysnyder.com/the-next-big-thing"/>
-   <updated>2019-02-10T00:00:00-05:00</updated>
-   <id>https://blog.zellysnyder.com/the-next-big-thing</id>
+   <title>Unicode Symbols Useful For Social Media</title>
+   <link href="https://blog.zellysnyder.com/unicode-symbols-for-social-media"/>
+   <updated>2019-03-23T00:00:00-04:00</updated>
+   <id>https://blog.zellysnyder.com/unicode-symbols-for-social-media</id>
    <content type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-02-10 Sun 22:36 --&gt;
+&lt;!-- 2019-03-23 Sat 18:28 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -216,7 +216,413 @@
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2018 Free Software Foundation, Inc.
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+&lt;!--/*--&gt;&lt;![CDATA[/*&gt;&lt;!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = &quot;code-highlighted&quot;;
+     elem.className   = &quot;code-highlighted&quot;;
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]&gt;*///--&gt;
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id=&quot;content&quot;&gt;
+&lt;div id=&quot;outline-container-org77b7687&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org77b7687&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; What this is for&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;p&gt;
+This is a list of Unicode symbols / code points that are often used on social media&amp;#x2014;besides emojis, which are already easy to input.
+&lt;/p&gt;
+
+&lt;p&gt;
+The symbols themselves are listed alongside their hexademical Unicode code points. For often-used symbols, it’s useful to memorize the numerical code points so that you can input them without having to search engine the symbol (or refer to a webpage like this, which you should bookmark!).
+&lt;/p&gt;
+
+&lt;p&gt;
+On &lt;b&gt;Microsoft Windows, macOS, and X11 (GNU/Linux or *BSD)&lt;/b&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Unicode_input#Hexadecimal_input&quot;&gt;inputting Unicode symbols by their code points&lt;/a&gt; is easy with support for native keyboard shortcuts.
+&lt;/p&gt;
+
+&lt;p&gt;
+In &lt;b&gt;Emacs&lt;/b&gt;, &lt;code&gt;M-x insert-char&lt;/code&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;
+On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no native equivalent to doing this; you have to use a third-party app or copy/paste from a webpage like this.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org2973ed6&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org2973ed6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Bullets&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;• – #0x2022 – bullet&lt;/li&gt;
+&lt;li&gt;● – #0x25cf – black circle&lt;/li&gt;
+&lt;li&gt;· – #0xb7 – middle dot&lt;/li&gt;
+&lt;li&gt;☉ – #0x2609 – sun&lt;/li&gt;
+&lt;li&gt;◆ – #0x25c6 – black diamond&lt;/li&gt;
+&lt;li&gt;◈ – #0x25c8 – white diamond containing black small diamond&lt;/li&gt;
+&lt;li&gt;❖ – #0x2756 – black diamond minus white x&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org0baa300&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org0baa300&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Asterisks&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;✱ – #2731 – heavy asterisk&lt;/li&gt;
+&lt;li&gt;⁕ – #0x2055 – flower punctuation mark&lt;/li&gt;
+&lt;li&gt;❋ – #0x274b – heavy eight teardrop-spoked propeller asterisk&lt;/li&gt;
+&lt;li&gt;✻ – #0x273b – teardrop-spoked asterisk&lt;/li&gt;
+&lt;li&gt;✽ – #0x273d – heavy teardrop-spoked asterisk&lt;/li&gt;
+&lt;li&gt;❃ – #0x2743 – heavy teardrop-spoked pinwheel asterisk&lt;/li&gt;
+&lt;li&gt;✿ – #0x273f – black florette&lt;/li&gt;
+&lt;li&gt;❊ – #0x274a – eight teardrop-spoked propeller asterisk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org9feea85&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org9feea85&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Punctuation&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;— – #0x2014 – em dash&lt;/li&gt;
+&lt;li&gt;– – #0x2013 – en dash&lt;/li&gt;
+&lt;li&gt;━ – #0x2501 – box drawings heavy horizontal&lt;/li&gt;
+&lt;li&gt;❝ – #0x275d – heavy double turned comma quotation mark ornament&lt;/li&gt;
+&lt;li&gt;❞ – #0x275e – heavy double comma quotation mark ornament&lt;/li&gt;
+&lt;li&gt;® – #0xae – registered sign&lt;/li&gt;
+&lt;li&gt;© – #0xa9 – copyright sign&lt;/li&gt;
+&lt;li&gt;™ – #0x2122 – trade mark sign&lt;/li&gt;
+&lt;li&gt;❘ – #0x2758 – light vertical bar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-orgca3385a&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgca3385a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Arrows&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;← – #0x2190 – leftwards arrow&lt;/li&gt;
+&lt;li&gt;→ – #0x2192 – rightwards arrow&lt;/li&gt;
+&lt;li&gt;⇒ – #0x21d2 – rightwards double arrow aka “implication arrow”&lt;/li&gt;
+&lt;li&gt;↞ – #0x219e – leftwards two headed arrow&lt;/li&gt;
+&lt;li&gt;⇠ – #0x21e0 – leftwards dashed arrow&lt;/li&gt;
+&lt;li&gt;⇐ – #0x21d0 – leftwards double arrow&lt;/li&gt;
+&lt;li&gt;◄ – #0x25c4 – black left-pointing pointer&lt;/li&gt;
+&lt;li&gt;➞ – #0x279e – heavy triangle-headed rightwards arrow&lt;/li&gt;
+&lt;li&gt;➜ – #0x279c – heavy round-tipped rightwards arrow&lt;/li&gt;
+&lt;li&gt;➠ – #0x27a0 – heavy dashed triangle-headed rightwards arrow&lt;/li&gt;
+&lt;li&gt;» – #0xbb – right-pointing double angle quotation mark&lt;/li&gt;
+&lt;li&gt;⫸ – #0x2af8 – triple nested greater-than&lt;/li&gt;
+&lt;li&gt;➼ – #0x27bc – wedge-tailed rightwards arrow&lt;/li&gt;
+&lt;li&gt;➺ – #0x27ba – teardrop-barbed rightwards arrow&lt;/li&gt;
+&lt;li&gt;➤ – #0x27a4 – black rightwards arrowhead&lt;/li&gt;
+&lt;li&gt;► – #0x25ba – black right-pointing pointer&lt;/li&gt;
+&lt;li&gt;➥ – #0x27a5 – heavy black curved downwards and rightwards arrow&lt;/li&gt;
+&lt;li&gt;⇢ – #0x21e2 – rightwards dashed arrow&lt;/li&gt;
+&lt;li&gt;➳ – #0x27b3 – white-feathered rightwards arrow&lt;/li&gt;
+&lt;li&gt;↳ – #0x21b3 – downwards arrow with tip rightwards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org853fb4a&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org853fb4a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Circled numbers&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;⓪ – #0x24ea – circled digit zero&lt;/li&gt;
+&lt;li&gt;① – #0x2460 – circled digit one&lt;/li&gt;
+&lt;li&gt;② – #0x2461 – circled digit two&lt;/li&gt;
+&lt;li&gt;② – #0x2461 – circled digit two&lt;/li&gt;
+&lt;li&gt;③ – #0x2462 – circled digit three&lt;/li&gt;
+&lt;li&gt;④ – #0x2463 – circled digit four&lt;/li&gt;
+&lt;li&gt;⑤ – #0x2464 – circled digit five&lt;/li&gt;
+&lt;li&gt;⑥ – #0x2465 – circled digit six&lt;/li&gt;
+&lt;li&gt;⑦ – #0x2466 – circled digit seven&lt;/li&gt;
+&lt;li&gt;⑧ – #0x2467 – circled digit eight&lt;/li&gt;
+&lt;li&gt;⑨ – #0x2468 – circled digit nine&lt;/li&gt;
+&lt;li&gt;⑩ – #0x2469 – circled number ten&lt;/li&gt;
+&lt;li&gt;⑪ – #0x246a – circled number eleven&lt;/li&gt;
+&lt;li&gt;➊ – #0x278a – dingbat negative circled sans-serif digit one&lt;/li&gt;
+&lt;li&gt;➋ – #0x278b – dingbat negative circled sans-serif digit two&lt;/li&gt;
+&lt;li&gt;➌ – #0x278c – dingbat negative circled sans-serif digit three&lt;/li&gt;
+&lt;li&gt;➍ – #0x278d – dingbat negative circled sans-serif digit four&lt;/li&gt;
+&lt;li&gt;➎ – #0x278e – dingbat negative circled sans-serif digit five&lt;/li&gt;
+&lt;li&gt;➏ – #0x278f – dingbat negative circled sans-serif digit six&lt;/li&gt;
+&lt;li&gt;➐ – #0x2790 – dingbat negative circled sans-serif digit seven&lt;/li&gt;
+&lt;li&gt;➑ – #0x2791 – dingbat negative circled sans-serif digit eight&lt;/li&gt;
+&lt;li&gt;➒ – #0x2792 – dingbat negative circled sans-serif digit nine&lt;/li&gt;
+&lt;li&gt;➓ – #0x2793 – dingbat negative circled sans-serif number ten&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org5c6b7f4&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org5c6b7f4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; Extra: Python to generate these lines&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-7&quot;&gt;
+&lt;p&gt;
+&lt;i&gt;You think I manually wrote all this?&lt;/i&gt;
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-python&quot;&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;#&lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;!/usr/bin/env python3&lt;/span&gt;
+
+&lt;span style=&quot;font-weight: bold;&quot;&gt;import&lt;/span&gt; unicodedata
+
+&lt;span style=&quot;font-weight: bold;&quot;&gt;def&lt;/span&gt; &lt;span style=&quot;font-weight: bold;&quot;&gt;unicode_description&lt;/span&gt;(src):
+     &lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;n&lt;/span&gt; = &lt;span style=&quot;font-weight: bold;&quot;&gt;ord&lt;/span&gt;(src)
+     &lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;h&lt;/span&gt; = &lt;span style=&quot;font-weight: bold;&quot;&gt;hex&lt;/span&gt;(n)
+     &lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;name&lt;/span&gt; = unicodedata.name(src).lower()
+     &lt;span style=&quot;font-weight: bold;&quot;&gt;return&lt;/span&gt; f&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;{src} &amp;#8211; #{h} &amp;#8211; {name}&quot;&lt;/span&gt;
+
+&lt;span style=&quot;font-weight: bold;&quot;&gt;def&lt;/span&gt; &lt;span style=&quot;font-weight: bold;&quot;&gt;print_unicode_descriptions&lt;/span&gt;(s):
+     &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;Paste a string of a bunch of Unicode symbols as input&quot;&lt;/span&gt;
+     &lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;s&lt;/span&gt; = s.split()
+     &lt;span style=&quot;font-weight: bold;&quot;&gt;for&lt;/span&gt; ch &lt;span style=&quot;font-weight: bold;&quot;&gt;in&lt;/span&gt; s:
+         &lt;span style=&quot;font-weight: bold;&quot;&gt;print&lt;/span&gt;(&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;- &quot;&lt;/span&gt; + unicode_description(ch))
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>All Investment Strategies Mean Revert</title>
+   <link href="https://blog.zellysnyder.com/the-next-big-thing"/>
+   <updated>2019-02-10T00:00:00-05:00</updated>
+   <id>https://blog.zellysnyder.com/the-next-big-thing</id>
+   <content type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
+&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;!-- 2019-03-23 Sat 18:27 --&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+&lt;title&gt;&amp;lrm;&lt;/title&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;Org mode&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+ &lt;!--/*--&gt;&lt;![CDATA[/*&gt;&lt;!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per &quot;defun org-babel-execute&quot;
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf &quot; &quot;)) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]&gt;*/--&gt;
+&lt;/style&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -264,21 +670,21 @@ for the JavaScript code in this tag.
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;div id=&quot;text-table-of-contents&quot;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#org0558453&quot;&gt;1. Passive Get Rich Quick schemes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org3719e13&quot;&gt;2. Lifecycle of investments&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#org30f41b7&quot;&gt;1. Passive Get Rich Quick schemes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org8d63d49&quot;&gt;2. Lifecycle of investments&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#org935a0eb&quot;&gt;2.1. The cycle of all successful investment strategies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgbb7b947&quot;&gt;2.2. Examples&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org53da466&quot;&gt;2.3. Reversion to the S&amp;amp;P 500&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org36b9b8c&quot;&gt;2.1. The cycle of all successful investment strategies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgc4acd8d&quot;&gt;2.2. Examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org34b99fc&quot;&gt;2.3. Reversion to the S&amp;amp;P 500&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org93ff1da&quot;&gt;3. The Next Big Thing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgb637372&quot;&gt;4. Rent-seeking vs. Creating&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org6cddbfc&quot;&gt;3. The Next Big Thing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org508dcb6&quot;&gt;4. Rent-seeking vs. Creating&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org0558453&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org0558453&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Passive Get Rich Quick schemes&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org30f41b7&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org30f41b7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Passive Get Rich Quick schemes&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 This is a reflection on patterns in Get Rich Quick schemes that actually worked. I’m fascinated by passive investments that made people extremely rich just by assuming risk with extraordinarily good timing and foresight.
@@ -297,12 +703,12 @@ Don’t tell me getting rich slowly is more guaranteed&amp;#x2014;I know. But do
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org3719e13&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org3719e13&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Lifecycle of investments&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org8d63d49&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org8d63d49&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Lifecycle of investments&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org935a0eb&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org935a0eb&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; The cycle of all successful investment strategies&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org36b9b8c&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org36b9b8c&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; The cycle of all successful investment strategies&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
 &lt;ol class=&quot;org-ol&quot;&gt;
 &lt;li&gt;&lt;b&gt;Genesis&lt;/b&gt;: Someone discovers or invents something big, potentially paradigm-shifting or just a Better Mousetrap. This is the new “Investment Vehicle,” as I will refer to it here. Think personal computers in the early 1990s.&lt;/li&gt;
@@ -322,8 +728,8 @@ Despite how it may sound, this is not a description of a bubble or Ponzi scheme 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgbb7b947&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgbb7b947&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; Examples&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orgc4acd8d&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgc4acd8d&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; Examples&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;Flipping houses? Dead; $100+ Billion market cap REITs got into it too and took the opportunities that once allowed individuals to get rich.&lt;/li&gt;
@@ -338,8 +744,8 @@ When I say “Dead”, I don’t mean that you cannot make money by investing in
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org53da466&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org53da466&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; Reversion to the S&amp;amp;P 500&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org34b99fc&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org34b99fc&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; Reversion to the S&amp;amp;P 500&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-3&quot;&gt;
 &lt;p&gt;
 Every investment strategy that has anomalous high rewards quickly reverts to those of the S&amp;amp;P 500 once enough people know about it.
@@ -359,8 +765,8 @@ Once the speculative asset proves itself promising to the broader market, the fu
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org93ff1da&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org93ff1da&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; The Next Big Thing&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org6cddbfc&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org6cddbfc&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; The Next Big Thing&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;p&gt;
 The point of our inquiry isn’t necessarily to promote pessimism. Yes, all good investments eventually become not-good investments because too many people hear about them. That’s just an objective fact. You will not make better-than-average money by investing in something a lot of other people are also investing in. If that discourages you from investing (e.g., in some investment strategy &lt;a href=&quot;https://www.tailopez.com/&quot;&gt;some charlatan&lt;/a&gt; convinced you was a Sure Thing), then maybe it’s a good thing you’re discouraged; high false expectations lead to high disappointments. The point of identifying this fact is to use it to discover really good investments. Hardly pessimistic.
@@ -417,8 +823,8 @@ What’s next?
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgb637372&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgb637372&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Rent-seeking vs. Creating&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org508dcb6&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org508dcb6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Rent-seeking vs. Creating&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;p&gt;
 It’s fun to chase Get Rich Quick schemes, but it’s ultimately pointless and adds almost zero value to humanity. I can’t think of anything more self-centered than &lt;a href=&quot;https://en.wikipedia.org/wiki/Venture_capital&quot;&gt;professionally seeking to profit from other people’s creations&lt;/a&gt;, but &lt;a href=&quot;https://en.wikipedia.org/wiki/Ayn_Rand&quot;&gt;some philosophies&lt;/a&gt; are used by &lt;a href=&quot;https://en.wikipedia.org/wiki/Peter_Thiel&quot;&gt;some people&lt;/a&gt; to argue this is not a bad thing. After all, without investors, a lot of very good ideas would never have gotten off the ground. Good ideas need resources to produce good for the world. Investment serves a purpose. Although on paper it’s a zero sum game&amp;#x2014;the recipient of a future-successful investment loses long term value to the investor&amp;#x2014;, there is no alternative in a non-perfect world where scarcity exists.
@@ -567,7 +973,7 @@ Not to imply that everything which is unnatural is necessarily bad.
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-02-10 Sun 22:36 --&gt;
+&lt;!-- 2019-03-23 Sat 18:27 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -761,7 +1167,7 @@ Not to imply that everything which is unnatural is necessarily bad.
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2018 Free Software Foundation, Inc.
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -805,8 +1211,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-orga930598&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orga930598&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Abbrevs in Emacs and its limited namespace problem&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orge86c3fa&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orge86c3fa&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Abbrevs in Emacs and its limited namespace problem&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 &lt;a href=&quot;https://www.gnu.org/software/emacs/manual/html_node/elisp/Abbrevs.html&quot;&gt;Abbrevs&lt;/a&gt; in Emacs are tables of expansions of short words to arbitrary longer strings. This is commonly called a “text replacement” in other editors. The canonical example of an abbrev/text replacement&lt;sup&gt;&lt;a id=&quot;fnr.1&quot; class=&quot;footref&quot; href=&quot;#fn.1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; is “omw” → “on my way”. Of course you could make more sophisticated abbrevs&amp;#x2014;e.g., replace a few letters with lines of &lt;code&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/code&gt; type boilerplate.
@@ -817,8 +1223,8 @@ A limitation I encountered with this was how easily my abbrevs could clash with 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org3f31d36&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org3f31d36&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; More possibilities with prefixed abbrevs&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org610abc6&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org610abc6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; More possibilities with prefixed abbrevs&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 The solution was to hack abbrevs to be namespaced under a prefix symbol. I like using “$”, so I could use something like “$ps” → “public static ” whereas typing “ps” wouldn’t trigger the expansion since it is not preceded by my prefix character.
@@ -919,7 +1325,7 @@ Meta: Make an abbrev to replace “abbrev” → “text replacement”
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-02-10 Sun 22:36 --&gt;
+&lt;!-- 2019-03-23 Sat 18:27 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -1113,7 +1519,7 @@ Meta: Make an abbrev to replace “abbrev” → “text replacement”
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2018 Free Software Foundation, Inc.
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -1157,8 +1563,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-orgddd9757&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgddd9757&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; To underscore or not to underscore?&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgd223a37&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgd223a37&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; To underscore or not to underscore?&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 I don’t get why underscoring isn’t the &lt;i&gt;de facto&lt;/i&gt; standard everywhere by now. It’s much easier to read. The underscore can be much more easily parsed by your mind as a separator. With objectOrientedEnterpriseAbstractFactoryCase, you have to intuit each token “manually,” relying on capitalization to separate words. I think that’s horrible.
@@ -1169,8 +1575,8 @@ This post is about all the reasons you should stop using camel case and why you 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgdf04d8e&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgdf04d8e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Proven to be more readable&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org0f56beb&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org0f56beb&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Proven to be more readable&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 Empirical testing for the win. &lt;a href=&quot;https://ieeexplore.ieee.org/document/5521745&quot;&gt;snake case is more readable&lt;/a&gt;. Time is money. Code is read 1000x more human-hours than it is written. Therefore the goal of naming conventions should be readability.
@@ -1187,8 +1593,8 @@ This shouldn’t come to any surprise since the underscore is so visually simila
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org1f0d5c7&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org1f0d5c7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; CamelCase forces you to deform natural language&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgddc3ecc&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgddc3ecc&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; CamelCase forces you to deform natural language&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;p&gt;
 For example, the standard that the first word must be lowercase for Java member functions/variables…well what if that first word is semantically correct as uppercase?
@@ -1207,8 +1613,8 @@ Overloading capitalization is a bad idea.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orga183e9f&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orga183e9f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; If typing an underscore is so hard for you, make it easy&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgc65200a&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgc65200a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; If typing an underscore is so hard for you, make it easy&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;p&gt;
 I suspect a lot of the reason for camelCase is how easy it is to write capital letters compared to reaching for the underscore. Everyone already has a keen muscle memory for capitalization. For the average person, underscores are not often typed over and over.
@@ -1247,16 +1653,16 @@ or put this in your &lt;code&gt;~/.Xmodmap&lt;/code&gt;:
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org1c2d329&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org1c2d329&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Capitalization doesn’t mean anything in many world languages&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org17b67f9&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org17b67f9&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Capitalization doesn’t mean anything in many world languages&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
 &lt;p&gt;
 It’s just English and other Indo-European languages that have this concept.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org82b60ea&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org82b60ea&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Looking beyond underscores&amp;#x2014;ideal naming convention for identifiers&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org84beca9&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org84beca9&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Looking beyond underscores&amp;#x2014;ideal naming convention for identifiers&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
 &lt;p&gt;
 It has been said tongue-in-cheek that one of the biggest unsolved problems in programming is naming things. There’s a lot of truth to that, but I’d extend that to &lt;i&gt;how&lt;/i&gt; those names are displayed as well. &lt;code&gt;Snake_case&lt;/code&gt; is a good step in the right direction; underscores being indistinguishable from spaces on a cursory visual scan.
@@ -1290,7 +1696,7 @@ A better compromise that can be easily implemented is having delimiters around v
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-02-10 Sun 22:35 --&gt;
+&lt;!-- 2019-03-23 Sat 18:27 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -1484,7 +1890,7 @@ A better compromise that can be easily implemented is having delimiters around v
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2018 Free Software Foundation, Inc.
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -1528,8 +1934,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-orgd9312cf&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgd9312cf&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Problem&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org60d6a4a&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org60d6a4a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Problem&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 You can’t set the key repeat rate beyond a certain amount in the Windows 10 Control Panel. There are some recommendations to change some registry settings, but even that doesn’t work; it only changes the setting in the Control Panel that you could change anyway.
@@ -1540,8 +1946,8 @@ I like keys repeating very quickly because it allows quick navigation in text fi
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgfcb5d7b&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgfcb5d7b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Solution&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org106acbc&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org106acbc&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Solution&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 This is the only way to change the keyboard repeat settings beyond what you are allowed to change it to in the Control Panel. You need to compile and run this C++ code.
