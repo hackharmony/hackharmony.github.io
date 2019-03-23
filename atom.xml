@@ -4,7 +4,7 @@
  <title>Zelly Snyder</title>
  <link href="https://blog.zellysnyder.com/atom.xml" rel="self"/>
  <link href="https://blog.zellysnyder.com/"/>
- <updated>2019-03-23T18:27:49-04:00</updated>
+ <updated>2019-03-23T18:45:02-04:00</updated>
  <id>https://blog.zellysnyder.com</id>
  <author>
    <name>Zelly Snyder</name>
@@ -22,7 +22,7 @@
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-03-23 Sat 18:28 --&gt;
+&lt;!-- 2019-03-23 Sat 18:45 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -260,8 +260,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-org77b7687&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org77b7687&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; What this is for&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orge3a59a6&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orge3a59a6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; What this is for&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 This is a list of Unicode symbols / code points that are often used on social media&amp;#x2014;besides emojis, which are already easy to input.
@@ -284,8 +284,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org2973ed6&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org2973ed6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Bullets&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org7446e97&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org7446e97&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Bullets&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;• – #0x2022 – bullet&lt;/li&gt;
@@ -298,8 +298,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org0baa300&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org0baa300&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Asterisks&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgdb6d25a&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgdb6d25a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Asterisks&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;✱ – #2731 – heavy asterisk&lt;/li&gt;
@@ -313,8 +313,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org9feea85&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org9feea85&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Punctuation&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orga0b1484&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orga0b1484&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Punctuation&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;— – #0x2014 – em dash&lt;/li&gt;
@@ -329,8 +329,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgca3385a&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgca3385a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Arrows&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgbeefaa4&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgbeefaa4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Arrows&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;← – #0x2190 – leftwards arrow&lt;/li&gt;
@@ -356,8 +356,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org853fb4a&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org853fb4a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Circled numbers&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org971a944&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org971a944&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Circled numbers&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;⓪ – #0x24ea – circled digit zero&lt;/li&gt;
@@ -386,8 +386,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org5c6b7f4&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org5c6b7f4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; Extra: Python to generate these lines&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org672f4b2&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org672f4b2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; Extra: Python to generate these lines&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-7&quot;&gt;
 &lt;p&gt;
 &lt;i&gt;You think I manually wrote all this?&lt;/i&gt;
@@ -428,7 +428,7 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-03-23 Sat 18:27 --&gt;
+&lt;!-- 2019-03-23 Sat 18:45 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -670,32 +670,32 @@ for the JavaScript code in this tag.
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;div id=&quot;text-table-of-contents&quot;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#org30f41b7&quot;&gt;1. Passive Get Rich Quick schemes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org8d63d49&quot;&gt;2. Lifecycle of investments&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#org1331c35&quot;&gt;1. Get Rich Quick?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org81e7898&quot;&gt;2. Lifecycle of investments&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#org36b9b8c&quot;&gt;2.1. The cycle of all successful investment strategies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgc4acd8d&quot;&gt;2.2. Examples&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org34b99fc&quot;&gt;2.3. Reversion to the S&amp;amp;P 500&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org763f684&quot;&gt;2.1. The cycle of all successful investment strategies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org39d1e42&quot;&gt;2.2. Examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org65e77cf&quot;&gt;2.3. Reversion to the S&amp;amp;P 500&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org6cddbfc&quot;&gt;3. The Next Big Thing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org508dcb6&quot;&gt;4. Rent-seeking vs. Creating&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org4bbae58&quot;&gt;3. The Next Big Thing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org7932f8e&quot;&gt;4. Rent-seeking vs. Creating&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org30f41b7&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org30f41b7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Passive Get Rich Quick schemes&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org1331c35&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org1331c35&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Get Rich Quick?&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
-This is a reflection on patterns in Get Rich Quick schemes that actually worked. I’m fascinated by passive investments that made people extremely rich just by assuming risk with extraordinarily good timing and foresight.
+You hear a lot about the very smart people who invented or pioneered things (e.g., Edison, Ford, Gates, Jobs, Zuckerberg), but you don’t hear much fanfare about the (arguably smarter) people who invested in them and made fortunes &lt;a href=&quot;https://en.wikipedia.org/wiki/Rent-seeking&quot;&gt;without doing all the hard work&lt;/a&gt;.
 &lt;/p&gt;
 
 &lt;p&gt;
-You hear a lot about the very smart people who invented or pioneered things (e.g., Edison, Ford, Gates, Jobs, Zuckerberg), but you don’t hear much fanfare about the (arguably smarter) people who invested in them and made fortunes &lt;a href=&quot;https://en.wikipedia.org/wiki/Rent-seeking&quot;&gt;without doing all the hard work&lt;/a&gt;. I guess this bias is a manifestation of society’s, perhaps rightful, preference for creation and labor over idle rich-getting-richer wealth growth.
+The tendency to gamble is really the distilled form of the desire to Get Rich Quick. Gambling has been around &lt;a href=&quot;https://en.wikipedia.org/wiki/Gambling#History&quot;&gt;since the dawn of human civilization.&lt;/a&gt; The impulse to take risks for large  gains is fundamental to the human experience.
 &lt;/p&gt;
 
 &lt;p&gt;
-But I think the desire to Get Rich Quick is so universal and romanticized that those who say they don’t care about them are only pretending. The tendency to gamble is really the distilled form of the desire to Get Rich Quick. Gambling has been around &lt;a href=&quot;https://en.wikipedia.org/wiki/Gambling#History&quot;&gt;since the dawn of human civilization&lt;/a&gt; (I could imagine hunter-gatherers also gambled spare (and not spare) resources in their tribes). The Get Rich Quick impulse is the essence of risk-taking, fundamental to the human experience. Gambling feels good, gives us a reliable and potentially addiction-forming shot of dopamine. Why? Evolution incentivized the genes that promoted gambling: &lt;i&gt;We are all invariably descendants of people who took massive risks and happened to succeed&lt;/i&gt;. Without getting too philosophical, I would argue that the human impulse to Get Rich Quick is the #1 reason communism is a failure.
+Gambling feels good, gives us a reliable and addiction-forming shot of dopamine. Why? Evolution incentivized the genes that promoted gambling: &lt;i&gt;We are all invariably descendants of people who took massive risks and happened to succeed&lt;/i&gt;. The Paleolithic landscape offered many no doubt chances to win big for taking big risks; the winners outbred those who didn’t take risks. Without getting too philosophical, I would argue that the human impulse to Get Rich Quick is the #1 reason communism is a failure.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -703,12 +703,12 @@ Don’t tell me getting rich slowly is more guaranteed&amp;#x2014;I know. But do
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org8d63d49&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org8d63d49&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Lifecycle of investments&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org81e7898&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org81e7898&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Lifecycle of investments&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org36b9b8c&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org36b9b8c&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; The cycle of all successful investment strategies&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org763f684&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org763f684&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; The cycle of all successful investment strategies&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
 &lt;ol class=&quot;org-ol&quot;&gt;
 &lt;li&gt;&lt;b&gt;Genesis&lt;/b&gt;: Someone discovers or invents something big, potentially paradigm-shifting or just a Better Mousetrap. This is the new “Investment Vehicle,” as I will refer to it here. Think personal computers in the early 1990s.&lt;/li&gt;
@@ -728,8 +728,8 @@ Despite how it may sound, this is not a description of a bubble or Ponzi scheme 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgc4acd8d&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgc4acd8d&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; Examples&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org39d1e42&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org39d1e42&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; Examples&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;Flipping houses? Dead; $100+ Billion market cap REITs got into it too and took the opportunities that once allowed individuals to get rich.&lt;/li&gt;
@@ -744,8 +744,8 @@ When I say “Dead”, I don’t mean that you cannot make money by investing in
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org34b99fc&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org34b99fc&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; Reversion to the S&amp;amp;P 500&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org65e77cf&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org65e77cf&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; Reversion to the S&amp;amp;P 500&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-3&quot;&gt;
 &lt;p&gt;
 Every investment strategy that has anomalous high rewards quickly reverts to those of the S&amp;amp;P 500 once enough people know about it.
@@ -765,8 +765,8 @@ Once the speculative asset proves itself promising to the broader market, the fu
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org6cddbfc&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org6cddbfc&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; The Next Big Thing&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org4bbae58&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org4bbae58&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; The Next Big Thing&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;p&gt;
 The point of our inquiry isn’t necessarily to promote pessimism. Yes, all good investments eventually become not-good investments because too many people hear about them. That’s just an objective fact. You will not make better-than-average money by investing in something a lot of other people are also investing in. If that discourages you from investing (e.g., in some investment strategy &lt;a href=&quot;https://www.tailopez.com/&quot;&gt;some charlatan&lt;/a&gt; convinced you was a Sure Thing), then maybe it’s a good thing you’re discouraged; high false expectations lead to high disappointments. The point of identifying this fact is to use it to discover really good investments. Hardly pessimistic.
@@ -823,8 +823,8 @@ What’s next?
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org508dcb6&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org508dcb6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Rent-seeking vs. Creating&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org7932f8e&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org7932f8e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Rent-seeking vs. Creating&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;p&gt;
 It’s fun to chase Get Rich Quick schemes, but it’s ultimately pointless and adds almost zero value to humanity. I can’t think of anything more self-centered than &lt;a href=&quot;https://en.wikipedia.org/wiki/Venture_capital&quot;&gt;professionally seeking to profit from other people’s creations&lt;/a&gt;, but &lt;a href=&quot;https://en.wikipedia.org/wiki/Ayn_Rand&quot;&gt;some philosophies&lt;/a&gt; are used by &lt;a href=&quot;https://en.wikipedia.org/wiki/Peter_Thiel&quot;&gt;some people&lt;/a&gt; to argue this is not a bad thing. After all, without investors, a lot of very good ideas would never have gotten off the ground. Good ideas need resources to produce good for the world. Investment serves a purpose. Although on paper it’s a zero sum game&amp;#x2014;the recipient of a future-successful investment loses long term value to the investor&amp;#x2014;, there is no alternative in a non-perfect world where scarcity exists.
@@ -973,7 +973,7 @@ Not to imply that everything which is unnatural is necessarily bad.
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-03-23 Sat 18:27 --&gt;
+&lt;!-- 2019-03-23 Sat 18:45 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -1211,8 +1211,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-orge86c3fa&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orge86c3fa&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Abbrevs in Emacs and its limited namespace problem&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgb167d15&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgb167d15&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Abbrevs in Emacs and its limited namespace problem&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 &lt;a href=&quot;https://www.gnu.org/software/emacs/manual/html_node/elisp/Abbrevs.html&quot;&gt;Abbrevs&lt;/a&gt; in Emacs are tables of expansions of short words to arbitrary longer strings. This is commonly called a “text replacement” in other editors. The canonical example of an abbrev/text replacement&lt;sup&gt;&lt;a id=&quot;fnr.1&quot; class=&quot;footref&quot; href=&quot;#fn.1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; is “omw” → “on my way”. Of course you could make more sophisticated abbrevs&amp;#x2014;e.g., replace a few letters with lines of &lt;code&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/code&gt; type boilerplate.
@@ -1223,8 +1223,8 @@ A limitation I encountered with this was how easily my abbrevs could clash with 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org610abc6&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org610abc6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; More possibilities with prefixed abbrevs&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgcf19386&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgcf19386&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; More possibilities with prefixed abbrevs&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 The solution was to hack abbrevs to be namespaced under a prefix symbol. I like using “$”, so I could use something like “$ps” → “public static ” whereas typing “ps” wouldn’t trigger the expansion since it is not preceded by my prefix character.
@@ -1325,7 +1325,7 @@ Meta: Make an abbrev to replace “abbrev” → “text replacement”
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-03-23 Sat 18:27 --&gt;
+&lt;!-- 2019-03-23 Sat 18:45 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -1563,8 +1563,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-orgd223a37&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgd223a37&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; To underscore or not to underscore?&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orge2671fd&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orge2671fd&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; To underscore or not to underscore?&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 I don’t get why underscoring isn’t the &lt;i&gt;de facto&lt;/i&gt; standard everywhere by now. It’s much easier to read. The underscore can be much more easily parsed by your mind as a separator. With objectOrientedEnterpriseAbstractFactoryCase, you have to intuit each token “manually,” relying on capitalization to separate words. I think that’s horrible.
@@ -1575,8 +1575,8 @@ This post is about all the reasons you should stop using camel case and why you 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org0f56beb&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org0f56beb&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Proven to be more readable&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org901dc8a&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org901dc8a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Proven to be more readable&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 Empirical testing for the win. &lt;a href=&quot;https://ieeexplore.ieee.org/document/5521745&quot;&gt;snake case is more readable&lt;/a&gt;. Time is money. Code is read 1000x more human-hours than it is written. Therefore the goal of naming conventions should be readability.
@@ -1593,8 +1593,8 @@ This shouldn’t come to any surprise since the underscore is so visually simila
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgddc3ecc&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgddc3ecc&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; CamelCase forces you to deform natural language&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org32245c3&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org32245c3&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; CamelCase forces you to deform natural language&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;p&gt;
 For example, the standard that the first word must be lowercase for Java member functions/variables…well what if that first word is semantically correct as uppercase?
@@ -1613,8 +1613,8 @@ Overloading capitalization is a bad idea.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgc65200a&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgc65200a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; If typing an underscore is so hard for you, make it easy&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org52f9506&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org52f9506&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; If typing an underscore is so hard for you, make it easy&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;p&gt;
 I suspect a lot of the reason for camelCase is how easy it is to write capital letters compared to reaching for the underscore. Everyone already has a keen muscle memory for capitalization. For the average person, underscores are not often typed over and over.
@@ -1653,16 +1653,16 @@ or put this in your &lt;code&gt;~/.Xmodmap&lt;/code&gt;:
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org17b67f9&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org17b67f9&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Capitalization doesn’t mean anything in many world languages&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org008aa39&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org008aa39&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Capitalization doesn’t mean anything in many world languages&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
 &lt;p&gt;
 It’s just English and other Indo-European languages that have this concept.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org84beca9&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org84beca9&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Looking beyond underscores&amp;#x2014;ideal naming convention for identifiers&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orga6e7248&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orga6e7248&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Looking beyond underscores&amp;#x2014;ideal naming convention for identifiers&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
 &lt;p&gt;
 It has been said tongue-in-cheek that one of the biggest unsolved problems in programming is naming things. There’s a lot of truth to that, but I’d extend that to &lt;i&gt;how&lt;/i&gt; those names are displayed as well. &lt;code&gt;Snake_case&lt;/code&gt; is a good step in the right direction; underscores being indistinguishable from spaces on a cursory visual scan.
@@ -1696,7 +1696,7 @@ A better compromise that can be easily implemented is having delimiters around v
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-03-23 Sat 18:27 --&gt;
+&lt;!-- 2019-03-23 Sat 18:45 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -1934,8 +1934,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-org60d6a4a&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org60d6a4a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Problem&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgcc8927d&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgcc8927d&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Problem&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 You can’t set the key repeat rate beyond a certain amount in the Windows 10 Control Panel. There are some recommendations to change some registry settings, but even that doesn’t work; it only changes the setting in the Control Panel that you could change anyway.
@@ -1946,8 +1946,8 @@ I like keys repeating very quickly because it allows quick navigation in text fi
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org106acbc&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org106acbc&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Solution&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgdd9d62a&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgdd9d62a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Solution&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 This is the only way to change the keyboard repeat settings beyond what you are allowed to change it to in the Control Panel. You need to compile and run this C++ code.
