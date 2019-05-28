@@ -102,7 +102,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-05-28 Tue 15:54 -->
+<!-- 2019-05-28 Tue 16:55 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -340,8 +340,8 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<div id="outline-container-org1e417cf" class="outline-2">
-<h2 id="org1e417cf"><span class="section-number-2">1</span> Abbrevs in Emacs and its limited namespace problem</h2>
+<div id="outline-container-orgb8128df" class="outline-2">
+<h2 id="orgb8128df"><span class="section-number-2">1</span> Abbrevs in Emacs and its limited namespace problem</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 <a href="https://www.gnu.org/software/emacs/manual/html_node/elisp/Abbrevs.html">Abbrevs</a> in Emacs are tables of expansions of short words to arbitrary longer strings. This is commonly called a “text replacement” in other editors. The canonical example of an abbrev/text replacement<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup> is “omw” → “on my way”. Of course you could make more sophisticated abbrevs&#x2014;e.g., replace a few letters with lines of <code>#include &lt;stdio.h&gt;</code> type boilerplate.
@@ -352,8 +352,8 @@ A limitation I encountered with this was how easily my abbrevs could clash with 
 </p>
 </div>
 </div>
-<div id="outline-container-orge68cbf7" class="outline-2">
-<h2 id="orge68cbf7"><span class="section-number-2">2</span> More possibilities with prefixed abbrevs</h2>
+<div id="outline-container-org30e5b3d" class="outline-2">
+<h2 id="org30e5b3d"><span class="section-number-2">2</span> More possibilities with prefixed abbrevs</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 The solution was to hack abbrevs to be namespaced under a prefix symbol. I like using “$”, so I could use something like “$ps” → “public static ” whereas typing “ps” wouldn’t trigger the expansion since it is not preceded by my prefix character.
@@ -450,7 +450,16 @@ Meta: Make an abbrev to replace “abbrev” → “text replacement”
     
       <li>
         <h3>
-          <a href="/dont-learn-dvorak">
+          <a href="/philosophy/bitcoin-is-like-fine-art-not-gold">
+            Bitcoin as an Expensive Piece of Art
+            <small>01 Apr 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/software/dont-learn-dvorak">
             The Case Against The Dvorak Keyboard Layout
             <small>29 Mar 2019</small>
           </a>
@@ -459,18 +468,9 @@ Meta: Make an abbrev to replace “abbrev” → “text replacement”
     
       <li>
         <h3>
-          <a href="/unicode-symbols-for-social-media">
+          <a href="/software/unicode-symbols-for-social-media">
             Unicode Symbols Useful For Social Media
             <small>23 Mar 2019</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/the-death-of-risk-taking">
-            The Death of Risk Taking
-            <small>12 Feb 2019</small>
           </a>
         </h3>
       </li>

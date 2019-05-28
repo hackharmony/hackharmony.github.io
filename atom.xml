@@ -4,7 +4,7 @@
  <title>Zelly Snyder</title>
  <link href="https://blog.zellysnyder.com/atom.xml" rel="self"/>
  <link href="https://blog.zellysnyder.com/"/>
- <updated>2019-05-28T15:53:57-04:00</updated>
+ <updated>2019-05-28T16:55:26-04:00</updated>
  <id>https://blog.zellysnyder.com</id>
  <author>
    <name>Zelly Snyder</name>
@@ -13,16 +13,16 @@
 
  
  <entry>
-   <title>The Case Against The Dvorak Keyboard Layout</title>
-   <link href="https://blog.zellysnyder.com/dont-learn-dvorak"/>
-   <updated>2019-03-29T00:00:00-04:00</updated>
-   <id>https://blog.zellysnyder.com/dont-learn-dvorak</id>
+   <title>Bitcoin as an Expensive Piece of Art</title>
+   <link href="https://blog.zellysnyder.com/philosophy/bitcoin-is-like-fine-art-not-gold"/>
+   <updated>2019-04-01T00:00:00-04:00</updated>
+   <id>https://blog.zellysnyder.com/philosophy/bitcoin-is-like-fine-art-not-gold</id>
    <content type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-05-28 Tue 15:54 --&gt;
+&lt;!-- 2019-05-28 Tue 16:55 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -260,8 +260,448 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-orgb12c867&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgb12c867&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Don’t learn Dvorak&amp;#x2014;it’s a tremendous waste of time&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgd38ee55&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgd38ee55&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Summary&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;Bitcoin belongs in the same category as fine art.&lt;/li&gt;
+&lt;li&gt;People store wealth in things that are both beautiful and rare.&lt;/li&gt;
+&lt;li&gt;Bitcoin is a story and piece of history&amp;#x2014;not a technology, currency, a payment processing platform, or a decentralized protocol.&lt;/li&gt;
+&lt;li&gt;Other cryptocurrencies lack Bitcoin’s intrinsic value and cannot justify their value.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org0e7a8be&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org0e7a8be&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; What gives Bitcoin its value?&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
+&lt;p&gt;
+This is what everyone new to cryptocurrency immediately asks. The standard answers are:
+&lt;/p&gt;
+
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;Bitcoin is a worldwide instantaneous payment mechanism.&lt;sup&gt;&lt;a id=&quot;fnr.1&quot; class=&quot;footref&quot; href=&quot;#fn.1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Bitcoin allows fungible payments across borders without censorship.&lt;sup&gt;&lt;a id=&quot;fnr.2&quot; class=&quot;footref&quot; href=&quot;#fn.2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Bitcoin is a medium of exchange that avoids government censorship; it’s useful for capital flight, black market transactions, and tax evasion.&lt;sup&gt;&lt;a id=&quot;fnr.3&quot; class=&quot;footref&quot; href=&quot;#fn.3&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Bitcoin is a store of value.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+The first answers are either downright untrue or not unique to Bitcoin. Telling me the superior aspects of Bitcoin if it were used as a currency assumes it should be a currency in the first place. In fact, saying that the raw technological features of Bitcoin are what gives it value is really an argument that it doesn’t have any value. These technological features that supposedly give it value can be (and have been) copied ad infinitum since it’s just software. (Unlike Microsoft Windows, which is valuable as software, Bitcoin is completely open source and freely licensed, so it doesn’t even need to be reverse engineered to be copied.) If those software features impart intrinsic value, then I should be able to make a perfect copy of all of Bitcoin’s features and steal all of Bitcoin’s value, but that’s obviously not what happens.
+&lt;/p&gt;
+
+&lt;p&gt;
+Most of these common answers end up begging the question by assuming Bitcoin has value at all. The most plausible answer is the last one listed—“it’s a store of value”—because it unashamedly implies this tautology. No one ever needed to question the value of gold as being worth something. It just was. You didn’t have to think about it.
+&lt;/p&gt;
+
+&lt;p&gt;
+But since we are questioning it, and it’s obviously far more common for people to ask why Bitcoin has value than why gold has value, gold and Bitcoin aren’t exactly analogous. At the surface, though, there is one big similarity: perception. People who accept gold as valuable—&amp;gt;99% of the world—accept gold as valuable without questioning it. People who have a significant amount of their net worth in Bitcoin accept Bitcoin as valuable without questioning it. You can say there are varying degrees to which something is a store of value, with gold being a somewhat absolute store of value and Bitcoin, collectible sneakers, and Picasso paintings lying somewhere to the left of gold.
+&lt;/p&gt;
+
+&lt;p&gt;
+What do other pure (non-fiat non-paper currency) stores of value have in common?
+&lt;/p&gt;
+
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;Gold&lt;/li&gt;
+&lt;li&gt;Silver/platinum/other precious metals&lt;/li&gt;
+&lt;li&gt;Pieces of art like Picassos&lt;/li&gt;
+&lt;li&gt;Collectible sneakers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+They all are &lt;i&gt;scarce&lt;/i&gt; and &lt;i&gt;aesthetic&lt;/i&gt;. Being scarce is easy. It’s the aesthetic part that’s the bottleneck. In the eyes of the believers (who are necessarily more than 1 person), these things are beautiful.
+&lt;/p&gt;
+
+&lt;p&gt;
+If you have ever held pure 24-karat gold bullion in your hands, then you know the feeling. You know the original humans who found gold in the ground felt the exact same thing. Gold’s aesthetics can’t be replicated (and if it were, upon verification of the fraudulent gold (which is easy), it would immediately lose all its aesthetics). There is no immediately rational reason why gold is so beautiful—without bringing in some reductionist explanation of the neuroscience—just like why some music is beautiful. The inability for people to explain technically why gold is valuable is the same as the inability to explain in technical, man-made terms why gold is beautiful. It just is. To illustrate the point about aesthetics creating value, I would argue that in a hypothetical world where you needed a rare magic rock (in fixed supply) to be able to listen to your favorite song, those rocks would be used as currency and to store wealth.
+&lt;/p&gt;
+
+&lt;p&gt;
+Note that these stores of value fall somewhere along a sliding scale of &lt;i&gt;store-of-valueness&lt;/i&gt;. Lots of people think it’s stupid that a Pollock painting could be worth over $200 million.
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;i&gt;It’s just a bunch of splashes of paint on a canvas. Who would pay money for that?&lt;/i&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;i&gt;It’s just a string of numbers on a computer. Who would pay money for that?&lt;/i&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+The owner of a DaVinci/Picasso/Pollock painting doesn’t just have a beautiful piece of art. They have a part of history. The older the painting, the longer the artist having been dead, the higher the price of the painting. The same is true of Bitcoin. It represents a part of history. (And it helps that the artist, Satoshi, is for all practical purposes dead.) Regardless of whether it was intended to be as much, Bitcoin was an expression of widespread frustration with the current economic and political system. The world is increasingly dominated by huge central powers with huge militaries and police states. In complete defiance to the powers that be, some people out of nowhere decide to declare cryptographic digital signatures—“lines of code on a computer”—as money instead. For that to happen, the way the world was organized would have to completely invert. Governments would lose a significant amount of control over individuals. Commerce would be nearly impossible to censor across borders. Taxation would become very difficult. It would be an internetization of human activity the way e-mail was an internetization of human communication. An upgrade of economics from legacy to the world wide web. Bitcoin is a big dream. It’s not often in history that individuals rise up to assert their autonomy in the face of huge systems of control, and those events usually end up with borders being redrawn. Like a good painting, Bitcoin tells a story that can fill entire volumes on bookshelves. The social phenomenon it created is very good proof of this popular imagination in practice.
+&lt;/p&gt;
+
+&lt;p&gt;
+Note that for Bitcoin to have value as art, Bitcoin doesn’t have to cause social change. It’s enough that it has this story behind it.
+&lt;/p&gt;
+
+&lt;p&gt;
+Unlike fine art, Bitcoin is the first form of “art” that anyone can interact with. It can be rapidly transferred in a way fine art cannot be. Bitcoin was designed to be speculated on.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org1834500&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org1834500&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Main difference between Bitcoin and altcoins&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
+&lt;p&gt;
+In every discussion comparing Bitcoin to Ethereum, Monero, BCash, or any of its “competitors,” there is always this unspoken agreement that even the most die-hard spokespersons of altcoins would admit is true: If Bitcoin were to disappear tomorrow, every other altcoin would have disappeared first. There is no real competition. No one seriously believes that Bitcoin is ever going to be dethroned, even developers of the competing coins. But a lot of altcoins are technologically superior to Bitcoin. Bitcoin is over a decade old technology. Imagine people still walking around with original iPhones from 2007.
+&lt;/p&gt;
+
+&lt;p&gt;
+I think this is a clear indication that Bitcoin is not about technology.
+&lt;/p&gt;
+
+&lt;p&gt;
+It’s also, by extension, not about payment processing, commerce, decentralization, or any of the commonly repeated pitches. Why would you use a worse technology to do X?&amp;#x2026;unless X was never your goal anyway. Indeed, no one uses Bitcoin for buying&lt;sup&gt;&lt;a id=&quot;fnr.4&quot; class=&quot;footref&quot; href=&quot;#fn.4&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; goods and services. (Yes, some people do; but they never denominate prices in Bitcoin, and it’s almost more common for people to pay in gold coins.) Some argue that Bitcoin remains dominant because it has the most critical mass and the most users, but that’s begging the question. AltaVista and MySpace both came first but still died because those were battles over who had the better tech. Crypto isn’t about tech. Truth is, Bitcoin is dominant because it is the only coin with the story. Altcoins are a bet that crypto is about the tech—the utility as a currency, transactions per second, anonymity, privacy, or utility to enterprise—which I think is a fundamentally wrong take on what cryptocurrency actually is.
+&lt;/p&gt;
+
+&lt;p&gt;
+Bitcoin is like an urban legend. It was created by an anonymous guy/girl/entity who, despite having many billions (maybe soon trillions) worth of Bitcoin, chose to remain anonymous. Every entry-level description of Bitcoin mentions Satoshi. It’s also something that people being introduced to Bitcoin immediately ask: Who created it? It’s a subject of intrigue that feeds this urban legend type of mystique and wild imagination. It’s almost pseudo-religious, where this messianic savior gave us the key to our freedom then left. I don’t know if Satoshi Nakamoto realized this or did so only as an accident. Bitcoin had to be decentralized for this story to work. Obviously if Bitcoin were a company, the grand vision of Bitcoin and hence its aesthetics wouldn’t exist. (In other words, Bitcoin is only decentralized as a consequence of the reason for its value, whereas most Bitcoiners believe the opposite.) I think the anonymity of Satoshi is so important to Bitcoin’s success that if we had a picture of Satoshi in 2011, the price of Bitcoin right now would be less than $1.
+&lt;/p&gt;
+
+&lt;p&gt;
+The beauty of Bitcoin is that it’s a movement. Altcoin projects, on the other hand, all feel like products instead. Very scammy products. Things like ICOs, STOs, or centralized stablecoins have the same energy as old school infomercials at 3 am on television trying to sell you timeshares. You know what the creator looks like. They have an organization with a CEO, CTO, CFO, and a team consisting of the same people who used to make money with Viagra spam emails and domain squatting before crypto. Their strategy is to milk what they can from their tangential association with Bitcoin. For the short-term, it’s not a bad idea for them since a lot of them get rich. But it’s still not Bitcoin. If Bitcoin is the Mona Lisa, altcoins are the kebab vendors outside the Louvre.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-orgb2cafa0&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgb2cafa0&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Bitcoin can both be a pseudo-art project and the next world reserve currency&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
+&lt;p&gt;
+&lt;img src=&quot;file:///public/img/youtube_classifies_bitcoin_as_collectibles.png&quot; alt=&quot;youtube_classifies_bitcoin_as_collectibles.png&quot; /&gt;
+This hypothesis may be taken as demeaning to Bitcoin evangelists who are convinced in their reasons for liking Bitcoin. After all, I’m making the outrageous statement that &lt;i&gt;Bitcoin is not a currency&lt;/i&gt; when currency was the whole point of Satoshi’s code.  The nuance is that although Bitcoin isn’t a currency in itself as it is advertised, it can be the basis of a currency. Bitcoin would be held in reserve to back the value of “paper” notes. That Bitcoin could be transferred extremely easily would be almost besides the point, because that’s not why it would be held as reserve.
+&lt;/p&gt;
+
+&lt;p&gt;
+Bitcoin being art makes World Reserve Currency status actually sound plausible.
+&lt;/p&gt;
+
+&lt;p&gt;
+Bitcoin-as-art means it will always be worth something. There’s nothing about this hypothesis that would prevent Bitcoin from succeeding in becoming a decentralized medium of exchange. It just means that it doesn’t &lt;i&gt;have to&lt;/i&gt; in order to be valuable.&lt;sup&gt;&lt;a id=&quot;fnr.5&quot; class=&quot;footref&quot; href=&quot;#fn.5&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+Suppose an objective observer, like an alien landing to our planet, had to answer What is Bitcoin?  in terms of asset classes that already exist. My thesis is that the most obvious answer is that it’s like fine art or collectible sneakers (but not gold). I don’t think there’s anything wrong with that. Of all the things that humans ascribe inherent value to, surely Bitcoin is the most deserving. I can hang up a beautiful painting and stare at it, but I can do a lot more with Bitcoin. If we must irrationally ascribe value to some thing for our economy to work, why not let it be Bitcoin? Bitcoin is a lot more sophisticated than its antecedents. It seems like the next logical and healthy step for us to take as a technological species.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org0450e07&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org0450e07&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Important conclusions if this hypothesis is true:&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;Bitcoin is the only cryptocurrency with any real value.&lt;/li&gt;
+&lt;li&gt;Every altcoin is unnecessary inflation on top of Bitcoin, parasitizing the success of Bitcoin.&lt;sup&gt;&lt;a id=&quot;fnr.6&quot; class=&quot;footref&quot; href=&quot;#fn.6&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Bitcoin is valuable fundamentally because of its story; its software features (such as decentralization) only facilitate that story but don’t create it.&lt;/li&gt;
+&lt;li&gt;Altcoin projects that seek to expand decentralization, payment processing, fungibility, or utility in commerce fail to capitalize the true source of Bitcoin’s value.&lt;/li&gt;
+&lt;li&gt;Government- or corporation-sponsored cryptocurrencies aren’t a threat to Bitcoin.&lt;/li&gt;
+&lt;li&gt;Even if you agree with this hypothesis, keep pretending it’s a decentralized, trustless, borderless payment platform the same way we pretend the Mona Lisa by da Vinci is a picture of an enigmatic woman instead of just pigment on a canvas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-orgf7cf5c5&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgf7cf5c5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; What if this hypothesis is wrong?&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
+&lt;p&gt;
+Bitcoin not being art means it’s a fiat currency. Every medium of exchange has been one because either:
+&lt;/p&gt;
+
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;It’s &lt;i&gt;scarce&lt;/i&gt; and /aesthetic/—i.e., it’s a true store of value.&lt;/li&gt;
+&lt;li&gt;It’s scarce and has value because someone with more weapons than you says it has value (e.g., the Roman Emperor Nero’s currency or the U.S. Dollar).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+If you are a Bitcoiner and offended by the idea that Bitcoin is just an art piece, then the only alternative is to hope that Bitcoin can be the latter. But how? Who’s going to force you to use Bitcoin? You better hope that Satoshi’s whitepaper and the phenomenon it created is the most beautiful piece of abstract art the world has ever seen.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;footnotes&quot;&gt;
+&lt;h2 class=&quot;footnotes&quot;&gt;Footnotes: &lt;/h2&gt;
+&lt;div id=&quot;text-footnotes&quot;&gt;
+
+&lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a id=&quot;fn.1&quot; class=&quot;footnum&quot; href=&quot;#fnr.1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;
+Bitcoin isn’t a very good payments system—it’s more expensive and inherently slower than nearly every other payment system. Centralized payment solutions will always be intrinsically cheaper because a transaction requires only O(1) databases need to be updated compared to O(n) Bitcoin nodes, not to mention the expenditures of proof-of-work.
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a id=&quot;fn.2&quot; class=&quot;footnum&quot; href=&quot;#fnr.2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;
+Bitcoin does allow you to send Bitcoin without asking anyone’s permission. But this is just a software feature. I can send MP4 videos of chimpanzees over HTTPS to anyone without the permission of a bank/government, but this doesn’t make videos of chimpanzees a currency. It’s completely irrelevant to the philosophical question of why Bitcoin should have value. Also, Monero, Zcash, and Grin all support completely fungible transactions on-chain in a way that Bitcoin does not. Someone who uses censorship-resistance as the main argument for Bitcoin should sell it all for Monero instead to be logically consistent.
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a id=&quot;fn.3&quot; class=&quot;footnum&quot; href=&quot;#fnr.3&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;
+If a nation-state is your adversary, then Bitcoin is the worst currency to use. Every coffee you buy with Bitcoin is permanently logged on its public blockchain, and barista knows your net worth. It’s all public. You can scramble addresses all you want; the IRS or DEA has enough resources to do chain analysis and find you. Bitcoin is probably good for obfuscating petty crime, since forensic blockchain analysis is currently more difficult for local police departments compared to subpoenaing PayPal.
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a id=&quot;fn.4&quot; class=&quot;footnum&quot; href=&quot;#fnr.4&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;
+People don’t want to spend their Bitcoin. They come up with intricate schemes to hide it. Some users hide paper or hardware wallets in safety deposit boxes with precautions against flooding and fire (gee, almost like a piece of fine art).
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a id=&quot;fn.5&quot; class=&quot;footnum&quot; href=&quot;#fnr.5&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;
+One great thing about this hypothesis is that Bitcoin’s future is insulated from the threat of government digital currencies or corporate digital currencies. I could easily see a future where everyone uses the IMF’s stablecoin to buy food but occasionally spends spare change buying Bitcoin at $1,000,000 IMF/BTC to hedge against inflation.
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;footdef&quot;&gt;&lt;sup&gt;&lt;a id=&quot;fn.6&quot; class=&quot;footnum&quot; href=&quot;#fnr.6&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;div class=&quot;footpara&quot;&gt;&lt;p class=&quot;footpara&quot;&gt;
+This isn’t to imply that altcoins will all go to zero. Precious metals other than gold remain valuable despite basically being inflation upon gold. Silver was used historically as a micropayment for gold. You would pay for a loaf of bread in silver, not gold, because you couldn’t physically divide gold into small enough pieces. This isn’t necessary today because we can print paper notes or create rows in a database that represent any quantity of gold. Yet silver is still worth a lot—more than it would be worth for its purely industrial applications. The same analogy is true of Bitcoin to altcoins. They will likely be around forever, despite being unnecessary, just as this weird inefficiency in the market.
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>The Case Against The Dvorak Keyboard Layout</title>
+   <link href="https://blog.zellysnyder.com/software/dont-learn-dvorak"/>
+   <updated>2019-03-29T00:00:00-04:00</updated>
+   <id>https://blog.zellysnyder.com/software/dont-learn-dvorak</id>
+   <content type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
+&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;!-- 2019-05-28 Tue 16:55 --&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+&lt;title&gt;&amp;lrm;&lt;/title&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;Org mode&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+ &lt;!--/*--&gt;&lt;![CDATA[/*&gt;&lt;!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per &quot;defun org-babel-execute&quot;
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf &quot; &quot;)) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]&gt;*/--&gt;
+&lt;/style&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+&lt;!--/*--&gt;&lt;![CDATA[/*&gt;&lt;!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = &quot;code-highlighted&quot;;
+     elem.className   = &quot;code-highlighted&quot;;
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]&gt;*///--&gt;
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id=&quot;content&quot;&gt;
+&lt;div id=&quot;outline-container-org0bcd80a&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org0bcd80a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Don’t learn Dvorak&amp;#x2014;it’s a tremendous waste of time&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 If you’re already good at typing on the standard QWERTY layout and thinking about learning Dvorak---&lt;i&gt;stop right now&lt;/i&gt;. It’s not just a waste of time, but it will also mess up your muscle memory and almost permanently handicap your ability to type in QWERTY, i.e., every other keyboard in the world.
@@ -272,8 +712,8 @@ The Dvorak keyboard failed. And no, it wasn’t because &lt;a href=&quot;https:/
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgc5e4b78&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgc5e4b78&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Non-standard&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgc31c223&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgc31c223&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Non-standard&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 This is perhaps the most obvious of complaints. You can learn Dvorak and subjectively find it a superior keyboard layout that changed your life, but in a world of billions of QWERTY keyboards that aren’t changing anytime soon, you will have to end up using QWERTY keyboards. Unless you’re literally living under a rock.
@@ -288,8 +728,8 @@ This is symptomatic of a delusional mindset that a lot of scientist and engineer
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgfbaa34b&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgfbaa34b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; It’s actually worse for RSI because your keystrokes are crowded on the home row&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org2de7243&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org2de7243&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; It’s actually worse for RSI because your keystrokes are crowded on the home row&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;p&gt;
 Repetitive. Strain. Injury.
@@ -308,8 +748,8 @@ How is this a good thing? When I tried typing Dvorak&amp;#x2014;and I really tri
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orga686d40&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orga686d40&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; So what about all the anecdotal reports on the internet about people who cured their RSI by switching to Dvorak?&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org88fe245&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org88fe245&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; So what about all the anecdotal reports on the internet about people who cured their RSI by switching to Dvorak?&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;p&gt;
 Dvorak takes several months just to develop the muscle memory to be able to type on it at all, let alone reattain one’s previous QWERTY speed. Most people can get up to no more than 30 wpm after a month of nonstop Dvorak (quitting QWERTY cold turkey).
@@ -324,16 +764,16 @@ The fact that none of the anecdotal reports about Dvorak healing RSI ever seem t
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org4c83a0b&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org4c83a0b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; What to actually do to prevent RSI&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org0290030&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org0290030&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; What to actually do to prevent RSI&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
 &lt;p&gt;
 Get an ergonomic keyboard.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgee4b22d&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgee4b22d&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; The bigger lesson&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org032251e&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org032251e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; The bigger lesson&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
 &lt;p&gt;
 For some things (and you have to know which things in particular), convention matters more than efficiency in the abstract.
@@ -365,15 +805,15 @@ Fun fact: QWERTY was designed to maximize the distance between keys to prevent e
  
  <entry>
    <title>Unicode Symbols Useful For Social Media</title>
-   <link href="https://blog.zellysnyder.com/unicode-symbols-for-social-media"/>
+   <link href="https://blog.zellysnyder.com/software/unicode-symbols-for-social-media"/>
    <updated>2019-03-23T00:00:00-04:00</updated>
-   <id>https://blog.zellysnyder.com/unicode-symbols-for-social-media</id>
+   <id>https://blog.zellysnyder.com/software/unicode-symbols-for-social-media</id>
    <content type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-05-28 Tue 15:54 --&gt;
+&lt;!-- 2019-05-28 Tue 16:55 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -611,8 +1051,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-orgf0572bf&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgf0572bf&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; What this is for&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org1f8aded&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org1f8aded&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; What this is for&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 This is a list of Unicode symbols / code points that are often used on social media&amp;#x2014;besides emojis, which are already easy to input.
@@ -635,8 +1075,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org64a0520&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org64a0520&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Bullets&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgfdade3b&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgfdade3b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Bullets&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;• – #0x2022 – bullet&lt;/li&gt;
@@ -649,8 +1089,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org9e06b11&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org9e06b11&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Asterisks&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orge1521f9&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orge1521f9&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Asterisks&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;✱ – #2731 – heavy asterisk&lt;/li&gt;
@@ -664,8 +1104,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org53a3d30&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org53a3d30&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Punctuation&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org456fcf0&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org456fcf0&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Punctuation&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;— – #0x2014 – em dash&lt;/li&gt;
@@ -681,8 +1121,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgc5e2ed1&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgc5e2ed1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Arrows&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgd5e9db7&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgd5e9db7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Arrows&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;← – #0x2190 – leftwards arrow&lt;/li&gt;
@@ -708,8 +1148,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org05f4bb5&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org05f4bb5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Circled numbers&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org9bfe4b1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org9bfe4b1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Circled numbers&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;⓪ – #0x24ea – circled digit zero&lt;/li&gt;
@@ -738,8 +1178,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org9dc39ba&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org9dc39ba&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; Extra: Python to generate these lines&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgf15b06f&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgf15b06f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; Extra: Python to generate these lines&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-7&quot;&gt;
 &lt;p&gt;
 &lt;i&gt;You think I manually wrote all this?&lt;/i&gt;
@@ -772,9 +1212,9 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
  
  <entry>
    <title>The Death of Risk Taking</title>
-   <link href="https://blog.zellysnyder.com/the-death-of-risk-taking"/>
+   <link href="https://blog.zellysnyder.com/economics/the-death-of-risk-taking"/>
    <updated>2019-02-12T00:00:00-05:00</updated>
-   <id>https://blog.zellysnyder.com/the-death-of-risk-taking</id>
+   <id>https://blog.zellysnyder.com/economics/the-death-of-risk-taking</id>
    <content type="html">&lt;h1&gt;Summary&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -828,15 +1268,15 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
  
  <entry>
    <title>All Investment Strategies Mean Revert</title>
-   <link href="https://blog.zellysnyder.com/the-next-big-thing"/>
+   <link href="https://blog.zellysnyder.com/philosophy/the-next-big-thing"/>
    <updated>2019-02-10T00:00:00-05:00</updated>
-   <id>https://blog.zellysnyder.com/the-next-big-thing</id>
+   <id>https://blog.zellysnyder.com/philosophy/the-next-big-thing</id>
    <content type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot;
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-05-28 Tue 15:54 --&gt;
+&lt;!-- 2019-05-28 Tue 16:55 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -1078,21 +1518,21 @@ for the JavaScript code in this tag.
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;div id=&quot;text-table-of-contents&quot;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#orgbc274da&quot;&gt;1. Summary&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org70bdf28&quot;&gt;2. Lifecycle of investments&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#org383d203&quot;&gt;1. Summary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org636b604&quot;&gt;2. Lifecycle of investments&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#org2143e09&quot;&gt;2.1. The cycle of all successful investment strategies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org2c882e9&quot;&gt;2.2. Examples&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org8339250&quot;&gt;2.3. Reversion to the S&amp;amp;P 500&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org32b3041&quot;&gt;2.1. The cycle of all successful investment strategies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orga13ccf5&quot;&gt;2.2. Examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org8c39199&quot;&gt;2.3. Reversion to the S&amp;amp;P 500&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org48fdd4c&quot;&gt;3. The Next Big Thing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgbe23d3f&quot;&gt;3. The Next Big Thing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgbc274da&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgbc274da&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Summary&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org383d203&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org383d203&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Summary&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;All great investment vehicles start as amazing opportunities.&lt;/li&gt;
@@ -1101,12 +1541,12 @@ for the JavaScript code in this tag.
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org70bdf28&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org70bdf28&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Lifecycle of investments&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org636b604&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org636b604&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Lifecycle of investments&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org2143e09&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org2143e09&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; The cycle of all successful investment strategies&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org32b3041&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org32b3041&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; The cycle of all successful investment strategies&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
 &lt;ol class=&quot;org-ol&quot;&gt;
 &lt;li&gt;&lt;b&gt;Genesis&lt;/b&gt;: Someone discovers or invents something big, potentially paradigm-shifting or just a Better Mousetrap. This is the new “Investment Vehicle,” as I will refer to it here. Think personal computers in the early 1990s.&lt;/li&gt;
@@ -1126,8 +1566,8 @@ Despite how it may sound, this is not a description of a bubble or Ponzi scheme 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org2c882e9&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org2c882e9&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; Examples&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orga13ccf5&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orga13ccf5&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; Examples&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;flipping houses&lt;/li&gt;
@@ -1137,8 +1577,8 @@ Despite how it may sound, this is not a description of a bubble or Ponzi scheme 
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org8339250&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org8339250&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; Reversion to the S&amp;amp;P 500&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org8c39199&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org8c39199&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; Reversion to the S&amp;amp;P 500&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-3&quot;&gt;
 &lt;p&gt;
 Every investment strategy that has anomalous high rewards quickly reverts to those of the S&amp;amp;P 500 once enough people know about it.
@@ -1154,8 +1594,8 @@ Like most economic phenomena, supply and demand are at play. An investment that 
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org48fdd4c&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org48fdd4c&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; The Next Big Thing&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgbe23d3f&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgbe23d3f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; The Next Big Thing&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;p&gt;
 The point of our inquiry isn’t necessarily to promote pessimism. Yes, all good investments eventually become not-good investments because too many people hear about them. That’s just an objective fact. You will not make better-than-average money by investing in something a lot of other people are also investing in. If that discourages you from investing (e.g., in some investment strategy &lt;a href=&quot;https://www.tailopez.com/&quot;&gt;some charlatan&lt;/a&gt; convinced you was a Sure Thing), then maybe it’s a good thing you’re discouraged; high false expectations lead to high disappointments. The point of identifying this fact is to use it to discover really good investments. Hardly pessimistic.
@@ -1346,7 +1786,7 @@ People have a tendency to only predict things that sound cool. People in the 70s
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-05-28 Tue 15:54 --&gt;
+&lt;!-- 2019-05-28 Tue 16:55 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -1584,8 +2024,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-org1e417cf&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org1e417cf&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Abbrevs in Emacs and its limited namespace problem&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgb8128df&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgb8128df&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Abbrevs in Emacs and its limited namespace problem&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 &lt;a href=&quot;https://www.gnu.org/software/emacs/manual/html_node/elisp/Abbrevs.html&quot;&gt;Abbrevs&lt;/a&gt; in Emacs are tables of expansions of short words to arbitrary longer strings. This is commonly called a “text replacement” in other editors. The canonical example of an abbrev/text replacement&lt;sup&gt;&lt;a id=&quot;fnr.1&quot; class=&quot;footref&quot; href=&quot;#fn.1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; is “omw” → “on my way”. Of course you could make more sophisticated abbrevs&amp;#x2014;e.g., replace a few letters with lines of &lt;code&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/code&gt; type boilerplate.
@@ -1596,8 +2036,8 @@ A limitation I encountered with this was how easily my abbrevs could clash with 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orge68cbf7&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orge68cbf7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; More possibilities with prefixed abbrevs&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org30e5b3d&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org30e5b3d&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; More possibilities with prefixed abbrevs&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 The solution was to hack abbrevs to be namespaced under a prefix symbol. I like using “$”, so I could use something like “$ps” → “public static ” whereas typing “ps” wouldn’t trigger the expansion since it is not preceded by my prefix character.
@@ -1698,7 +2138,7 @@ Meta: Make an abbrev to replace “abbrev” → “text replacement”
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-05-28 Tue 15:54 --&gt;
+&lt;!-- 2019-05-28 Tue 16:55 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -1936,8 +2376,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-orgf27e58e&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgf27e58e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; To underscore or not to underscore?&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org708ddeb&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org708ddeb&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; To underscore or not to underscore?&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 I don’t get why underscoring isn’t the &lt;i&gt;de facto&lt;/i&gt; standard everywhere by now. It’s much easier to read. The underscore can be much more easily parsed by your mind as a separator. With objectOrientedEnterpriseAbstractFactoryCase, you have to intuit each token “manually,” relying on capitalization to separate words. I think that’s horrible.
@@ -1948,8 +2388,8 @@ This post is about all the reasons you should stop using camel case and why you 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgfa482e4&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgfa482e4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Proven to be more readable&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org8e8d8cd&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org8e8d8cd&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Proven to be more readable&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 Empirical testing for the win. &lt;a href=&quot;https://ieeexplore.ieee.org/document/5521745&quot;&gt;snake case is more readable&lt;/a&gt;. Time is money. Code is read 1000x more human-hours than it is written. Therefore the goal of naming conventions should be readability.
@@ -1966,8 +2406,8 @@ This shouldn’t come to any surprise since the underscore is so visually simila
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org3c15625&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org3c15625&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; CamelCase forces you to deform natural language&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgc82de49&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgc82de49&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; CamelCase forces you to deform natural language&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;p&gt;
 For example, the standard that the first word must be lowercase for Java member functions/variables…well what if that first word is semantically correct as uppercase?
@@ -1986,8 +2426,8 @@ Overloading capitalization is a bad idea.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org97f19ef&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org97f19ef&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; If typing an underscore is so hard for you, make it easy&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgf34fadd&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgf34fadd&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; If typing an underscore is so hard for you, make it easy&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;p&gt;
 I suspect a lot of the reason for camelCase is how easy it is to write capital letters compared to reaching for the underscore. Everyone already has a keen muscle memory for capitalization. For the average person, underscores are not often typed over and over.
@@ -2026,16 +2466,16 @@ or put this in your &lt;code&gt;~/.Xmodmap&lt;/code&gt;:
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgb8a970d&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgb8a970d&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Capitalization doesn’t mean anything in many world languages&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org68875c7&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org68875c7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Capitalization doesn’t mean anything in many world languages&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
 &lt;p&gt;
 It’s just English and other Indo-European languages that have this concept.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org197bc54&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org197bc54&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Looking beyond underscores&amp;#x2014;ideal naming convention for identifiers&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org23512e5&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org23512e5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Looking beyond underscores&amp;#x2014;ideal naming convention for identifiers&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
 &lt;p&gt;
 It has been said tongue-in-cheek that one of the biggest unsolved problems in programming is naming things. There’s a lot of truth to that, but I’d extend that to &lt;i&gt;how&lt;/i&gt; those names are displayed as well. &lt;code&gt;Snake_case&lt;/code&gt; is a good step in the right direction; underscores being indistinguishable from spaces on a cursory visual scan.
@@ -2069,7 +2509,7 @@ A better compromise that can be easily implemented is having delimiters around v
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-05-28 Tue 15:53 --&gt;
+&lt;!-- 2019-05-28 Tue 16:55 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -2307,8 +2747,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-orgf3bc125&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgf3bc125&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Problem&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org094b240&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org094b240&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Problem&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 You can’t set the key repeat rate beyond a certain amount in the Windows 10 Control Panel. There are some recommendations to change some registry settings, but even that doesn’t work; it only changes the setting in the Control Panel that you could change anyway.
@@ -2319,8 +2759,8 @@ I like keys repeating very quickly because it allows quick navigation in text fi
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org7913077&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org7913077&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Solution&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org4290e8e&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org4290e8e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Solution&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 This is the only way to change the keyboard repeat settings beyond what you are allowed to change it to in the Control Panel. You need to compile and run this C++ code.
