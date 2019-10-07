@@ -4,13 +4,79 @@
  <title>Zelly Snyder</title>
  <link href="https://blog.zellysnyder.com/atom.xml" rel="self"/>
  <link href="https://blog.zellysnyder.com/"/>
- <updated>2019-05-28T17:08:21-04:00</updated>
+ <updated>2019-10-07T17:35:23-04:00</updated>
  <id>https://blog.zellysnyder.com</id>
  <author>
    <name>Zelly Snyder</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Computers are our terrestrial portal to infinity</title>
+   <link href="https://blog.zellysnyder.com/philosophy/computers-are-infinity"/>
+   <updated>2019-09-14T00:00:00-04:00</updated>
+   <id>https://blog.zellysnyder.com/philosophy/computers-are-infinity</id>
+   <content type="html">&lt;article&gt;
+	&lt;section&gt;
+		&lt;header&gt;
+			&lt;h2&gt;Summary&lt;/h2&gt;
+		&lt;/header&gt;
+		&lt;ul&gt;
+			&lt;li&gt;There are only a few forms of infinity we can engage with—spiritual/phenomenological, outer space, and computers.&lt;/li&gt;
+			&lt;li&gt;Anything with reasonable ability to be computational can scale up indefinitely.&lt;/li&gt;
+			&lt;li&gt;Moving something from the world of atoms to the world of bits makes that thing unlimtied.&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;section class=&quot;preamble&quot;&gt;
+        If you covered up every screen in America, it still looks like it's 1995. Why has all our progress been only in software and computers? We were promised flying cars. We are still using railways and airplanes made in the 1950s or slight iterations on those prototypes. There is a reason all of our progress has been in software and not in building out our energy or transportation systems. Software is much easier—for humans. We are a thinking species, and software is essentially thoughts on a piece of ppaper written down and preserved software is a persistence store for our thoughts. And much like our thoughts can be boundless, software also has extreme unbounded possibilities. Of course you are limited by your hardware, but for all intents and purposes, whatever you think of can be implemented in the machine.
+    &lt;/section&gt;
+	&lt;section&gt;
+		&lt;header&gt;
+			&lt;h2&gt;Portals to infinity&lt;/h2&gt;
+		&lt;/header&gt;
+		&lt;p&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;strong&gt;Phenomenological/spiritual/religious&lt;/strong&gt;. As long as humankind thought, our minds gave us access to this most readily available form of infinity. Because we can think anything, our thoughts are infinity.&lt;/li&gt;
+				&lt;li&gt;&lt;strong&gt;Outer space&lt;/strong&gt;. This is the most obvious form of infinity we can access. The best physicists cannot tell us for sure where it ends. The modernist generation went to the moon six times in pursuit of this most obvious form of infinity.&lt;/li&gt;
+				&lt;li&gt;&lt;strong&gt;Computers&lt;/strong&gt;. Computing serves as mimetic of our minds and accordingly retains the unboundedness of thought. I can think anything in my mind, and a computer can think anything in its mind. Computing is the postmodernist generation's attempt at transcendence.&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/p&gt;
+		&lt;p&gt;
+			Yes, there are strict hardware limits; you cannot (for the time being) simulate a universe on an Intel processor. Yet you cannot similarly expect to reach the furthest reaches of outer space or think the deepest religious thoughts beyond your faculties. The &lt;a href=&quot;https://en.wikipedia.org/wiki/Turing_machine&quot;&gt;simple computers we use today&lt;/a&gt; can simulate any thought or brain in theory.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Infinity creates substrate for unbounded creativity.
+		&lt;/p&gt;
+	&lt;/section&gt;
+	&lt;section&gt;
+		&lt;header&gt;
+			&lt;h2&gt;Moving something from physical to computational&lt;/h2&gt;
+		&lt;/header&gt;
+		&lt;p&gt;
+			Think money moving from paper to numbers on a database in a bank's server. Think the source of entertainment revenue moving from trips tocinemas to in-app game purchases.
+		&lt;/p&gt;
+		&lt;p&gt;
+			Whenever this happens, what was physical and existing in the world of atoms takes the shape of bits and plays in the same unbounded arena as bits. Consider a mansion. They are scarce by necessity of land on the planet. If mansions were converted into information by way of virtual reality, then everyone can have a mansion; the marginal cost of replication is essentially zero.
+		&lt;/p&gt;
+		&lt;p&gt;
+			That which exists purely computationally has this extreme, unparallled advantage. &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Write_once,_run_anywhere&quot;&gt;Write once, run a million times&lt;/a&gt;&lt;/em&gt;. Constructs transferred from the physical to the computational are immediately imbued with &lt;em&gt;boundless&lt;/em&gt;ness of computation. If your business has a choice between making economically equivalent widgets out of plastic versus bits, it would seem catastrophically foolish to choose plastic.
+		&lt;/p&gt;
+	&lt;/section&gt;
+	&lt;section&gt;
+		&lt;header&gt;
+			&lt;h2&gt;
+				All it takes is belief
+			&lt;/h2&gt;
+		&lt;/header&gt;
+		&lt;p&gt;
+			In many ways the computer revolution has not happened. Most of our processes still take place in the necessarily bounded world.
+		&lt;p&gt;
+			The more trust we put into computing, the more we are willing to accept the virtualized over the physical, the closer we get to infinity.
+		&lt;/p&gt;
+	&lt;/section&gt;
+&lt;/article&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Bitcoin as an Expensive Piece of Art</title>
@@ -22,7 +88,7 @@
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-05-28 Tue 17:08 --&gt;
+&lt;!-- 2019-10-07 Mon 17:35 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -260,8 +326,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-org293c93d&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org293c93d&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Summary&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgf2576ea&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgf2576ea&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Summary&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;Bitcoin belongs in the same category as fine art.&lt;/li&gt;
@@ -271,8 +337,8 @@ for the JavaScript code in this tag.
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org95cbdf5&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org95cbdf5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; What gives Bitcoin its value?&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgbd05847&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgbd05847&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; What gives Bitcoin its value?&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 This is what everyone new to cryptocurrency immediately asks. The standard answers are:
@@ -342,8 +408,8 @@ Unlike fine art, Bitcoin is the first form of “art” that anyone can interact
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org81552de&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org81552de&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Main difference between Bitcoin and altcoins&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org4be0074&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org4be0074&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Main difference between Bitcoin and altcoins&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;p&gt;
 In every discussion comparing Bitcoin to Ethereum, Monero, BCash, or any of its “competitors,” there is always this unspoken agreement that even the most die-hard spokespersons of altcoins would admit is true: If Bitcoin were to disappear tomorrow, every other altcoin would have disappeared first. There is no real competition. No one seriously believes that Bitcoin is ever going to be dethroned, even developers of the competing coins. But a lot of altcoins are technologically superior to Bitcoin. Bitcoin is over a decade old technology. Imagine people still walking around with original iPhones from 2007.
@@ -366,8 +432,8 @@ The beauty of Bitcoin is that it’s a movement. Altcoin projects, on the other 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgad30953&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgad30953&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Bitcoin can both be a pseudo-art project and the next world reserve currency&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orge731a9b&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orge731a9b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Bitcoin can both be a pseudo-art project and the next world reserve currency&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;p&gt;
 &lt;img src=&quot;https://blog.zellysnyder.com/public/img/youtube_classifies_bitcoin_as_collectibles.png&quot; alt=&quot;youtube_classifies_bitcoin_as_collectibles.png&quot; /&gt;
@@ -387,8 +453,8 @@ Suppose an objective observer, like an alien landing to our planet, had to answe
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgbb315ee&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgbb315ee&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Important conclusions if this hypothesis is true:&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org2349390&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org2349390&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Important conclusions if this hypothesis is true:&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;Bitcoin is the only cryptocurrency with any real value.&lt;/li&gt;
@@ -400,8 +466,8 @@ Suppose an objective observer, like an alien landing to our planet, had to answe
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgaa9c903&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgaa9c903&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; What if this hypothesis is wrong?&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgfbd563e&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgfbd563e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; What if this hypothesis is wrong?&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
 &lt;p&gt;
 Bitcoin not being art means it’s a fiat currency. Every medium of exchange has been one because either:
@@ -462,7 +528,7 @@ This isn’t to imply that altcoins will all go to zero. Precious metals other t
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-05-28 Tue 17:08 --&gt;
+&lt;!-- 2019-10-07 Mon 17:35 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -700,8 +766,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-orgb81cee0&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgb81cee0&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Don’t learn Dvorak&amp;#x2014;it’s a tremendous waste of time&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org4cbd188&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org4cbd188&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Don’t learn Dvorak&amp;#x2014;it’s a tremendous waste of time&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 If you’re already good at typing on the standard QWERTY layout and thinking about learning Dvorak---&lt;i&gt;stop right now&lt;/i&gt;. It’s not just a waste of time, but it will also mess up your muscle memory and almost permanently handicap your ability to type in QWERTY, i.e., every other keyboard in the world.
@@ -712,8 +778,8 @@ The Dvorak keyboard failed. And no, it wasn’t because &lt;a href=&quot;https:/
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgd5bd386&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgd5bd386&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Non-standard&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org280da9b&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org280da9b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Non-standard&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 This is perhaps the most obvious of complaints. You can learn Dvorak and subjectively find it a superior keyboard layout that changed your life, but in a world of billions of QWERTY keyboards that aren’t changing anytime soon, you will have to end up using QWERTY keyboards. Unless you’re literally living under a rock.
@@ -728,8 +794,8 @@ This is symptomatic of a delusional mindset that a lot of scientist and engineer
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org46ad69b&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org46ad69b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; It’s actually worse for RSI because your keystrokes are crowded on the home row&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org0bdbe13&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org0bdbe13&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; It’s actually worse for RSI because your keystrokes are crowded on the home row&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;p&gt;
 Repetitive. Strain. Injury.
@@ -748,8 +814,8 @@ How is this a good thing? When I tried typing Dvorak&amp;#x2014;and I really tri
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org899cf1f&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org899cf1f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; So what about all the anecdotal reports on the internet about people who cured their RSI by switching to Dvorak?&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orge1c8e9b&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orge1c8e9b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; So what about all the anecdotal reports on the internet about people who cured their RSI by switching to Dvorak?&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;p&gt;
 Dvorak takes several months just to develop the muscle memory to be able to type on it at all, let alone reattain one’s previous QWERTY speed. Most people can get up to no more than 30 wpm after a month of nonstop Dvorak (quitting QWERTY cold turkey).
@@ -764,16 +830,16 @@ The fact that none of the anecdotal reports about Dvorak healing RSI ever seem t
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org7b184b9&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org7b184b9&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; What to actually do to prevent RSI&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org1ab0e2f&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org1ab0e2f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; What to actually do to prevent RSI&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
 &lt;p&gt;
 Get an ergonomic keyboard.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgdd35d60&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgdd35d60&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; The bigger lesson&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgf2b38a6&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgf2b38a6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; The bigger lesson&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
 &lt;p&gt;
 For some things (and you have to know which things in particular), convention matters more than efficiency in the abstract.
@@ -813,7 +879,7 @@ Fun fact: QWERTY was designed to maximize the distance between keys to prevent e
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-05-28 Tue 17:08 --&gt;
+&lt;!-- 2019-10-07 Mon 17:35 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -1051,8 +1117,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-orgbc213ab&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgbc213ab&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; What this is for&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgd0dd672&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgd0dd672&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; What this is for&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 This is a list of Unicode symbols / code points that are often used on social media&amp;#x2014;besides emojis, which are already easy to input.
@@ -1075,8 +1141,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org706a264&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org706a264&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Bullets&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orge83e78a&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orge83e78a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Bullets&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;• – #0x2022 – bullet&lt;/li&gt;
@@ -1089,8 +1155,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgbb24dbc&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgbb24dbc&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Asterisks&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org9b68051&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org9b68051&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Asterisks&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;✱ – #2731 – heavy asterisk&lt;/li&gt;
@@ -1104,8 +1170,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orga379bc0&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orga379bc0&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Punctuation&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org7994acb&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org7994acb&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Punctuation&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;— – #0x2014 – em dash&lt;/li&gt;
@@ -1121,8 +1187,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org81b782d&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org81b782d&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Arrows&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org73b1127&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org73b1127&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Arrows&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;← – #0x2190 – leftwards arrow&lt;/li&gt;
@@ -1148,8 +1214,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgfc456ac&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgfc456ac&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Circled numbers&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org882a9b5&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org882a9b5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Circled numbers&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;⓪ – #0x24ea – circled digit zero&lt;/li&gt;
@@ -1178,8 +1244,8 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgb6113c3&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgb6113c3&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; Extra: Python to generate these lines&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org0189cbf&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org0189cbf&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; Extra: Python to generate these lines&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-7&quot;&gt;
 &lt;p&gt;
 &lt;i&gt;You think I manually wrote all this?&lt;/i&gt;
@@ -1276,7 +1342,7 @@ On &lt;b&gt;Android or iOS&lt;/b&gt;, as of the time of writing, there is no nat
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-05-28 Tue 17:08 --&gt;
+&lt;!-- 2019-10-07 Mon 17:35 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -1518,21 +1584,21 @@ for the JavaScript code in this tag.
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;div id=&quot;text-table-of-contents&quot;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#orgebbc5b4&quot;&gt;1. Summary&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgd19727f&quot;&gt;2. Lifecycle of investments&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#org20dab6b&quot;&gt;1. Summary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org4a19d5e&quot;&gt;2. Lifecycle of investments&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#orgbcfddcd&quot;&gt;2.1. The cycle of all successful investment strategies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgcef2933&quot;&gt;2.2. Examples&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org8f1bc96&quot;&gt;2.3. Reversion to the S&amp;amp;P 500&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org26f542d&quot;&gt;2.1. The cycle of all successful investment strategies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgdbba06a&quot;&gt;2.2. Examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgf3a649a&quot;&gt;2.3. Reversion to the S&amp;amp;P 500&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org9066e69&quot;&gt;3. The Next Big Thing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org3061524&quot;&gt;3. The Next Big Thing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgebbc5b4&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgebbc5b4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Summary&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org20dab6b&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org20dab6b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Summary&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;All great investment vehicles start as amazing opportunities.&lt;/li&gt;
@@ -1541,12 +1607,12 @@ for the JavaScript code in this tag.
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgd19727f&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgd19727f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Lifecycle of investments&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org4a19d5e&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org4a19d5e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Lifecycle of investments&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgbcfddcd&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgbcfddcd&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; The cycle of all successful investment strategies&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org26f542d&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org26f542d&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; The cycle of all successful investment strategies&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
 &lt;ol class=&quot;org-ol&quot;&gt;
 &lt;li&gt;&lt;b&gt;Genesis&lt;/b&gt;: Someone discovers or invents something big, potentially paradigm-shifting or just a Better Mousetrap. This is the new “Investment Vehicle,” as I will refer to it here. Think personal computers in the early 1990s.&lt;/li&gt;
@@ -1566,8 +1632,8 @@ Despite how it may sound, this is not a description of a bubble or Ponzi scheme 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgcef2933&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgcef2933&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; Examples&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orgdbba06a&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgdbba06a&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; Examples&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;flipping houses&lt;/li&gt;
@@ -1577,8 +1643,8 @@ Despite how it may sound, this is not a description of a bubble or Ponzi scheme 
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org8f1bc96&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org8f1bc96&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; Reversion to the S&amp;amp;P 500&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orgf3a649a&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgf3a649a&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; Reversion to the S&amp;amp;P 500&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-3&quot;&gt;
 &lt;p&gt;
 Every investment strategy that has anomalous high rewards quickly reverts to those of the S&amp;amp;P 500 once enough people know about it.
@@ -1594,8 +1660,8 @@ Like most economic phenomena, supply and demand are at play. An investment that 
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org9066e69&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org9066e69&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; The Next Big Thing&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org3061524&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org3061524&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; The Next Big Thing&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;p&gt;
 The point of our inquiry isn’t necessarily to promote pessimism. Yes, all good investments eventually become not-good investments because too many people hear about them. That’s just an objective fact. You will not make better-than-average money by investing in something a lot of other people are also investing in. If that discourages you from investing (e.g., in some investment strategy &lt;a href=&quot;https://www.tailopez.com/&quot;&gt;some charlatan&lt;/a&gt; convinced you was a Sure Thing), then maybe it’s a good thing you’re discouraged; high false expectations lead to high disappointments. The point of identifying this fact is to use it to discover really good investments. Hardly pessimistic.
@@ -1786,7 +1852,7 @@ People have a tendency to only predict things that sound cool. People in the 70s
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-05-28 Tue 17:08 --&gt;
+&lt;!-- 2019-10-07 Mon 17:35 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -2024,8 +2090,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-orge6a0f75&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orge6a0f75&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Abbrevs in Emacs and its limited namespace problem&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgdec016b&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgdec016b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Abbrevs in Emacs and its limited namespace problem&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 &lt;a href=&quot;https://www.gnu.org/software/emacs/manual/html_node/elisp/Abbrevs.html&quot;&gt;Abbrevs&lt;/a&gt; in Emacs are tables of expansions of short words to arbitrary longer strings. This is commonly called a “text replacement” in other editors. The canonical example of an abbrev/text replacement&lt;sup&gt;&lt;a id=&quot;fnr.1&quot; class=&quot;footref&quot; href=&quot;#fn.1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; is “omw” → “on my way”. Of course you could make more sophisticated abbrevs&amp;#x2014;e.g., replace a few letters with lines of &lt;code&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/code&gt; type boilerplate.
@@ -2036,8 +2102,8 @@ A limitation I encountered with this was how easily my abbrevs could clash with 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org675e572&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org675e572&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; More possibilities with prefixed abbrevs&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgcd00469&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgcd00469&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; More possibilities with prefixed abbrevs&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 The solution was to hack abbrevs to be namespaced under a prefix symbol. I like using “$”, so I could use something like “$ps” → “public static ” whereas typing “ps” wouldn’t trigger the expansion since it is not preceded by my prefix character.
@@ -2138,7 +2204,7 @@ Meta: Make an abbrev to replace “abbrev” → “text replacement”
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-05-28 Tue 17:08 --&gt;
+&lt;!-- 2019-10-07 Mon 17:35 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -2376,8 +2442,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-org4811206&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org4811206&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; To underscore or not to underscore?&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgf541586&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgf541586&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; To underscore or not to underscore?&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 I don’t get why underscoring isn’t the &lt;i&gt;de facto&lt;/i&gt; standard everywhere by now. It’s much easier to read. The underscore can be much more easily parsed by your mind as a separator. With objectOrientedEnterpriseAbstractFactoryCase, you have to intuit each token “manually,” relying on capitalization to separate words. I think that’s horrible.
@@ -2388,8 +2454,8 @@ This post is about all the reasons you should stop using camel case and why you 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org1b586a0&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org1b586a0&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Proven to be more readable&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgc292c9c&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgc292c9c&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Proven to be more readable&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 Empirical testing for the win. &lt;a href=&quot;https://ieeexplore.ieee.org/document/5521745&quot;&gt;snake case is more readable&lt;/a&gt;. Time is money. Code is read 1000x more human-hours than it is written. Therefore the goal of naming conventions should be readability.
@@ -2406,8 +2472,8 @@ This shouldn’t come to any surprise since the underscore is so visually simila
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgf407551&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgf407551&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; CamelCase forces you to deform natural language&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orga1ff745&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orga1ff745&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; CamelCase forces you to deform natural language&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;p&gt;
 For example, the standard that the first word must be lowercase for Java member functions/variables…well what if that first word is semantically correct as uppercase?
@@ -2426,8 +2492,8 @@ Overloading capitalization is a bad idea.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org95232c7&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org95232c7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; If typing an underscore is so hard for you, make it easy&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org6183c0d&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org6183c0d&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; If typing an underscore is so hard for you, make it easy&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;p&gt;
 I suspect a lot of the reason for camelCase is how easy it is to write capital letters compared to reaching for the underscore. Everyone already has a keen muscle memory for capitalization. For the average person, underscores are not often typed over and over.
@@ -2466,16 +2532,16 @@ or put this in your &lt;code&gt;~/.Xmodmap&lt;/code&gt;:
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org8542271&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org8542271&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Capitalization doesn’t mean anything in many world languages&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org8b28665&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org8b28665&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Capitalization doesn’t mean anything in many world languages&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
 &lt;p&gt;
 It’s just English and other Indo-European languages that have this concept.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org984c8f1&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org984c8f1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Looking beyond underscores&amp;#x2014;ideal naming convention for identifiers&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org3beee9a&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org3beee9a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Looking beyond underscores&amp;#x2014;ideal naming convention for identifiers&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
 &lt;p&gt;
 It has been said tongue-in-cheek that one of the biggest unsolved problems in programming is naming things. There’s a lot of truth to that, but I’d extend that to &lt;i&gt;how&lt;/i&gt; those names are displayed as well. &lt;code&gt;Snake_case&lt;/code&gt; is a good step in the right direction; underscores being indistinguishable from spaces on a cursory visual scan.
@@ -2509,7 +2575,7 @@ A better compromise that can be easily implemented is having delimiters around v
 &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;!-- 2019-05-28 Tue 17:08 --&gt;
+&lt;!-- 2019-10-07 Mon 17:35 --&gt;
 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot; /&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
 &lt;title&gt;&amp;lrm;&lt;/title&gt;
@@ -2747,8 +2813,8 @@ for the JavaScript code in this tag.
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div id=&quot;content&quot;&gt;
-&lt;div id=&quot;outline-container-orgb3ed11c&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgb3ed11c&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Problem&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org25b2130&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org25b2130&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Problem&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 You can’t set the key repeat rate beyond a certain amount in the Windows 10 Control Panel. There are some recommendations to change some registry settings, but even that doesn’t work; it only changes the setting in the Control Panel that you could change anyway.
@@ -2759,8 +2825,8 @@ I like keys repeating very quickly because it allows quick navigation in text fi
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org87b36e9&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org87b36e9&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Solution&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org07c0502&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org07c0502&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Solution&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 This is the only way to change the keyboard repeat settings beyond what you are allowed to change it to in the Control Panel. You need to compile and run this C++ code.
